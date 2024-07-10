@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on July 10, 2024, at 14:20
+    on July 10, 2024, at 14:39
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,8 +59,8 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 # work out from system args whether we are running in pilot mode
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
-_fullScr = True
-_winSize = [1920, 1080]
+_fullScr = False
+_winSize = [828, 1792]
 _loggingLevel = logging.getLevel('warning')
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
@@ -179,15 +179,12 @@ def setupWindow(expInfo=None, win=None):
     psychopy.visual.Window
         Window in which to run this experiment.
     """
-    if PILOTING:
-        logging.debug('Fullscreen settings ignored as running in pilot mode.')
-    
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=1,
             winType='pyglet', allowStencil=True,
-            monitor='ExperimentMonitor', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
+            monitor='iphone', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='fill',
             blendMode='avg', useFBO=True,
             units='height', 
@@ -200,7 +197,7 @@ def setupWindow(expInfo=None, win=None):
         win.backgroundImage = ''
         win.backgroundFit = 'fill'
         win.units = 'height'
-    win.mouseVisible = False
+    win.mouseVisible = True
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
     if PILOTING and prefs.piloting['showPilotingIndicator']:
@@ -369,8 +366,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_2 = visual.ImageStim(
         win=win,
         name='backimg_2', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(1.775,1),
+        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -423,8 +420,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_3 = visual.ImageStim(
         win=win,
         name='backimg_3', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(1.775,1),
+        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -465,8 +462,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg = visual.ImageStim(
         win=win,
         name='backimg', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(1.775,1),
+        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -597,8 +594,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_5 = visual.ImageStim(
         win=win,
         name='backimg_5', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(1.775,1),
+        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -614,8 +611,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_6 = visual.ImageStim(
         win=win,
         name='backimg_6', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(1.775,1),
+        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -966,7 +963,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if slideN == 1:
             instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
         elif slideN == 2:
-            instruct_txt = '一旦你記住這些數字後，你需要重述它們。\n\n在方塊中輸入剛剛顯示過的數字 \n\n 完成後請按 送出答案'
+            instruct_txt = '一旦你記住這些數字後， \n\n 你需要重述它們。\n\n在方塊中輸入剛剛顯示過的數字 \n\n 完成後請按 送出答案'
         # check responses
         if key_resp_2.keys in ['', [], None]:  # No response was made
             key_resp_2.keys = None
