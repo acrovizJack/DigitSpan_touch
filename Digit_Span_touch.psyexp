@@ -13,7 +13,7 @@
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
-    <Param val="ExperimentMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="iphone" valType="str" updates="None" name="Monitor"/>
     <Param val="['stimuli/redesign/digitspan_background.png', 'stimuli/redesign/i1.png', 'stimuli/redesign/i2.png', 'stimuli/redesign/i3.png', 'stimuli/redesign/plain.png', 'spreadsheets/choose_digitSpan.xlsx', 'spreadsheets/conditions.xlsx', 'spreadsheets/eight.xlsx', 'spreadsheets/eleven.xlsx', 'spreadsheets/five.xlsx', 'spreadsheets/four.xlsx', 'spreadsheets/nine.xlsx', 'spreadsheets/seven.xlsx', 'spreadsheets/six.xlsx', 'spreadsheets/ten.xlsx', 'spreadsheets/three.xlsx', 'spreadsheets/twelve.xlsx', 'stimuli/backButtonImage.png', 'stimuli/continue_button.png', 'stimuli/nextButtonImage.png', 'stimuli/startButtonImage.png']" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
