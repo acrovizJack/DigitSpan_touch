@@ -1,18 +1,10 @@
-﻿/******************* 
- * Digit_Span *
- *******************/
-
-import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.1.4.js';
-const { PsychoJS } = core;
-const { TrialHandler, MultiStairHandler } = data;
-const { Scheduler } = util;
-//some handy aliases as in the psychopy scripts;
-const { abs, sin, cos, PI: pi, sqrt } = Math;
-const { round } = util;
+﻿/************************* 
+ * Digit_Span_Touch *
+ *************************/
 
 
 // store info about the experiment session:
-let expName = 'Digit_Span';  // from the Builder filename that created this script
+let expName = 'Digit_Span_touch';  // from the Builder filename that created this script
 let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
     'session': '001',
@@ -612,14 +604,15 @@ function Instruct_LoopLoopBegin(Instruct_LoopLoopScheduler, snapshot) {
     currentLoop = Instruct_Loop;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    for (const thisInstruct_Loop of Instruct_Loop) {
+    Instruct_Loop.forEach(function() {
       snapshot = Instruct_Loop.getSnapshot();
+    
       Instruct_LoopLoopScheduler.add(importConditions(snapshot));
       Instruct_LoopLoopScheduler.add(Instruction2RoutineBegin(snapshot));
       Instruct_LoopLoopScheduler.add(Instruction2RoutineEachFrame());
       Instruct_LoopLoopScheduler.add(Instruction2RoutineEnd(snapshot));
       Instruct_LoopLoopScheduler.add(Instruct_LoopLoopEndIteration(Instruct_LoopLoopScheduler, snapshot));
-    }
+    });
     
     return Scheduler.Event.NEXT;
   }
@@ -673,8 +666,9 @@ function blocksLoopBegin(blocksLoopScheduler, snapshot) {
     currentLoop = blocks;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    for (const thisBlock of blocks) {
+    blocks.forEach(function() {
       snapshot = blocks.getSnapshot();
+    
       blocksLoopScheduler.add(importConditions(snapshot));
       blocksLoopScheduler.add(reset_correctRoutineBegin(snapshot));
       blocksLoopScheduler.add(reset_correctRoutineEachFrame());
@@ -684,7 +678,7 @@ function blocksLoopBegin(blocksLoopScheduler, snapshot) {
       blocksLoopScheduler.add(trialsLoopScheduler);
       blocksLoopScheduler.add(trialsLoopEnd);
       blocksLoopScheduler.add(blocksLoopEndIteration(blocksLoopScheduler, snapshot));
-    }
+    });
     
     return Scheduler.Event.NEXT;
   }
@@ -708,8 +702,9 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
     currentLoop = trials;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    for (const thisTrial of trials) {
+    trials.forEach(function() {
       snapshot = trials.getSnapshot();
+    
       trialsLoopScheduler.add(importConditions(snapshot));
       const digitLoopLoopScheduler = new Scheduler(psychoJS);
       trialsLoopScheduler.add(digitLoopLoopBegin(digitLoopLoopScheduler, snapshot));
@@ -726,7 +721,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
       trialsLoopScheduler.add(FeedbackRoutineEachFrame());
       trialsLoopScheduler.add(FeedbackRoutineEnd(snapshot));
       trialsLoopScheduler.add(trialsLoopEndIteration(trialsLoopScheduler, snapshot));
-    }
+    });
     
     return Scheduler.Event.NEXT;
   }
@@ -750,14 +745,15 @@ function digitLoopLoopBegin(digitLoopLoopScheduler, snapshot) {
     currentLoop = digitLoop;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    for (const thisDigitLoop of digitLoop) {
+    digitLoop.forEach(function() {
       snapshot = digitLoop.getSnapshot();
+    
       digitLoopLoopScheduler.add(importConditions(snapshot));
       digitLoopLoopScheduler.add(Digit_PresentationRoutineBegin(snapshot));
       digitLoopLoopScheduler.add(Digit_PresentationRoutineEachFrame());
       digitLoopLoopScheduler.add(Digit_PresentationRoutineEnd(snapshot));
       digitLoopLoopScheduler.add(digitLoopLoopEndIteration(digitLoopLoopScheduler, snapshot));
-    }
+    });
     
     return Scheduler.Event.NEXT;
   }
@@ -811,14 +807,15 @@ function responseLoopBegin(responseLoopScheduler, snapshot) {
     currentLoop = response;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    for (const thisResponse of response) {
+    response.forEach(function() {
       snapshot = response.getSnapshot();
+    
       responseLoopScheduler.add(importConditions(snapshot));
       responseLoopScheduler.add(Recall_touchRoutineBegin(snapshot));
       responseLoopScheduler.add(Recall_touchRoutineEachFrame());
       responseLoopScheduler.add(Recall_touchRoutineEnd(snapshot));
       responseLoopScheduler.add(responseLoopEndIteration(responseLoopScheduler, snapshot));
-    }
+    });
     
     return Scheduler.Event.NEXT;
   }
@@ -960,9 +957,10 @@ function Instruction2RoutineBegin(snapshot) {
     Instruction2Components.push(start_2);
     Instruction2Components.push(mouse_3);
     
-    for (const thisComponent of Instruction2Components)
+    Instruction2Components.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1110,11 +1108,11 @@ function Instruction2RoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of Instruction2Components)
+    Instruction2Components.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -1130,11 +1128,11 @@ var _pj;
 function Instruction2RoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'Instruction2' ---
-    for (const thisComponent of Instruction2Components) {
+    Instruction2Components.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('Instruction2.stopped', globalClock.getTime());
     // Run 'End Routine' code from code_5
     var _pj;
@@ -1233,9 +1231,10 @@ function reset_correctRoutineBegin(snapshot) {
     // keep track of which components have finished
     reset_correctComponents = [];
     
-    for (const thisComponent of reset_correctComponents)
+    reset_correctComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1259,11 +1258,11 @@ function reset_correctRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of reset_correctComponents)
+    reset_correctComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -1278,11 +1277,11 @@ function reset_correctRoutineEachFrame() {
 function reset_correctRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'reset_correct' ---
-    for (const thisComponent of reset_correctComponents) {
+    reset_correctComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('reset_correct.stopped', globalClock.getTime());
     // the Routine "reset_correct" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
@@ -1317,9 +1316,10 @@ function Digit_PresentationRoutineBegin(snapshot) {
     Digit_PresentationComponents.push(Fixation);
     Digit_PresentationComponents.push(pres_text);
     
-    for (const thisComponent of Digit_PresentationComponents)
+    Digit_PresentationComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1404,11 +1404,11 @@ function Digit_PresentationRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of Digit_PresentationComponents)
+    Digit_PresentationComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine && routineTimer.getTime() > 0) {
@@ -1423,11 +1423,11 @@ function Digit_PresentationRoutineEachFrame() {
 function Digit_PresentationRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'Digit_Presentation' ---
-    for (const thisComponent of Digit_PresentationComponents) {
+    Digit_PresentationComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('Digit_Presentation.stopped', globalClock.getTime());
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
@@ -1461,9 +1461,10 @@ function reset_RecallRoutineBegin(snapshot) {
     // keep track of which components have finished
     reset_RecallComponents = [];
     
-    for (const thisComponent of reset_RecallComponents)
+    reset_RecallComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1487,11 +1488,11 @@ function reset_RecallRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of reset_RecallComponents)
+    reset_RecallComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -1506,11 +1507,11 @@ function reset_RecallRoutineEachFrame() {
 function reset_RecallRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'reset_Recall' ---
-    for (const thisComponent of reset_RecallComponents) {
+    reset_RecallComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('reset_Recall.stopped', globalClock.getTime());
     // the Routine "reset_Recall" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
@@ -1565,9 +1566,10 @@ function Recall_touchRoutineBegin(snapshot) {
     Recall_touchComponents.push(continue_button_2);
     Recall_touchComponents.push(clear_button);
     
-    for (const thisComponent of Recall_touchComponents)
+    Recall_touchComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1779,11 +1781,11 @@ function Recall_touchRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of Recall_touchComponents)
+    Recall_touchComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -1798,11 +1800,11 @@ function Recall_touchRoutineEachFrame() {
 function Recall_touchRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'Recall_touch' ---
-    for (const thisComponent of Recall_touchComponents) {
+    Recall_touchComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('Recall_touch.stopped', globalClock.getTime());
     // Run 'End Routine' code from code
     var _pj;
@@ -1934,9 +1936,10 @@ function FeedbackRoutineBegin(snapshot) {
     FeedbackComponents.push(backimg_5);
     FeedbackComponents.push(feedback_txt);
     
-    for (const thisComponent of FeedbackComponents)
+    FeedbackComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -1990,11 +1993,11 @@ function FeedbackRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of FeedbackComponents)
+    FeedbackComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine && routineTimer.getTime() > 0) {
@@ -2009,11 +2012,11 @@ function FeedbackRoutineEachFrame() {
 function FeedbackRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'Feedback' ---
-    for (const thisComponent of FeedbackComponents) {
+    FeedbackComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('Feedback.stopped', globalClock.getTime());
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
@@ -2059,9 +2062,10 @@ function EndRoutineBegin(snapshot) {
     EndComponents.push(mouse_2);
     EndComponents.push(endKey);
     
-    for (const thisComponent of EndComponents)
+    EndComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -2176,11 +2180,11 @@ function EndRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of EndComponents)
+    EndComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -2195,11 +2199,11 @@ function EndRoutineEachFrame() {
 function EndRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'End' ---
-    for (const thisComponent of EndComponents) {
+    EndComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     psychoJS.experiment.addData('End.stopped', globalClock.getTime());
     // store data for psychoJS.experiment (ExperimentHandler)
     if (mouse_2.x) {  psychoJS.experiment.addData('mouse_2.x', mouse_2.x[0])};

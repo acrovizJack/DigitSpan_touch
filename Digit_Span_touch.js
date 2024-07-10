@@ -1,6 +1,6 @@
-﻿/******************* 
- * Digit_Span *
- *******************/
+﻿/************************* 
+ * Digit_Span_Touch *
+ *************************/
 
 import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.1.4.js';
 const { PsychoJS } = core;
@@ -12,7 +12,7 @@ const { round } = util;
 
 
 // store info about the experiment session:
-let expName = 'Digit_Span';  // from the Builder filename that created this script
+let expName = 'Digit_Span_touch';  // from the Builder filename that created this script
 let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
     'session': '001',

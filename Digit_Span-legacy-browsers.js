@@ -74,10 +74,11 @@ psychoJS.start({
   resources: [
     // resources:
     {'name': 'spreadsheets/choose_digitSpan.xlsx', 'path': 'spreadsheets/choose_digitSpan.xlsx'},
-    {'name': 'stimuli/redesign/digitspan_background.png', 'path': 'stimuli/redesign/digitspan_background.png'},
+    {'name': 'stimuli/redesign/iphone_back.png', 'path': 'stimuli/redesign/iphone_back.png'},
     {'name': 'stimuli/backButtonImage.png', 'path': 'stimuli/backButtonImage.png'},
     {'name': 'stimuli/nextButtonImage.png', 'path': 'stimuli/nextButtonImage.png'},
     {'name': 'stimuli/startButtonImage.png', 'path': 'stimuli/startButtonImage.png'},
+    {'name': 'stimuli/redesign/digitspan_background.png', 'path': 'stimuli/redesign/digitspan_background.png'},
     {'name': 'stimuli/redesign/plain.png', 'path': 'stimuli/redesign/plain.png'},
     {'name': 'stimuli/redesign/digit0.png', 'path': 'stimuli/redesign/digit0.png'},
     {'name': 'stimuli/redesign/digit1.png', 'path': 'stimuli/redesign/digit1.png'},
@@ -216,7 +217,7 @@ async function experimentInit() {
   backimg_2 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'backimg_2', units : undefined, 
-    image : 'stimuli/redesign/digitspan_background.png', mask : undefined,
+    image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
     ori : 0.0, pos : [0, 0], size : [1.775, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
@@ -1174,7 +1175,7 @@ function Instruction2RoutineEnd(snapshot) {
         instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
     } else {
         if ((slideN === 2)) {
-            instruct_txt = "\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c\u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57\n\n (\u7a7a\u767d\u9375\u6e05\u9664\u8f38\u5165\u7684\u5167\u5bb9) \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848";
+            instruct_txt = "\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c\u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848";
         }
     }
     
