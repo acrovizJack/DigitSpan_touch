@@ -75,7 +75,7 @@
     <Param val="" valType="str" updates="None" name="tbModel"/>
     <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
     <Param val="" valType="str" updates="None" name="tbSerialNo"/>
-    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+    <Param val="pygame" valType="str" updates="None" name="winBackend"/>
   </Settings>
   <Routines>
     <Routine name="Instruction2">
