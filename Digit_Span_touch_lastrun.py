@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on July 10, 2024, at 11:36
+    on July 10, 2024, at 14:20
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -190,7 +190,7 @@ def setupWindow(expInfo=None, win=None):
             monitor='ExperimentMonitor', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='fill',
             blendMode='avg', useFBO=True,
-            units='norm', 
+            units='height', 
             checkTiming=False  # we're going to do this ourselves in a moment
         )
     else:
@@ -199,7 +199,7 @@ def setupWindow(expInfo=None, win=None):
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'fill'
-        win.units = 'norm'
+        win.units = 'height'
     win.mouseVisible = False
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
@@ -369,7 +369,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_2 = visual.ImageStim(
         win=win,
         name='backimg_2', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.775,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -377,7 +377,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     i2_txt = visual.TextStim(win=win, name='i2_txt',
         text='',
         font='Microsoft JhengHei',
-        pos=(0, 0.055), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.055), height=0.045, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
@@ -470,13 +470,16 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
+    recall_touch = event.Mouse(win=win)
+    x, y = [None, None]
+    recall_touch.mouseClock = core.Clock()
     recall_txt_2 = visual.TextStim(win=win, name='recall_txt_2',
         text='請試著回想剛剛出現的數字',
         font='Arial',
         pos=(0, 0.35), height=0.05, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-2.0);
+        depth=-3.0);
     digit0 = visual.ImageStim(
         win=win,
         name='digit0', 
@@ -484,7 +487,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, bottomzero), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-3.0)
+        texRes=128.0, interpolate=True, depth=-4.0)
     digit1 = visual.ImageStim(
         win=win,
         name='digit1', 
@@ -492,7 +495,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(-0.15, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-4.0)
+        texRes=128.0, interpolate=True, depth=-5.0)
     digit2 = visual.ImageStim(
         win=win,
         name='digit2', 
@@ -500,7 +503,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-5.0)
+        texRes=128.0, interpolate=True, depth=-6.0)
     digit3 = visual.ImageStim(
         win=win,
         name='digit3', 
@@ -508,7 +511,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0.15, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-6.0)
+        texRes=128.0, interpolate=True, depth=-7.0)
     digit4 = visual.ImageStim(
         win=win,
         name='digit4', 
@@ -516,7 +519,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(-0.15, middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-7.0)
+        texRes=128.0, interpolate=True, depth=-8.0)
     digit5 = visual.ImageStim(
         win=win,
         name='digit5', 
@@ -524,7 +527,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0,middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-8.0)
+        texRes=128.0, interpolate=True, depth=-9.0)
     digit6 = visual.ImageStim(
         win=win,
         name='digit6', 
@@ -532,7 +535,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0.15, middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-9.0)
+        texRes=128.0, interpolate=True, depth=-10.0)
     digit7 = visual.ImageStim(
         win=win,
         name='digit7', 
@@ -540,7 +543,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(-0.15, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-10.0)
+        texRes=128.0, interpolate=True, depth=-11.0)
     digit8 = visual.ImageStim(
         win=win,
         name='digit8', 
@@ -548,7 +551,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-11.0)
+        texRes=128.0, interpolate=True, depth=-12.0)
     digit9 = visual.ImageStim(
         win=win,
         name='digit9', 
@@ -556,10 +559,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0.15, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-12.0)
-    recall_touch = event.Mouse(win=win)
-    x, y = [None, None]
-    recall_touch.mouseClock = core.Clock()
+        texRes=128.0, interpolate=True, depth=-13.0)
     Response_Textbox = visual.TextBox2(
          win, text=None, placeholder='Type here...', font='Arial',
          pos=(0, -0.3),     letterHeight=0.1,
@@ -1437,7 +1437,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 gotValidClick = False  # until a click is received
                 Response_Textbox.reset()
                 # keep track of which components have finished
-                Recall_touchComponents = [backimg, recall_txt_2, digit0, digit1, digit2, digit3, digit4, digit5, digit6, digit7, digit8, digit9, recall_touch, Response_Textbox, continue_button_2, clear_button]
+                Recall_touchComponents = [backimg, recall_touch, recall_txt_2, digit0, digit1, digit2, digit3, digit4, digit5, digit6, digit7, digit8, digit9, Response_Textbox, continue_button_2, clear_button]
                 for thisComponent in Recall_touchComponents:
                     thisComponent.tStart = None
                     thisComponent.tStop = None
@@ -1479,6 +1479,45 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     if backimg.status == STARTED:
                         # update params
                         pass
+                    # *recall_touch* updates
+                    
+                    # if recall_touch is starting this frame...
+                    if recall_touch.status == NOT_STARTED and t >= 0.0-frameTolerance:
+                        # keep track of start time/frame for later
+                        recall_touch.frameNStart = frameN  # exact frame index
+                        recall_touch.tStart = t  # local t and not account for scr refresh
+                        recall_touch.tStartRefresh = tThisFlipGlobal  # on global time
+                        win.timeOnFlip(recall_touch, 'tStartRefresh')  # time at next scr refresh
+                        # add timestamp to datafile
+                        thisExp.addData('recall_touch.started', t)
+                        # update status
+                        recall_touch.status = STARTED
+                        recall_touch.mouseClock.reset()
+                        prevButtonState = recall_touch.getPressed()  # if button is down already this ISN'T a new click
+                    if recall_touch.status == STARTED:  # only update if started and not finished!
+                        buttons = recall_touch.getPressed()
+                        if buttons != prevButtonState:  # button state changed?
+                            prevButtonState = buttons
+                            if sum(buttons) > 0:  # state changed to a new click
+                                # check if the mouse was inside our 'clickable' objects
+                                gotValidClick = False
+                                clickableList = environmenttools.getFromNames([digit0,digit1,digit2,digit3,digit4,digit5,digit6,digit7,digit8,digit9,continue_button_2,clear_button], namespace=locals())
+                                for obj in clickableList:
+                                    # is this object clicked on?
+                                    if obj.contains(recall_touch):
+                                        gotValidClick = True
+                                        recall_touch.clicked_name.append(obj.name)
+                                if gotValidClick:
+                                    x, y = recall_touch.getPos()
+                                    recall_touch.x.append(x)
+                                    recall_touch.y.append(y)
+                                    buttons = recall_touch.getPressed()
+                                    recall_touch.leftButton.append(buttons[0])
+                                    recall_touch.midButton.append(buttons[1])
+                                    recall_touch.rightButton.append(buttons[2])
+                                    recall_touch.time.append(recall_touch.mouseClock.getTime())
+                                if gotValidClick:
+                                    continueRoutine = False  # end routine on response
                     
                     # *recall_txt_2* updates
                     
@@ -1699,45 +1738,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     if digit9.status == STARTED:
                         # update params
                         pass
-                    # *recall_touch* updates
-                    
-                    # if recall_touch is starting this frame...
-                    if recall_touch.status == NOT_STARTED and t >= 0.0-frameTolerance:
-                        # keep track of start time/frame for later
-                        recall_touch.frameNStart = frameN  # exact frame index
-                        recall_touch.tStart = t  # local t and not account for scr refresh
-                        recall_touch.tStartRefresh = tThisFlipGlobal  # on global time
-                        win.timeOnFlip(recall_touch, 'tStartRefresh')  # time at next scr refresh
-                        # add timestamp to datafile
-                        thisExp.addData('recall_touch.started', t)
-                        # update status
-                        recall_touch.status = STARTED
-                        recall_touch.mouseClock.reset()
-                        prevButtonState = recall_touch.getPressed()  # if button is down already this ISN'T a new click
-                    if recall_touch.status == STARTED:  # only update if started and not finished!
-                        buttons = recall_touch.getPressed()
-                        if buttons != prevButtonState:  # button state changed?
-                            prevButtonState = buttons
-                            if sum(buttons) > 0:  # state changed to a new click
-                                # check if the mouse was inside our 'clickable' objects
-                                gotValidClick = False
-                                clickableList = environmenttools.getFromNames([digit0,digit1,digit2,digit3,digit4,digit5,digit6,digit7,digit8,digit9,continue_button_2,clear_button], namespace=locals())
-                                for obj in clickableList:
-                                    # is this object clicked on?
-                                    if obj.contains(recall_touch):
-                                        gotValidClick = True
-                                        recall_touch.clicked_name.append(obj.name)
-                                if gotValidClick:
-                                    x, y = recall_touch.getPos()
-                                    recall_touch.x.append(x)
-                                    recall_touch.y.append(y)
-                                    buttons = recall_touch.getPressed()
-                                    recall_touch.leftButton.append(buttons[0])
-                                    recall_touch.midButton.append(buttons[1])
-                                    recall_touch.rightButton.append(buttons[2])
-                                    recall_touch.time.append(recall_touch.mouseClock.getTime())
-                                if gotValidClick:
-                                    continueRoutine = False  # end routine on response
                     
                     # *Response_Textbox* updates
                     

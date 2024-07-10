@@ -86,7 +86,6 @@ psychoJS.start({
     {'name': 'stimuli/backButtonImage.png', 'path': 'stimuli/backButtonImage.png'},
     {'name': 'stimuli/nextButtonImage.png', 'path': 'stimuli/nextButtonImage.png'},
     {'name': 'stimuli/startButtonImage.png', 'path': 'stimuli/startButtonImage.png'},
-    {'name': 'stimuli/redesign/digitspan_background.png', 'path': 'stimuli/redesign/digitspan_background.png'},
     {'name': 'stimuli/redesign/plain.png', 'path': 'stimuli/redesign/plain.png'},
     {'name': 'stimuli/redesign/digit0.png', 'path': 'stimuli/redesign/digit0.png'},
     {'name': 'stimuli/redesign/digit1.png', 'path': 'stimuli/redesign/digit1.png'},
@@ -187,6 +186,7 @@ var bottomzero;
 var digit_buttons;
 var waittime;
 var backimg;
+var recall_touch;
 var recall_txt_2;
 var digit0;
 var digit1;
@@ -198,7 +198,6 @@ var digit6;
 var digit7;
 var digit8;
 var digit9;
-var recall_touch;
 var Response_Textbox;
 var continue_button_2;
 var clear_button;
@@ -227,7 +226,7 @@ async function experimentInit() {
     name : 'backimg_2', units : undefined, 
     image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [1.775, 1],
+    ori : 0.0, pos : [0, 0], size : [0.75, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -238,7 +237,7 @@ async function experimentInit() {
     text: '',
     font: 'Microsoft JhengHei',
     units: undefined, 
-    pos: [0, 0.055], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0.055], height: 0.045,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
     depth: -2.0 
@@ -299,9 +298,9 @@ async function experimentInit() {
   backimg_3 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'backimg_3', units : undefined, 
-    image : 'stimuli/redesign/digitspan_background.png', mask : undefined,
+    image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [1.775, 1],
+    ori : 0.0, pos : [0, 0], size : [0.75, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : 0.0 
@@ -356,13 +355,17 @@ async function experimentInit() {
   backimg = new visual.ImageStim({
     win : psychoJS.window,
     name : 'backimg', units : undefined, 
-    image : 'stimuli/redesign/digitspan_background.png', mask : undefined,
+    image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [1.775, 1],
+    ori : 0.0, pos : [0, 0], size : [0.75, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
   });
+  recall_touch = new core.Mouse({
+    win: psychoJS.window,
+  });
+  recall_touch.mouseClock = new util.Clock();
   recall_txt_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'recall_txt_2',
@@ -372,7 +375,7 @@ async function experimentInit() {
     pos: [0, 0.35], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
-    depth: -2.0 
+    depth: -3.0 
   });
   
   digit0 = new visual.ImageStim({
@@ -383,7 +386,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, bottomzero], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -3.0 
+    texRes : 128.0, interpolate : true, depth : -4.0 
   });
   digit1 = new visual.ImageStim({
     win : psychoJS.window,
@@ -393,7 +396,7 @@ async function experimentInit() {
     ori : 0.0, pos : [(- 0.15), top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -4.0 
+    texRes : 128.0, interpolate : true, depth : -5.0 
   });
   digit2 = new visual.ImageStim({
     win : psychoJS.window,
@@ -403,7 +406,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -5.0 
+    texRes : 128.0, interpolate : true, depth : -6.0 
   });
   digit3 = new visual.ImageStim({
     win : psychoJS.window,
@@ -413,7 +416,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0.15, top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -6.0 
+    texRes : 128.0, interpolate : true, depth : -7.0 
   });
   digit4 = new visual.ImageStim({
     win : psychoJS.window,
@@ -423,7 +426,7 @@ async function experimentInit() {
     ori : 0.0, pos : [(- 0.15), middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -7.0 
+    texRes : 128.0, interpolate : true, depth : -8.0 
   });
   digit5 = new visual.ImageStim({
     win : psychoJS.window,
@@ -433,7 +436,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -8.0 
+    texRes : 128.0, interpolate : true, depth : -9.0 
   });
   digit6 = new visual.ImageStim({
     win : psychoJS.window,
@@ -443,7 +446,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0.15, middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -9.0 
+    texRes : 128.0, interpolate : true, depth : -10.0 
   });
   digit7 = new visual.ImageStim({
     win : psychoJS.window,
@@ -453,7 +456,7 @@ async function experimentInit() {
     ori : 0.0, pos : [(- 0.15), bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -10.0 
+    texRes : 128.0, interpolate : true, depth : -11.0 
   });
   digit8 = new visual.ImageStim({
     win : psychoJS.window,
@@ -463,7 +466,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -11.0 
+    texRes : 128.0, interpolate : true, depth : -12.0 
   });
   digit9 = new visual.ImageStim({
     win : psychoJS.window,
@@ -473,12 +476,8 @@ async function experimentInit() {
     ori : 0.0, pos : [0.15, bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -12.0 
+    texRes : 128.0, interpolate : true, depth : -13.0 
   });
-  recall_touch = new core.Mouse({
-    win: psychoJS.window,
-  });
-  recall_touch.mouseClock = new util.Clock();
   Response_Textbox = new visual.TextBox({
     win: psychoJS.window,
     name: 'Response_Textbox',
@@ -528,9 +527,9 @@ async function experimentInit() {
   backimg_5 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'backimg_5', units : undefined, 
-    image : 'stimuli/redesign/digitspan_background.png', mask : undefined,
+    image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [1.775, 1],
+    ori : 0.0, pos : [0, 0], size : [0.75, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -552,9 +551,9 @@ async function experimentInit() {
   backimg_6 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'backimg_6', units : undefined, 
-    image : 'stimuli/redesign/digitspan_background.png', mask : undefined,
+    image : 'stimuli/redesign/iphone_back.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [1.775, 1],
+    ori : 0.0, pos : [0, 0], size : [0.75, 1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : 0.0 
@@ -1177,7 +1176,7 @@ function Instruction2RoutineEnd(snapshot) {
         instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
     } else {
         if ((slideN === 2)) {
-            instruct_txt = "\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c\u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848";
+            instruct_txt = "\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c \n\n \u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848";
         }
     }
     
@@ -1549,6 +1548,7 @@ function Recall_touchRoutineBegin(snapshot) {
     // keep track of which components have finished
     Recall_touchComponents = [];
     Recall_touchComponents.push(backimg);
+    Recall_touchComponents.push(recall_touch);
     Recall_touchComponents.push(recall_txt_2);
     Recall_touchComponents.push(digit0);
     Recall_touchComponents.push(digit1);
@@ -1560,7 +1560,6 @@ function Recall_touchRoutineBegin(snapshot) {
     Recall_touchComponents.push(digit7);
     Recall_touchComponents.push(digit8);
     Recall_touchComponents.push(digit9);
-    Recall_touchComponents.push(recall_touch);
     Recall_touchComponents.push(Response_Textbox);
     Recall_touchComponents.push(continue_button_2);
     Recall_touchComponents.push(clear_button);
@@ -1590,6 +1589,44 @@ function Recall_touchRoutineEachFrame() {
       backimg.setAutoDraw(true);
     }
     
+    // *recall_touch* updates
+    if (t >= 0.0 && recall_touch.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      recall_touch.tStart = t;  // (not accounting for frame time here)
+      recall_touch.frameNStart = frameN;  // exact frame index
+      
+      recall_touch.status = PsychoJS.Status.STARTED;
+      recall_touch.mouseClock.reset();
+      prevButtonState = recall_touch.getPressed();  // if button is down already this ISN'T a new click
+      }
+    if (recall_touch.status === PsychoJS.Status.STARTED) {  // only update if started and not finished!
+      _mouseButtons = recall_touch.getPressed();
+      if (!_mouseButtons.every( (e,i,) => (e == prevButtonState[i]) )) { // button state changed?
+        prevButtonState = _mouseButtons;
+        if (_mouseButtons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
+          // check if the mouse was inside our 'clickable' objects
+          gotValidClick = false;
+          for (const obj of [digit0,digit1,digit2,digit3,digit4,digit5,digit6,digit7,digit8,digit9,continue_button_2,clear_button]) {
+            if (obj.contains(recall_touch)) {
+              gotValidClick = true;
+              recall_touch.clicked_name.push(obj.name)
+            }
+          }
+          if (gotValidClick === true) { 
+            _mouseXYs = recall_touch.getPos();
+            recall_touch.x.push(_mouseXYs[0]);
+            recall_touch.y.push(_mouseXYs[1]);
+            recall_touch.leftButton.push(_mouseButtons[0]);
+            recall_touch.midButton.push(_mouseButtons[1]);
+            recall_touch.rightButton.push(_mouseButtons[2]);
+            recall_touch.time.push(recall_touch.mouseClock.getTime());
+          }
+          if (gotValidClick === true) { // end routine on response
+            continueRoutine = false;
+          }
+        }
+      }
+    }
     
     // *recall_txt_2* updates
     if (t >= 0.0 && recall_txt_2.status === PsychoJS.Status.NOT_STARTED) {
@@ -1700,44 +1737,6 @@ function Recall_touchRoutineEachFrame() {
       digit9.setAutoDraw(true);
     }
     
-    // *recall_touch* updates
-    if (t >= 0.0 && recall_touch.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      recall_touch.tStart = t;  // (not accounting for frame time here)
-      recall_touch.frameNStart = frameN;  // exact frame index
-      
-      recall_touch.status = PsychoJS.Status.STARTED;
-      recall_touch.mouseClock.reset();
-      prevButtonState = recall_touch.getPressed();  // if button is down already this ISN'T a new click
-      }
-    if (recall_touch.status === PsychoJS.Status.STARTED) {  // only update if started and not finished!
-      _mouseButtons = recall_touch.getPressed();
-      if (!_mouseButtons.every( (e,i,) => (e == prevButtonState[i]) )) { // button state changed?
-        prevButtonState = _mouseButtons;
-        if (_mouseButtons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
-          // check if the mouse was inside our 'clickable' objects
-          gotValidClick = false;
-          for (const obj of [digit0,digit1,digit2,digit3,digit4,digit5,digit6,digit7,digit8,digit9,continue_button_2,clear_button]) {
-            if (obj.contains(recall_touch)) {
-              gotValidClick = true;
-              recall_touch.clicked_name.push(obj.name)
-            }
-          }
-          if (gotValidClick === true) { 
-            _mouseXYs = recall_touch.getPos();
-            recall_touch.x.push(_mouseXYs[0]);
-            recall_touch.y.push(_mouseXYs[1]);
-            recall_touch.leftButton.push(_mouseButtons[0]);
-            recall_touch.midButton.push(_mouseButtons[1]);
-            recall_touch.rightButton.push(_mouseButtons[2]);
-            recall_touch.time.push(recall_touch.mouseClock.getTime());
-          }
-          if (gotValidClick === true) { // end routine on response
-            continueRoutine = false;
-          }
-        }
-      }
-    }
     
     // *Response_Textbox* updates
     if (t >= 0.0 && Response_Textbox.status === PsychoJS.Status.NOT_STARTED) {
@@ -1909,6 +1908,7 @@ function FeedbackRoutineBegin(snapshot) {
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(1.000000);
     // update component parameters for each repeat
+    psychoJS.experiment.addData('Feedback.started', globalClock.getTime());
     // Run 'Begin Routine' code from code_6
     if ((Response_Textbox.text === digits.toString())) {
         correct = 1;
@@ -1927,7 +1927,6 @@ function FeedbackRoutineBegin(snapshot) {
     }
     psychoJS.experiment.addData("Response", entered_text);
     
-    psychoJS.experiment.addData('Feedback.started', globalClock.getTime());
     feedback_txt.setText(fbTxt);
     // keep track of which components have finished
     FeedbackComponents = [];
