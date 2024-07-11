@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on July 10, 2024, at 14:39
+    on July 11, 2024, at 15:54
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,8 +59,8 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 # work out from system args whether we are running in pilot mode
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
-_fullScr = False
-_winSize = [828, 1792]
+_fullScr = True
+_winSize = [1920, 1080]
 _loggingLevel = logging.getLevel('warning')
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
@@ -179,6 +179,9 @@ def setupWindow(expInfo=None, win=None):
     psychopy.visual.Window
         Window in which to run this experiment.
     """
+    if PILOTING:
+        logging.debug('Fullscreen settings ignored as running in pilot mode.')
+    
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
@@ -187,7 +190,7 @@ def setupWindow(expInfo=None, win=None):
             monitor='iphone', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='fill',
             blendMode='avg', useFBO=True,
-            units='height', 
+            units='norm', 
             checkTiming=False  # we're going to do this ourselves in a moment
         )
     else:
@@ -196,8 +199,8 @@ def setupWindow(expInfo=None, win=None):
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'fill'
-        win.units = 'height'
-    win.mouseVisible = True
+        win.units = 'norm'
+    win.mouseVisible = False
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
     if PILOTING and prefs.piloting['showPilotingIndicator']:
@@ -360,14 +363,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Experiment' code from code_5
     slideN = 1
     instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
-    
+    backimgSize=(0.75,2)
     maxSlideN = 2
     minSlideN = 1
     backimg_2 = visual.ImageStim(
         win=win,
         name='backimg_2', 
         image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.75,1),
+        ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -390,7 +393,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backButton_2', 
         image='stimuli/backButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.25, -0.3), size=(0.185,0.06),
+        ori=0.0, pos=(-0.25, -0.3), size=(0.2,0.1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-5.0)
@@ -398,7 +401,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='nextButton_2', 
         image='stimuli/nextButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.25, -0.3), size=(0.185,0.06),
+        ori=0.0, pos=(0.25, -0.3), size=(0.2,0.1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-6.0)
@@ -406,7 +409,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='start_2', 
         image='stimuli/startButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, -0.375), size=(0.185,0.06),
+        ori=0.0, pos=(0, -0.4), size=(0.2,0.1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-7.0)
@@ -421,7 +424,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backimg_3', 
         image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.75,1),
+        ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -463,7 +466,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backimg', 
         image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.75,1),
+        ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -595,7 +598,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backimg_5', 
         image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.75,1),
+        ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -612,7 +615,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backimg_6', 
         image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.75,1),
+        ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -1456,6 +1459,34 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     tThisFlipGlobal = win.getFutureFlipTime(clock=None)
                     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
                     # update/draw components on each frame
+                    # Run 'Each Frame' code from code
+                    if 'digit0' in recall_touch.clicked_name:
+                        entered_text += '0'
+                    elif 'digit1' in recall_touch.clicked_name:
+                        entered_text += '1'
+                    elif 'digit2' in recall_touch.clicked_name:
+                        entered_text += '2'
+                    elif 'digit3' in recall_touch.clicked_name:
+                        entered_text += '3'
+                    elif 'digit4' in recall_touch.clicked_name:
+                        entered_text += '4'
+                    elif 'digit5' in recall_touch.clicked_name:
+                        entered_text += '5'
+                    elif 'digit6' in recall_touch.clicked_name:
+                        entered_text += '6'
+                    elif 'digit7' in recall_touch.clicked_name:
+                        entered_text += '7'
+                    elif 'digit8' in recall_touch.clicked_name:
+                        entered_text += '8'
+                    elif 'digit9' in recall_touch.clicked_name:
+                        entered_text += '9'
+                    elif 'continue_button_2' in recall_touch.clicked_name:
+                        continueRoutine=False
+                        response.finished = True
+                    elif 'clear_button' in recall_touch.clicked_name:
+                        entered_text = ''
+                    # Update the textbox
+                    Response_Textbox.setText(entered_text)
                     
                     # *backimg* updates
                     
@@ -1823,33 +1854,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                         thisComponent.setAutoDraw(False)
                 thisExp.addData('Recall_touch.stopped', globalClock.getTime(format='float'))
                 # Run 'End Routine' code from code
-                if 'digit0' in recall_touch.clicked_name:
-                    entered_text += '0'
-                elif 'digit1' in recall_touch.clicked_name:
-                    entered_text += '1'
-                elif 'digit2' in recall_touch.clicked_name:
-                    entered_text += '2'
-                elif 'digit3' in recall_touch.clicked_name:
-                    entered_text += '3'
-                elif 'digit4' in recall_touch.clicked_name:
-                    entered_text += '4'
-                elif 'digit5' in recall_touch.clicked_name:
-                    entered_text += '5'
-                elif 'digit6' in recall_touch.clicked_name:
-                    entered_text += '6'
-                elif 'digit7' in recall_touch.clicked_name:
-                    entered_text += '7'
-                elif 'digit8' in recall_touch.clicked_name:
-                    entered_text += '8'
-                elif 'digit9' in recall_touch.clicked_name:
-                    entered_text += '9'
-                elif 'continue_button_2' in recall_touch.clicked_name:
-                    continueRoutine=False
-                    response.finished = True
-                elif 'clear_button' in recall_touch.clicked_name:
-                    entered_text = ''
-                # Update the textbox
-                Response_Textbox.setText(entered_text)
+                
                 
                 # store data for response (TrialHandler)
                 response.addData('recall_touch.x', recall_touch.x)
