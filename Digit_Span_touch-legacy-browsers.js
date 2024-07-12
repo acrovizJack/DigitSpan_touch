@@ -214,7 +214,7 @@ async function experimentInit() {
   instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
   maxSlideN = 2;
   minSlideN = 1;
-  backimgSize = [1, 1.6];
+  backimgSize = [1, 1.75];
   imgpth = "stimuli/redesign/iphone_back.png";
   
   backimg_2 = new visual.ImageStim({
