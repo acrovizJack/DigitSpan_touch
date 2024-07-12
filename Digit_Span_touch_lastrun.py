@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on July 10, 2024, at 14:39
+    on July 12, 2024, at 14:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,8 +59,8 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 # work out from system args whether we are running in pilot mode
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
-_fullScr = False
-_winSize = [828, 1792]
+_fullScr = True
+_winSize = [1920, 1080]
 _loggingLevel = logging.getLevel('warning')
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
@@ -179,6 +179,9 @@ def setupWindow(expInfo=None, win=None):
     psychopy.visual.Window
         Window in which to run this experiment.
     """
+    if PILOTING:
+        logging.debug('Fullscreen settings ignored as running in pilot mode.')
+    
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
@@ -197,7 +200,7 @@ def setupWindow(expInfo=None, win=None):
         win.backgroundImage = ''
         win.backgroundFit = 'fill'
         win.units = 'height'
-    win.mouseVisible = True
+    win.mouseVisible = False
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
     if PILOTING and prefs.piloting['showPilotingIndicator']:
@@ -363,10 +366,11 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     maxSlideN = 2
     minSlideN = 1
+    backimg = './stimuli/redesign/digitspan_background.png'
     backimg_2 = visual.ImageStim(
         win=win,
         name='backimg_2', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -420,7 +424,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_3 = visual.ImageStim(
         win=win,
         name='backimg_3', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -462,7 +466,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg = visual.ImageStim(
         win=win,
         name='backimg', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -594,7 +598,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_5 = visual.ImageStim(
         win=win,
         name='backimg_5', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -611,7 +615,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_6 = visual.ImageStim(
         win=win,
         name='backimg_6', 
-        image='stimuli/redesign/iphone_back.png', mask=None, anchor='center',
+        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(0.75,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
