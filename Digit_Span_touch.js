@@ -221,7 +221,7 @@ async function experimentInit() {
   instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
   maxSlideN = 2;
   minSlideN = 1;
-  backimgSize = [1, 1.5];
+  backimgSize = [1, 1.25];
   
   backimg_2 = new visual.ImageStim({
     win : psychoJS.window,
@@ -239,7 +239,7 @@ async function experimentInit() {
     text: '',
     font: 'Microsoft JhengHei',
     units: undefined, 
-    pos: [0, 0.055], height: 0.045,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0.055], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
     depth: -2.0 
@@ -312,7 +312,7 @@ async function experimentInit() {
     name : 'image', units : undefined, 
     image : 'stimuli/redesign/plain.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, 0], size : [0.1, 0.1],
+    ori : 0.0, pos : [0, 0], size : [0.15, 0.15],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -1.0 
@@ -323,7 +323,7 @@ async function experimentInit() {
     text: '+',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: -2.0 
@@ -335,7 +335,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0.005], height: 0.1,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0.005], height: 0.15,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6078), (- 0.6706), (- 0.0118)]),  opacity: 1.0,
     depth: -3.0 
@@ -489,9 +489,9 @@ async function experimentInit() {
     pos: [0, (- 0.3)], 
     letterHeight: 0.1,
     lineSpacing: 1.0,
-    size: [1, 0.15],  units: undefined, 
+    size: [0.85, 0.15],  units: undefined, 
     color: [(- 0.6078), (- 0.6706), (- 0.0118)], colorSpace: 'rgb',
-    fillColor: undefined, borderColor: [(- 1.0), (- 1.0), (- 1.0)],
+    fillColor: undefined, borderColor: [0.0, 0.0, 0.0],
     languageStyle: 'LTR',
     bold: false, italic: false,
     opacity: undefined,
