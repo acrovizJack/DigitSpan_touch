@@ -150,16 +150,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="-730.46875"
-     inkscape:cy="-931.25"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="-8116.26"
+     inkscape:cy="-861.78639"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1433"
      inkscape:window-height="1000"
-     inkscape:window-x="1923"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      units="px"
@@ -890,14 +890,6 @@
            style="fill:#f2cdae;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
       </g>
     </g>
-    <path
-       id="path17006"
-       style="fill:#f5cfb2;stroke-width:0.705199;stroke-linecap:round;fill-opacity:0.99607843;stroke:#322a7e;stroke-opacity:1"
-       d="m -115.58377,366.73122 h 41.087927 v 16.51975 h -41.087927 l -12.36982,-8.25987 z"
-       sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="backButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
     <rect
        style="fill:#f2cdae;fill-opacity:0.99607843;stroke-width:0.858422;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
        id="rect886"
@@ -1816,106 +1808,6 @@
          d="m 192.40624,-17.965155 h -8.40442"
          id="path9069" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-stretch:normal;font-variant:normal"
-       x="-9.8241358"
-       y="378.84357"
-       id="text7354"
-       inkscape:export-filename="startButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan7352"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-family:'Microsoft JhengHei';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-         x="-9.8241358"
-         y="378.84357">Start</tspan></text>
-    <path
-       id="path8508"
-       style="fill:#f5cfb2;stroke-width:0.705199;stroke-linecap:round;fill-opacity:0.99607843;stroke:#322a7e;stroke-opacity:1"
-       d="M -30.125169,366.73122 H -71.2131 v 16.51975 h 41.087931 l 12.36982,-8.25987 z"
-       sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="nextButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#f5cfb2;fill-opacity:0.99607843;stroke:#322a7e;stroke-width:1.17293;stroke-linecap:round;stroke-opacity:1"
-       id="rect8745"
-       width="57.218941"
-       height="16.933332"
-       x="-12.233644"
-       y="366.52444"
-       inkscape:export-filename="startButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       ry="3.5079126" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-4.3416886"
-       y="378.84357"
-       id="text10647"
-       inkscape:export-filename="startButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan10645"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';stroke-width:0.264583"
-         x="-4.3416886"
-         y="378.84357">開始測驗</tspan></text>
-    <rect
-       style="display:inline;fill:#f5cfb2;fill-opacity:0.996078;stroke:none;stroke-width:2.2124;stroke-linecap:round;stroke-opacity:1"
-       id="rect8745-3"
-       width="130.3284"
-       height="26.450001"
-       x="554.64783"
-       y="1000.1887"
-       inkscape:export-filename="redesign\clear.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       ry="5.4793873" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.1057px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';display:inline;fill:#332b7e;fill-opacity:1;stroke:none;stroke-width:0.602644"
-       x="571.50647"
-       y="1022.8653"
-       id="text10647-2"
-       inkscape:export-filename="startButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan10645-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#332b7e;fill-opacity:1;stroke-width:0.602644"
-         x="571.50647"
-         y="1022.8653">清除答案</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-stretch:normal;font-variant:normal"
-       x="-108.01012"
-       y="378.93658"
-       id="text14641"
-       inkscape:export-filename="backButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan14639"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-family:'Microsoft JhengHei';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-         x="-108.01012"
-         y="378.93658">上一頁</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-stretch:normal;font-variant:normal"
-       x="-68.858833"
-       y="378.93658"
-       id="text15613"
-       inkscape:export-filename="nextButtonImage.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan15611"
-         style="stroke-width:0.264583;-inkscape-font-specification:'Microsoft JhengHei';font-family:'Microsoft JhengHei';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-         x="-68.858833"
-         y="378.93658">下一頁</tspan></text>
     <g
        id="g1206"
        transform="matrix(0.10264184,0,0,0.10264184,-173.58859,131.46568)"
@@ -2610,26 +2502,26 @@
        transform="translate(-16.95491,7.0158251)"><tspan
          x="560.68134"
          y="219.82918"
-         id="tspan1">在這個實驗中，你需要嘗試記住螢幕上顯示的數字。</tspan><tspan
+         id="tspan5">在這個實驗中，你需要嘗試記住螢幕上顯示的數字。</tspan><tspan
          x="560.68134"
          y="230.41252"
-         id="tspan2">所有數字都在0到9之間。
+         id="tspan53">所有數字都在0到9之間。
 </tspan><tspan
          x="560.68134"
          y="240.99586"
-         id="tspan3">
+         id="tspan54">
 </tspan><tspan
          x="560.68134"
          y="251.5792"
-         id="tspan4">你會看到一串數字，依序顯示。
+         id="tspan55">你會看到一串數字，依序顯示。
 </tspan><tspan
          x="560.68134"
          y="262.16255"
-         id="tspan6">
+         id="tspan56">
 </tspan><tspan
          x="560.68134"
          y="272.74589"
-         id="tspan7">請記住整串數字 ······
+         id="tspan57">請記住整串數字 ······
 </tspan></text>
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.46734;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -2651,31 +2543,31 @@
        transform="matrix(2.4632122,0,0,2.4632122,-1488.0532,104.76939)"><tspan
          x="656.18561"
          y="219.82918"
-         id="tspan8">在這個實驗中，
+         id="tspan58">在這個實驗中，
 </tspan><tspan
          x="656.18561"
          y="230.41252"
-         id="tspan9">你需要嘗試記住螢幕上顯示的數字。
+         id="tspan59">你需要嘗試記住螢幕上顯示的數字。
 </tspan><tspan
          x="656.18561"
          y="240.99586"
-         id="tspan10">所有數字都在0到9之間。
+         id="tspan60">所有數字都在0到9之間。
 </tspan><tspan
          x="656.18561"
          y="251.5792"
-         id="tspan12">
+         id="tspan61">
 </tspan><tspan
          x="656.18561"
          y="262.16255"
-         id="tspan13">你會看到一串數字，依序顯示。
+         id="tspan62">你會看到一串數字，依序顯示。
 </tspan><tspan
          x="656.18561"
          y="272.74589"
-         id="tspan15">
+         id="tspan63">
 </tspan><tspan
          x="656.18561"
          y="283.32923"
-         id="tspan16">請記住整串數字 ······
+         id="tspan64">請記住整串數字 ······
 </tspan></text>
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.44066;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -2992,101 +2884,27 @@
        transform="matrix(2.4632122,0,0,2.4632122,-878.97118,104.72866)"><tspan
          x="639.22748"
          y="219.82918"
-         id="tspan17">一旦你記住這些數字後，你需要重述它們。
+         id="tspan65">一旦你記住這些數字後，你需要重述它們。
 </tspan><tspan
          x="639.22748"
          y="230.41252"
-         id="tspan18">
+         id="tspan66">
 </tspan><tspan
          x="639.22748"
          y="240.99586"
-         id="tspan19">在方塊中輸入剛剛顯示過的數字
+         id="tspan67">在方塊中輸入剛剛顯示過的數字
 </tspan><tspan
          x="639.22748"
          y="251.5792"
-         id="tspan20">(空白鍵清除輸入的內容)
+         id="tspan68">(空白鍵清除輸入的內容)
 </tspan><tspan
          x="639.22748"
          y="262.16255"
-         id="tspan21">
+         id="tspan69">
 </tspan><tspan
          x="639.22748"
          y="272.74589"
-         id="tspan22">完成後請按 送出答案</tspan></text>
-    <g
-       id="g3"
-       transform="translate(180.6575,-56.711254)">
-      <g
-         id="g24"
-         transform="translate(83.829883,61.204054)">
-        <rect
-           style="display:inline;fill:#f2cdae;fill-opacity:0.996078;stroke-width:2.03841;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-           id="rect1046-9-0"
-           width="133.43445"
-           height="26.458332"
-           x="525.20667"
-           y="855.47473"
-           rx="6.5968447"
-           ry="6.6314759"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           inkscape:export-filename="continue_button.png" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5594px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;display:inline;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-           x="548.37885"
-           y="875.24481"
-           id="text1050-7-43"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           inkscape:export-filename="redesign\continue_button.png"
-           transform="scale(0.99738535,1.0026215)"><tspan
-             sodipodi:role="line"
-             id="tspan1048-7-3"
-             x="548.37885"
-             y="875.24481"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317">送出答案</tspan></text>
-      </g>
-    </g>
-    <g
-       id="g3-0"
-       style="display:inline"
-       transform="translate(174.95881,2.7097516)"
-       inkscape:export-filename="redesign\end_experiment.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <g
-         id="g24-9"
-         transform="translate(83.829883,61.204054)">
-        <rect
-           style="display:inline;fill:#f2cdae;fill-opacity:0.996078;stroke-width:2.03841;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-           id="rect1046-9-0-4"
-           width="133.43445"
-           height="26.458332"
-           x="525.20667"
-           y="855.47473"
-           rx="6.5968447"
-           ry="6.6314759"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           inkscape:export-filename="continue_button.png" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5594px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;display:inline;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-           x="548.37885"
-           y="875.24481"
-           id="text1050-7-43-1"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           inkscape:export-filename="redesign\continue_button.png"
-           transform="scale(0.99738535,1.0026215)"><tspan
-             sodipodi:role="line"
-             id="tspan1048-7-3-4"
-             x="548.37885"
-             y="875.24481"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317">結束測驗</tspan></text>
-      </g>
-    </g>
+         id="tspan70">完成後請按 送出答案</tspan></text>
     <g
        id="g35"
        transform="matrix(0.96805326,0,0,0.96389897,46.901608,19.122049)">
@@ -3536,13 +3354,13 @@
          xml:space="preserve"><tspan
            x="255.70802"
            y="554.133"
-           id="tspan23">按下Clear，</tspan><tspan
+           id="tspan71">按下Clear，</tspan><tspan
            x="255.70802"
            y="584.133"
-           id="tspan24">刪除最後點擊</tspan><tspan
+           id="tspan72">刪除最後點擊</tspan><tspan
            x="255.70802"
            y="614.133"
-           id="tspan25">的數字</tspan></text>
+           id="tspan73">的數字</tspan></text>
       <g
          transform="translate(34.133831,43.906543)"
          id="g4-8">
@@ -3833,37 +3651,37 @@
          transform="translate(-8.2682292)"><tspan
            x="776.41797"
            y="221.58315"
-           id="tspan26">一旦你記住這些數字後，你需要重述它們。
+           id="tspan74">一旦你記住這些數字後，你需要重述它們。
 </tspan><tspan
            x="776.41797"
            y="232.16648"
-           id="tspan27">
+           id="tspan75">
 </tspan><tspan
            x="776.41797"
            y="242.74983"
-           id="tspan28">你會在螢幕上看到一個數字鍵盤。使用滑鼠按順序點</tspan><tspan
+           id="tspan76">你會在螢幕上看到一個數字鍵盤。使用滑鼠按順序點</tspan><tspan
            x="776.41797"
            y="253.33317"
-           id="tspan29">擊這些數字，順序需要與題目的順序相同。
+           id="tspan77">擊這些數字，順序需要與題目的順序相同。
 </tspan><tspan
            x="776.41797"
            y="263.91651"
-           id="tspan32">
+           id="tspan78">
 </tspan><tspan
            x="776.41797"
            y="274.49986"
-           id="tspan33">如果你犯了錯誤，你可以按下               清除最後輸入</tspan><tspan
+           id="tspan79">如果你犯了錯誤，你可以按下               清除最後輸入</tspan><tspan
            x="776.41797"
            y="285.0832"
-           id="tspan35">的數字。當你輸入完所有數字後，點擊                。
+           id="tspan80">的數字。當你輸入完所有數字後，點擊                。
 </tspan><tspan
            x="776.41797"
            y="295.66654"
-           id="tspan36">
+           id="tspan81">
 </tspan><tspan
            x="776.41797"
            y="306.24989"
-           id="tspan37">電腦會告訴你你是否正確記住了這些數字。
+           id="tspan82">電腦會告訴你你是否正確記住了這些數字。
 </tspan></text>
       <g
          id="g1987-1"
@@ -3951,37 +3769,37 @@
          transform="translate(107.86868,195.13673)"><tspan
            x="776.41797"
            y="221.58315"
-           id="tspan38">一旦你記住這些數字後，你需要重述它們。
+           id="tspan83">一旦你記住這些數字後，你需要重述它們。
 </tspan><tspan
            x="776.41797"
            y="232.16648"
-           id="tspan39">
+           id="tspan84">
 </tspan><tspan
            x="776.41797"
            y="242.74983"
-           id="tspan40">你會在螢幕上看到一個數字鍵盤。使用滑鼠按順序點</tspan><tspan
+           id="tspan85">你會在螢幕上看到一個數字鍵盤。使用滑鼠按順序點</tspan><tspan
            x="776.41797"
            y="253.33317"
-           id="tspan41">擊這些數字，順序需要與題目的順序相同。
+           id="tspan86">擊這些數字，順序需要與題目的順序相同。
 </tspan><tspan
            x="776.41797"
            y="263.91651"
-           id="tspan42">
+           id="tspan87">
 </tspan><tspan
            x="776.41797"
            y="274.49986"
-           id="tspan43">如果你犯了錯誤，你可以按下               清除最後輸入</tspan><tspan
+           id="tspan88">如果你犯了錯誤，你可以按下               清除最後輸入</tspan><tspan
            x="776.41797"
            y="285.0832"
-           id="tspan44">的數字。當你輸入完所有數字後，點擊                。
+           id="tspan89">的數字。當你輸入完所有數字後，點擊                。
 </tspan><tspan
            x="776.41797"
            y="295.66654"
-           id="tspan45">
+           id="tspan90">
 </tspan><tspan
            x="776.41797"
            y="306.24989"
-           id="tspan46">電腦會告訴你你是否正確記住了這些數字。
+           id="tspan91">電腦會告訴你你是否正確記住了這些數字。
 </tspan></text>
     </g>
     <g
@@ -4700,340 +4518,36 @@
        transform="translate(47.768421,196.90437)"><tspan
          x="560.68134"
          y="219.82918"
-         id="tspan47">在這個實驗中，你需要嘗試記住螢幕上顯示的數字。</tspan><tspan
+         id="tspan92">在這個實驗中，你需要嘗試記住螢幕上顯示的數字。</tspan><tspan
          x="560.68134"
          y="230.41252"
-         id="tspan48">所有數字都在0到9之間。
+         id="tspan93">所有數字都在0到9之間。
 </tspan><tspan
          x="560.68134"
          y="240.99586"
-         id="tspan49">
+         id="tspan94">
 </tspan><tspan
          x="560.68134"
          y="251.5792"
-         id="tspan50">你會看到一串數字，依序顯示。
+         id="tspan95">你會看到一串數字，依序顯示。
 </tspan><tspan
          x="560.68134"
          y="262.16255"
-         id="tspan51">
+         id="tspan96">
 </tspan><tspan
          x="560.68134"
          y="272.74589"
-         id="tspan52">請記住整串數字 ······
+         id="tspan97">請記住整串數字 ······
 </tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text5"
        style="font-weight:bold;font-size:32px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei Bold';text-align:center;white-space:pre;shape-inside:url(#rect5);display:inline;opacity:0;fill:#f5cfb2;fill-opacity:0.996078;stroke:#322a7e;stroke-width:3.59055;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke markers fill" />
-    <g
-       id="g40"
-       transform="matrix(2.6456692,0,0,2.6456692,-11.986199,-283.08067)"
-       inkscape:export-filename="redesign\digit1.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1462"
-         width="13.229167"
-         height="13.229167"
-         x="-115.05664"
-         y="-31.214773"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-112.28989"
-         y="-19.971014"
-         id="text1488"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1524"
-           x="-112.28989"
-           y="-19.971014"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">1</tspan></text>
-    </g>
-    <g
-       id="g41"
-       transform="matrix(2.6456692,0,0,2.6456692,-16.098489,-283.08067)"
-       inkscape:export-filename="redesign\digit2.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1464"
-         width="13.229167"
-         height="13.229167"
-         x="-88.799995"
-         y="-31.214773"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-85.741783"
-         y="-19.716766"
-         id="text1492"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1527"
-           x="-85.741783"
-           y="-19.716766"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">2</tspan></text>
-    </g>
-    <g
-       id="g42"
-       transform="matrix(2.6456692,0,0,2.6456692,-19.867596,-283.08067)"
-       inkscape:export-filename="redesign\digit3.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1466"
-         width="13.229167"
-         height="13.229167"
-         x="-64.73455"
-         y="-31.214773"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-61.747654"
-         y="-19.797382"
-         id="text1496"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1530"
-           x="-61.747654"
-           y="-19.797382"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">3</tspan></text>
-    </g>
-    <g
-       id="g45"
-       transform="matrix(2.6456692,0,0,2.6456692,-11.986199,-286.08502)"
-       inkscape:export-filename="redesign\digit4.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1468"
-         width="13.229167"
-         height="13.229167"
-         x="-115.05664"
-         y="-12.032246"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-111.92712"
-         y="-0.61485457"
-         id="text1500"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1533"
-           x="-111.92712"
-           y="-0.61485457"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">4</tspan></text>
-    </g>
-    <g
-       id="g44"
-       transform="matrix(2.6456692,0,0,2.6456692,-16.098489,-286.08502)"
-       inkscape:export-filename="redesign\digit5.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1470"
-         width="13.229167"
-         height="13.229167"
-         x="-88.799995"
-         y="-12.032246"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-85.952621"
-         y="-0.69546986"
-         id="text1504"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1502"
-           x="-85.952621"
-           y="-0.69546986"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">5</tspan></text>
-    </g>
-    <g
-       id="g43"
-       transform="matrix(2.6456692,0,0,2.6456692,-19.867596,-286.08502)"
-       inkscape:export-filename="redesign\digit6.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1472"
-         width="13.229167"
-         height="13.229167"
-         x="-64.73455"
-         y="-12.032246"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-61.896481"
-         y="-0.61485457"
-         id="text1508"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1506"
-           x="-61.896481"
-           y="-0.61485457"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">6</tspan></text>
-    </g>
-    <g
-       id="g46"
-       transform="matrix(2.6456692,0,0,2.6456692,-11.986199,-289.18883)"
-       inkscape:export-filename="redesign\digit7.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1474"
-         width="13.229167"
-         height="13.229167"
-         x="-115.05664"
-         y="7.7853279"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-112.09145"
-         y="19.202719"
-         id="text1512"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1510"
-           x="-112.09145"
-           y="19.202719"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">7</tspan></text>
-    </g>
-    <g
-       id="g47"
-       transform="matrix(2.6456692,0,0,2.6456692,-16.098489,-289.16067)"
-       inkscape:export-filename="redesign\digit8.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1476"
-         width="13.229167"
-         height="13.229167"
-         x="-88.799995"
-         y="7.6054955"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-85.868912"
-         y="19.022886"
-         id="text1516"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1514"
-           x="-85.868912"
-           y="19.022886"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">8</tspan></text>
-    </g>
-    <g
-       id="g48"
-       transform="matrix(2.6456692,0,0,2.6456692,-19.867596,-289.16067)"
-       inkscape:export-filename="redesign\digit9.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         id="rect1478"
-         width="13.229167"
-         height="13.229167"
-         x="-64.73455"
-         y="7.6054955"
-         rx="1.6250265"
-         ry="1.6250265"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-         x="-61.781757"
-         y="19.022886"
-         id="text1520"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"><tspan
-           sodipodi:role="line"
-           id="tspan1518"
-           x="-61.781757"
-           y="19.022886"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">9</tspan></text>
-    </g>
-    <rect
-       style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:2.60656;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-       id="rect1482"
-       width="35"
-       height="35"
-       x="-251.03389"
-       y="-220.30289"
-       rx="4.299283"
-       ry="4.299283"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="redesign\digit0.png" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.6109px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:2.5687;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
-       x="-242.51349"
-       y="-191.88446"
-       id="text1528"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan1526"
-         x="-242.51349"
-         y="-191.88446"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.6109px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:2.5687">0</tspan></text>
     <path
        id="rect1172-7-1-3-7"
        style="display:inline;overflow:visible;fill:#f2f2f2;stroke-width:7.07334;stroke-linecap:round;marker:none;enable-background:accumulate"
-       d="m 1986.3182,1306.2308 h 367.6929 c 2.024,0 3.6535,3.8917 3.6535,8.7261 v 649.5478 c 0,4.8344 -1.6295,8.7261 -3.6535,8.7261 h -367.6929 c -2.024,0 -3.6536,-3.8917 -3.6536,-8.7261 v -649.5478 c 0,-4.8344 1.6296,-8.7261 3.6536,-8.7261 z"
+       d="m 2332.4322,-349.50392 h 367.6929 c 2.024,0 3.6535,3.8917 3.6535,8.7261 v 649.5478 c 0,4.8344 -1.6295,8.7261 -3.6535,8.7261 h -367.6929 c -2.024,0 -3.6536,-3.8917 -3.6536,-8.7261 v -649.5478 c 0,-4.8344 1.6296,-8.7261 3.6536,-8.7261 z"
        inkscape:export-filename="redesign\iphone_back.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -5041,8 +4555,8 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="i3.png"
-       y="1306.5118"
-       x="1982.1801"
+       y="-349.2229"
+       x="2328.2942"
        height="67.086967"
        width="375.50772"
        id="rect1218-6-3-6-8"
@@ -5051,17 +4565,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.0239px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei Bold';display:inline;fill:#f2cdae;fill-opacity:1;stroke:#322a7e;stroke-width:0.798374;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-       x="2039.9539"
-       y="1349.6066"
+       x="2386.0679"
+       y="-306.12817"
        id="text11-0-5-1-8-4"><tspan
          sodipodi:role="line"
          id="tspan11-1-9-6-2-3"
          style="font-size:35.0239px;stroke-width:0.798374"
-         x="2039.9539"
-         y="1349.6066">Digit Span Task</tspan></text>
+         x="2386.0679"
+         y="-306.12817">Digit Span Task</tspan></text>
     <g
        id="g1206-3-3-8-0-8-3"
-       transform="matrix(0.37429609,0,0,0.37429609,1968.9552,1702.147)"
+       transform="matrix(0.37429609,0,0,0.37429609,2315.0692,46.41228)"
        style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
       <g
          id="g1186-9-8-4-8-9-3"
@@ -5267,6 +4781,1001 @@
          class="cls-15"
          d="m 163.51,626.48 c 0.7,-2.43 1.1,-4.99 1.1,-7.64 0,-10.53 -5.95,-19.7 -14.66,-24.33 -1.12,-3.08 -2.96,-5.87 -5.43,-8.16 -4.09,-3.78 -9.38,-5.73 -14.98,-5.51 -11.49,0.46 -20.46,10.18 -20,21.66 0.01,0.35 0.06,0.68 0.09,1.03 -4.95,-7.37 -13.36,-12.24 -22.88,-12.24 -2.11,0 -4.16,0.26 -6.14,0.71 0.53,-0.7 1.11,-1.38 1.76,-2 3.11,-2.96 7.16,-4.55 11.49,-4.42 4.29,0.11 8.29,1.89 11.25,5 0.91,0.96 2.42,0.99 3.37,0.09 0.96,-0.91 0.99,-2.42 0.09,-3.37 -3.84,-4.04 -9.02,-6.34 -14.58,-6.48 -5.55,-0.15 -10.86,1.89 -14.89,5.72 -2.37,2.25 -4.12,4.97 -5.21,7.95 -8.71,4.63 -14.67,13.8 -14.67,24.33 0,11.21 6.75,20.87 16.38,25.16 -7.43,3.31 -13.12,9.81 -15.34,17.76 -2.81,-4.55 -4.2,-9.9 -3.89,-15.44 h 3.93 l -3.76,-13.11 c -4.38,4.11 -4.95,13.11 -4.95,13.11 -0.4,8.21 2.37,16.04 7.66,22.07 0,0.26 -0.04,0.51 -0.04,0.77 0,10.03 5.4,18.8 13.44,23.62 -0.02,0.38 -0.05,0.77 -0.05,1.16 0,11.5 9.35,20.85 20.85,20.85 8.02,0 14.98,-4.55 18.47,-11.2 3.49,6.65 10.45,11.2 18.46,11.2 11.5,0 20.85,-9.35 20.85,-20.85 0,-0.37 -0.04,-0.73 -0.06,-1.1 3.34,-1.99 6.28,-4.71 8.6,-8.07 3.47,-5.05 5.1,-10.97 4.79,-16.99 4.56,-5.43 7.31,-12.43 7.31,-20.06 0,-8.19 -3.17,-15.65 -8.35,-21.23 z m -0.82,-7.64 c 0,2.09 -0.28,4.11 -0.75,6.06 -0.25,-0.24 -0.51,-0.47 -0.78,-0.7 0.38,-1.73 0.6,-3.52 0.6,-5.36 0,-8.47 -4.29,-15.95 -10.8,-20.4 -0.07,-0.42 -0.15,-0.83 -0.23,-1.24 7.18,4.55 11.97,12.54 11.97,21.64 z m -16.25,-17.8 c 0.02,0.59 0,1.17 -0.04,1.76 l -3.47,0.79 4.62,11.7 c 3.42,-3.79 3.65,-12.88 3.65,-14.27 5.25,4.18 8.63,10.61 8.63,17.82 0,1.36 -0.14,2.68 -0.37,3.98 -5.25,-3.99 -11.79,-6.36 -18.87,-6.36 -2.18,0 -4.3,0.24 -6.35,0.67 v 0 c 0,0 -0.02,0 -0.02,0 -0.33,0.07 -0.66,0.14 -0.99,0.22 -2.14,0.43 -3.77,0.36 -3.77,0.36 h 0.04 c -5.64,-0.29 -10.55,-3.52 -13.18,-8.24 3.58,-7.9 11.52,-13.41 20.74,-13.41 3.17,0 6.2,0.66 8.94,1.83 0.24,1.02 0.39,2.07 0.43,3.13 z m -31.84,14.25 c 2.42,2.8 5.57,4.92 9.13,6.13 -2.83,1.82 -5.34,4.08 -7.45,6.68 -1.27,-2.83 -1.99,-5.96 -1.99,-9.26 0,-1.21 0.12,-2.39 0.3,-3.55 z m 30.64,-19.72 c -2.56,-0.9 -5.31,-1.42 -8.17,-1.42 -9.42,0 -17.62,5.3 -21.78,13.08 -0.14,-0.39 -0.26,-0.79 -0.38,-1.19 4.44,-7.65 12.7,-12.81 22.16,-12.81 2.65,0 5.22,0.41 7.63,1.16 0.2,0.39 0.38,0.78 0.54,1.19 z m -15.5,-9.96 c 4.3,-0.17 8.39,1.34 11.55,4.25 0.72,0.67 1.36,1.39 1.94,2.16 -1.98,-0.46 -4.04,-0.72 -6.16,-0.72 -9.4,0 -17.71,4.74 -22.68,11.95 -0.03,-0.31 -0.07,-0.62 -0.08,-0.93 -0.35,-8.86 6.57,-16.36 15.43,-16.71 z m -16.69,27.61 c -0.42,1.81 -0.67,3.68 -0.67,5.62 0,3.95 0.96,7.67 2.61,10.99 -0.21,0.29 -0.41,0.59 -0.6,0.89 -1.87,-3.55 -2.94,-7.59 -2.94,-11.88 0,-2.31 0.34,-4.55 0.91,-6.68 0.21,0.36 0.45,0.71 0.68,1.06 z m 19.87,33.54 c 5.98,-1.1 12.04,0.18 17.05,3.63 5.01,3.45 8.38,8.64 9.49,14.62 0.07,0.37 0.1,0.73 0.15,1.11 -4.82,4.98 -11.56,8.09 -19.01,8.09 -10.56,0 -19.67,-6.22 -23.92,-15.18 0.48,-0.95 1.01,-1.88 1.62,-2.77 3.45,-5.01 8.64,-8.38 14.62,-9.49 z m 11.09,-4.23 c 6.88,-2.02 12.5,-6.95 15.46,-13.37 0.23,0.24 0.45,0.49 0.67,0.74 -2.92,6.07 -8.14,10.8 -14.54,13.07 -0.53,-0.17 -1.06,-0.31 -1.6,-0.45 z m -6.94,-0.91 c -7.41,0 -13.99,-3.57 -18.15,-9.08 4.79,-6.83 12.72,-11.32 21.68,-11.32 6.66,0 12.74,2.49 17.4,6.57 -3.49,8.12 -11.56,13.82 -20.94,13.82 z m -6.94,0.91 c -0.53,0.14 -1.05,0.29 -1.57,0.46 -4.44,-1.57 -8.33,-4.3 -11.27,-7.86 0.16,-0.29 0.35,-0.57 0.52,-0.85 3.13,3.89 7.41,6.82 12.32,8.26 z m -4.22,1.47 c -4.46,1.97 -8.33,5.09 -11.23,9.15 -0.37,-1.76 -0.57,-3.58 -0.57,-5.44 0,-3.82 0.83,-7.44 2.29,-10.73 2.61,2.97 5.84,5.38 9.51,7.01 z m -16.31,25.08 c 0,12.56 -10.29,22.85 -22.85,22.85 -3.16,0 -6.17,-0.65 -8.91,-1.82 1.43,-5.79 6.01,-10.46 11.97,-11.84 7.04,-1.61 13.56,-5.66 18.17,-11.92 0.88,-1.19 1.65,-2.42 2.33,-3.69 -0.59,2.24 -0.71,6.36 -0.71,6.41 z m -5.18,-21.05 c -1.97,-1.65 -4.16,-2.99 -6.49,-4.02 3.46,-1.54 6.58,-3.79 9.17,-6.63 3.57,8.35 2.79,18.32 -2.96,26.15 -3.79,5.15 -9.09,8.53 -14.85,9.98 -0.01,0 -0.03,0 -0.04,0 -0.04,0 -0.07,0.02 -0.1,0.02 -7.37,1.81 -15.46,0.48 -22.04,-4.36 -1.07,-0.79 -2.05,-1.64 -2.98,-2.56 1.27,-11.36 10.93,-20.23 22.62,-20.23 5.34,0 10.53,1.88 14.61,5.3 1.01,0.84 2.51,0.71 3.36,-0.3 0.84,-1.01 0.71,-2.51 -0.3,-3.36 z m -17.67,-6.41 c -9.45,0 -17.58,-5.8 -21.02,-14.02 9.28,-7.84 22.91,-8.36 32.76,-1.11 2.48,1.82 4.52,4.01 6.16,6.42 -4.31,5.48 -10.88,8.7 -17.91,8.7 z m 18.99,-7 c 0.17,0.29 0.32,0.59 0.47,0.89 -2.95,3.44 -6.73,6.01 -10.93,7.49 -0.51,-0.17 -1.03,-0.34 -1.55,-0.47 4.67,-1.37 8.86,-4.11 12.01,-7.91 z m -26.63,44.22 c -2.54,2.42 -4.46,5.47 -5.53,8.86 -4.79,-3.41 -8.2,-8.63 -9.24,-14.65 4.5,3.29 9.59,5.18 14.77,5.79 z m 2.69,0.2 c 0.32,0 0.64,0.04 0.96,0.04 0.19,0 0.38,-0.01 0.58,-0.02 -3.53,2.41 -6.14,6.03 -7.27,10.2 -0.28,-0.15 -0.55,-0.32 -0.82,-0.48 1.1,-3.87 3.42,-7.28 6.55,-9.74 z m 32.43,-8.65 c 0.04,-1.11 0.15,-3.73 0.43,-5.25 2.43,3.6 5.58,6.66 9.25,8.99 -8.34,2.73 -14.39,10.57 -14.39,19.81 0,9.24 -7.21,16.08 -16.08,16.08 -8.87,0 -15.45,-6.62 -16.03,-14.98 2.92,1.06 6.05,1.66 9.33,1.66 14.77,0 26.83,-11.7 27.48,-26.32 z m -4.33,-38.11 c -0.21,-0.37 -0.43,-0.74 -0.66,-1.1 -2.03,-3.23 -4.67,-6.13 -7.92,-8.52 -0.54,-0.39 -1.09,-0.75 -1.65,-1.1 2.95,-0.92 5.74,-2.49 8.13,-4.76 0.5,-0.48 0.97,-0.98 1.42,-1.5 0.18,1.16 0.31,2.34 0.31,3.55 0,5.02 1.37,9.71 3.72,13.76 -0.59,1.06 -1.11,2.15 -1.57,3.28 -0.51,-1.23 -1.1,-2.44 -1.77,-3.61 z M 110.87,609 c -1.01,2.4 -2.49,4.59 -4.39,6.4 -2.57,2.44 -5.74,4.08 -9.15,4.79 -0.47,-0.25 -0.95,-0.48 -1.43,-0.7 3.72,-0.51 7.19,-2.14 9.94,-4.76 2.08,-1.97 3.63,-4.43 4.57,-7.11 0.14,0.47 0.29,0.93 0.46,1.39 z m -29.08,3.75 c -2.96,-3.11 -4.53,-7.19 -4.42,-11.49 0.03,-1.15 0.19,-2.27 0.45,-3.37 2.74,-1.17 5.76,-1.83 8.93,-1.83 9.21,0 17.15,5.51 20.73,13.4 -0.79,1.42 -1.77,2.74 -2.96,3.87 -6.43,6.11 -16.63,5.84 -22.73,-0.58 z m 4.96,-19.53 c 9.49,0 17.78,5.2 22.2,12.89 -0.06,0.11 -0.11,0.23 -0.15,0.35 -0.08,0.25 -0.19,0.49 -0.28,0.74 -4.17,-7.76 -12.36,-13.05 -21.77,-13.05 -2.87,0 -5.61,0.52 -8.17,1.42 0.17,-0.4 0.35,-0.8 0.55,-1.19 2.41,-0.75 4.97,-1.16 7.62,-1.16 z m -6.34,-5.27 c 3.54,-3.36 8.16,-5.2 13.02,-5.2 h 0.51 c 5.06,0.14 9.76,2.23 13.24,5.89 0.18,0.19 0.17,0.48 -0.02,0.66 -0.11,0.1 -0.23,0.13 -0.32,0.13 -0.09,0 -0.22,-0.03 -0.34,-0.15 -3.31,-3.49 -7.78,-5.47 -12.59,-5.6 -0.18,0 -0.38,0 -0.57,0 -4.56,0 -8.93,1.76 -12.29,4.95 -3.48,3.31 -5.47,7.78 -5.6,12.59 -0.12,4.81 1.63,9.37 4.94,12.86 0.92,0.97 1.95,1.81 3.05,2.55 -0.52,-0.01 -1.04,0 -1.57,0.01 -0.76,-0.59 -1.49,-1.21 -2.16,-1.92 -3.48,-3.66 -5.33,-8.47 -5.2,-13.52 0.13,-5.05 2.22,-9.76 5.89,-13.24 z m -2.08,28.09 c 0.27,0.28 0.56,0.53 0.84,0.8 -5.28,0.61 -10.41,2.55 -14.85,5.81 -0.21,-1.24 -0.34,-2.5 -0.34,-3.79 0,-7.22 3.38,-13.65 8.63,-17.82 0,0.04 0,0.08 0,0.12 -0.14,5.57 1.89,10.86 5.73,14.9 z m -5.25,-18.83 c -0.09,0.4 -0.15,0.82 -0.21,1.23 -6.52,4.45 -10.81,11.93 -10.81,20.41 0,1.77 0.2,3.49 0.55,5.16 -0.25,0.21 -0.51,0.4 -0.75,0.62 -0.01,0.01 -0.02,0.03 -0.04,0.04 -0.44,-1.87 -0.69,-3.81 -0.69,-5.82 0,-9.1 4.78,-17.09 11.95,-21.63 z m -9.96,31.53 c 0.33,0.05 0.67,0.03 0.99,-0.07 2.9,6.66 8.66,11.8 15.72,13.86 -0.54,0.14 -1.07,0.28 -1.59,0.45 -6.82,-2.41 -12.33,-7.61 -15.12,-14.24 z m 23.63,14.8 c 6,0 11.84,2.12 16.44,5.97 0.12,0.1 0.16,0.23 0.16,0.31 0,0.09 0,0.22 -0.11,0.34 -0.12,0.14 -0.28,0.17 -0.36,0.17 -0.08,0 -0.19,-0.02 -0.3,-0.11 -4.42,-3.71 -10.05,-5.75 -15.84,-5.75 -12.13,0 -22.23,8.8 -24.29,20.35 -0.27,-0.32 -0.52,-0.64 -0.77,-0.97 2.46,-11.58 12.76,-20.31 25.06,-20.31 z m -25.56,26.89 c 0.31,0.3 0.64,0.59 0.97,0.88 1.09,12.62 11.69,22.55 24.59,22.55 12.9,0 23.01,-9.49 24.5,-21.7 0.24,0.07 0.48,0.1 0.74,0.09 0.07,0 0.13,-0.02 0.19,-0.03 -1.52,12.69 -12.33,22.57 -25.43,22.57 -13.1,0 -24.89,-10.82 -25.56,-24.36 z m 32.26,42.44 c -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-0.04 0,-0.09 0,-0.14 0.31,0.16 0.62,0.31 0.94,0.46 0.17,9.78 8.17,17.68 17.99,17.68 7.83,0 14.49,-5.04 16.96,-12.03 0.14,0.47 0.31,0.92 0.48,1.38 -2.87,6.8 -9.61,11.58 -17.44,11.58 z m 55.86,-18.93 c 0,10.44 -8.49,18.93 -18.93,18.93 -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-9.02 6.35,-16.58 14.81,-18.46 0.46,0.24 0.94,0.47 1.42,0.69 -8.64,1.31 -15.29,8.77 -15.29,17.78 0,9.93 8.08,18 18,18 9.92,0 17.78,-7.88 17.98,-17.63 0.32,-0.14 0.63,-0.3 0.94,-0.46 0,0.03 0,0.06 0,0.09 z m -0.73,-5.13 c -0.28,0.16 -0.55,0.33 -0.84,0.48 -1.14,-4.27 -3.81,-7.93 -7.39,-10.33 0.08,0 0.16,0 0.25,0 0.43,0 0.86,-0.02 1.28,-0.03 3.19,2.46 5.58,5.9 6.7,9.87 z m -27.58,2 c 0,0 3.42,5.91 16.11,5.91 3.19,0 6.33,-0.57 9.29,-1.63 -0.6,8.33 -7.55,14.93 -16.03,14.93 -8.48,0 -16.08,-7.21 -16.08,-16.08 0,-8.87 7.21,-16.08 16.08,-16.08 7.55,0 13.89,5.24 15.61,12.27 -3.63,1.55 -7.65,2.15 -11.68,1.64 l 0.4,-3.38 z m 34.84,-8.75 c -1.55,2.25 -3.43,4.15 -5.56,5.66 -1.09,-3.49 -3.09,-6.58 -5.71,-9.01 5.6,-0.71 10.73,-2.91 15.01,-6.18 -0.5,3.38 -1.75,6.63 -3.74,9.53 z m -15.24,-5.01 c -10.78,0 -20.22,-5.85 -25.32,-14.54 0.12,-0.4 0.26,-0.79 0.4,-1.17 4.83,8.8 14.19,14.79 24.92,14.79 7.41,0 14.15,-2.88 19.22,-7.54 0,0.42 0.02,0.84 0,1.26 -5.15,4.48 -11.88,7.21 -19.23,7.21 z m 12.07,-30.59 c -1.41,-0.97 -2.9,-1.79 -4.43,-2.47 5.71,-2.54 10.39,-6.97 13.26,-12.49 3.49,4.49 5.59,10.1 5.59,16.21 0,4.9 -1.36,9.48 -3.69,13.42 -1.8,-5.95 -5.53,-11.09 -10.73,-14.67 z m 11.6,18.56 c -0.04,-0.29 -0.06,-0.58 -0.12,-0.87 -0.03,-0.15 -0.07,-0.28 -0.1,-0.43 3.12,-4.56 4.96,-10.07 4.96,-16.01 0,-15.67 -12.75,-28.41 -28.41,-28.41 -13.16,0 -24.23,9.01 -27.44,21.17 -0.14,-0.59 -0.3,-1.19 -0.48,-1.77 3.81,-11.78 14.88,-20.33 27.92,-20.33 16.18,0 29.34,13.16 29.34,29.34 0,6.47 -2.11,12.45 -5.67,17.31 z"
          id="path1206-9-8-4-2-8-1"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+    </g>
+    <path
+       id="rect1172-7-1-3-7-7"
+       style="display:inline;overflow:visible;fill:#f2f2f2;stroke-width:7.07334;stroke-linecap:round;marker:none;enable-background:accumulate"
+       d="m -1119.0182,-520.5428 h 367.6929 c 2.024,0 3.6535,3.8917 3.6535,8.7261 v 649.5478 c 0,4.8344 -1.6295,8.7261 -3.6535,8.7261 h -367.6929 c -2.024,0 -3.6536,-3.8917 -3.6536,-8.7261 v -649.5478 c 0,-4.8344 1.6296,-8.7261 3.6536,-8.7261 z"
+       inkscape:export-filename="redesign\iphone_back.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="i3.png"
+       y="-520.26178"
+       x="-1123.1562"
+       height="67.086967"
+       width="375.50772"
+       id="rect1218-6-3-6-8-8"
+       style="display:inline;fill:#322a7e;fill-opacity:1;stroke-width:0.561152;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+       ry="8.4525604" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.0239px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei Bold';display:inline;fill:#f2cdae;fill-opacity:1;stroke:#322a7e;stroke-width:0.798374;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       x="-1065.3826"
+       y="-477.16705"
+       id="text11-0-5-1-8-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan11-1-9-6-2-3-4"
+         style="font-size:35.0239px;stroke-width:0.798374"
+         x="-1065.3826"
+         y="-477.16705">Digit Span Task</tspan></text>
+    <g
+       id="g1206-3-3-8-0-8-3-1"
+       transform="matrix(0.37429609,0,0,0.37429609,-1136.3812,-124.6266)"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+      <g
+         id="g1186-9-8-4-8-9-3-9"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 210.76,640.22 -1.75,-5.17 h -10.73 l -1.75,5.17 h -4.95 l 9.47,-26.98 h 5.37 l 9.47,26.98 h -5.14 z m -7.11,-20.97 -3.84,11.38 h 7.69 l -3.84,-11.38 z"
+           id="path1170-4-8-9-4-1-6-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 232.83,637.52 c -1.37,1.71 -3.77,3.12 -6.77,3.12 -3,0 -5.52,-1.45 -6.89,-3.12 -1.48,-1.87 -2.17,-4.34 -2.17,-7.23 0,-2.89 0.69,-5.37 2.17,-7.23 1.37,-1.67 3.88,-3.12 6.89,-3.12 3.01,0 5.4,1.41 6.77,3.12 0.91,1.18 1.45,2.74 1.52,4.3 h -4.68 c -0.04,-0.72 -0.27,-1.33 -0.57,-1.83 -0.57,-0.87 -1.6,-1.48 -3.04,-1.48 -1.29,0 -2.25,0.53 -2.89,1.22 -1.14,1.26 -1.33,3.16 -1.33,5.02 0,1.86 0.19,3.73 1.33,4.98 0.65,0.69 1.6,1.26 2.89,1.26 1.45,0 2.47,-0.61 3.04,-1.48 0.3,-0.49 0.53,-1.1 0.57,-1.83 h 4.68 c -0.08,1.56 -0.61,3.12 -1.52,4.3 z"
+           id="path1171-3-3-5-9-4-1-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 248.17,624.66 c -3.35,0 -5.1,2.4 -5.1,5.59 v 9.97 h -4.79 v -19.79 h 4.03 l 0.42,2.97 c 0.91,-2.28 3.27,-3.23 5.59,-3.23 0.49,0 0.99,0.04 1.48,0.11 v 4.57 c -0.53,-0.12 -1.1,-0.19 -1.64,-0.19 z"
+           id="path1172-2-4-3-8-3-4-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 267.12,637.63 c -1.37,1.67 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.92,-3.08 -1.48,-1.87 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.31 1.37,-1.68 3.92,-3.08 6.92,-3.08 3,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.31 0,3.35 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.68 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.25 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.98 0.65,0.69 1.71,1.25 3.01,1.25 1.3,0 2.36,-0.57 3.01,-1.25 1.14,-1.25 1.41,-3.12 1.41,-4.98 0,-1.86 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1173-3-3-9-9-9-0-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 283.56,640.22 h -5.4 l -8.94,-26.98 h 5.21 l 6.54,20.59 6.51,-20.59 h 4.95 z"
+           id="path1174-4-8-4-6-9-8-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 295.02,617.69 v -4.91 h 5.1 v 4.91 z m 0.15,22.53 V 620.43 H 300 v 19.79 z"
+           id="path1175-7-3-5-0-4-2-2"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 304.38,640.22 v -4.19 l 10.46,-11.68 h -10.39 v -3.92 h 15.98 v 4.3 l -10.35,11.57 h 10.43 v 3.92 z"
+           id="path1176-1-4-3-6-8-9-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 204.71,653.52 v 22.41 h -4.91 v -22.41 h -7.99 v -4.57 h 20.89 v 4.57 z"
+           id="path1177-8-1-3-74-2-7-6"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 228.88,667.52 h -13.24 c -0.04,1.52 0.5,2.97 1.45,3.88 0.69,0.65 1.64,1.22 2.93,1.22 1.37,0 2.21,-0.27 2.89,-0.95 0.42,-0.42 0.76,-0.95 0.95,-1.67 h 4.57 c -0.12,1.18 -0.91,2.74 -1.68,3.65 -1.67,1.98 -4.15,2.78 -6.66,2.78 -2.7,0 -4.68,-0.95 -6.24,-2.43 -1.98,-1.9 -3.04,-4.68 -3.04,-7.92 0,-3.24 0.95,-5.98 2.85,-7.92 1.48,-1.52 3.61,-2.51 6.32,-2.51 2.93,0 5.59,1.18 7.23,3.65 1.45,2.17 1.79,4.41 1.71,6.89 0,0 -0.04,0.91 -0.04,1.33 z m -5.94,-6.93 c -0.65,-0.68 -1.64,-1.14 -3.01,-1.14 -1.44,0 -2.62,0.61 -3.31,1.52 -0.68,0.88 -0.99,1.79 -1.03,3.08 h 8.56 c -0.04,-1.48 -0.46,-2.62 -1.22,-3.46 z"
+           id="path1178-3-1-4-9-9-8-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 247.52,673.23 c -1.37,1.71 -3.77,3.12 -6.77,3.12 -3,0 -5.52,-1.45 -6.89,-3.12 -1.49,-1.87 -2.17,-4.34 -2.17,-7.23 0,-2.89 0.68,-5.37 2.17,-7.23 1.37,-1.67 3.88,-3.12 6.89,-3.12 3.01,0 5.4,1.41 6.77,3.12 0.91,1.18 1.45,2.74 1.52,4.3 h -4.68 c -0.04,-0.72 -0.27,-1.33 -0.57,-1.83 -0.57,-0.88 -1.6,-1.48 -3.05,-1.48 -1.29,0 -2.25,0.53 -2.89,1.22 -1.14,1.25 -1.33,3.16 -1.33,5.02 0,1.86 0.19,3.73 1.33,4.98 0.65,0.69 1.6,1.26 2.89,1.26 1.45,0 2.47,-0.61 3.05,-1.49 0.3,-0.49 0.53,-1.1 0.57,-1.83 h 4.68 c -0.08,1.56 -0.61,3.12 -1.52,4.3 z"
+           id="path1179-7-8-58-3-6-6-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 264.88,675.93 v -12.22 c 0,-2.28 -0.76,-3.69 -3.27,-3.69 -2.85,0 -4.07,3.04 -4.07,5.48 v 10.43 h -4.75 v -27.47 h 4.75 v 9.78 c 1.14,-1.67 3.35,-2.59 5.4,-2.59 4.22,0 6.7,3 6.7,7.08 v 13.21 h -4.76 z"
+           id="path1180-8-4-7-6-2-6-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 287.06,675.93 v -12.14 c 0,-2.32 -0.76,-3.73 -3.27,-3.73 -1.67,0 -2.78,1.06 -3.43,2.51 -0.68,1.56 -0.65,3.62 -0.65,5.29 v 8.07 h -4.76 v -19.79 h 4 l 0.34,2.55 c 1.18,-2.09 3.54,-3.04 5.82,-3.04 4.22,0 6.7,2.97 6.7,7.08 v 13.21 h -4.76 z"
+           id="path1181-8-5-53-3-6-7-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 311.95,673.34 c -1.37,1.68 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.93,-3.08 -1.48,-1.86 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.3 1.37,-1.67 3.92,-3.08 6.93,-3.08 3.01,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.3 0,3.34 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.69 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.26 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.99 0.65,0.69 1.71,1.26 3.01,1.26 1.3,0 2.36,-0.57 3.01,-1.26 1.14,-1.25 1.41,-3.12 1.41,-4.99 0,-1.87 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1182-4-2-81-7-8-4-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 323.83,676.16 c -3.23,0 -5.4,-1.56 -5.4,-5.33 v -22.41 h 4.79 v 21.61 c 0,1.14 0.27,1.9 1.9,1.9 0.42,0 0.53,-0.04 0.8,-0.04 v 3.99 c -0.95,0.19 -1.14,0.27 -2.09,0.27 z"
+           id="path1183-4-2-6-4-54-9-2"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 344.34,673.34 c -1.37,1.68 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.92,-3.08 -1.48,-1.86 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.3 1.37,-1.67 3.92,-3.08 6.92,-3.08 3,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.3 0,3.34 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.69 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.26 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.99 0.65,0.69 1.71,1.26 3.01,1.26 1.3,0 2.36,-0.57 3.01,-1.26 1.14,-1.25 1.41,-3.12 1.41,-4.99 0,-1.87 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1184-2-0-0-0-4-7-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 358.8,685.18 c -2.4,0 -4.95,-0.19 -7,-1.64 -1.52,-1.06 -2.4,-2.47 -2.4,-4.34 0,-1.71 0.84,-3.27 2.36,-4.04 -1.26,-0.68 -1.98,-2.09 -1.98,-3.39 0,-1.67 0.76,-3.01 2.36,-4 -1.22,-1.22 -1.98,-2.85 -1.98,-4.87 0,-4.72 3.65,-7.27 8.1,-7.27 1.64,0 3.2,0.46 4.49,1.22 0.84,-1.71 2.36,-2.47 4.03,-2.47 0.3,0 0.99,0 1.29,0.08 v 3.69 c -0.11,0 -0.27,-0.04 -0.38,-0.04 -1.1,0 -2.09,0.31 -2.4,1.26 0.65,1.07 1.03,2.25 1.03,3.58 0,4.53 -3.81,7.19 -8.07,7.19 -1.1,0 -2.21,-0.19 -3.2,-0.53 -0.46,0.27 -0.99,0.76 -0.99,1.41 0,1.18 1.18,1.45 2.17,1.45 h 3.27 c 1.98,0 4.57,0.04 6.43,1.33 1.71,1.18 2.4,2.85 2.4,4.76 0,5.21 -5.14,6.62 -9.55,6.62 z m 0.34,-8.94 h -3.73 c -1.03,0.3 -1.79,1.18 -1.79,2.43 0,2.51 3.12,2.74 4.98,2.74 1.86,0 5.25,-0.11 5.25,-2.74 0,-2.43 -2.93,-2.43 -4.72,-2.43 z m -0.87,-17.01 c -2.17,0 -3.5,1.56 -3.5,3.69 0,2.13 1.33,3.65 3.5,3.65 2.17,0 3.5,-1.53 3.5,-3.65 0,-2.12 -1.33,-3.69 -3.5,-3.69 z"
+           id="path1185-6-6-5-0-7-4-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 380.64,679.32 c -0.99,2.59 -2.62,4.95 -6.09,4.95 -1.56,0 -2.63,-0.23 -3.65,-0.49 v -3.96 c 1.26,0.23 1.6,0.34 2.66,0.34 0.88,0 1.79,-0.3 2.28,-1.48 l 1.14,-2.78 -7.8,-19.75 h 5.21 l 5.17,14.31 4.95,-14.31 h 4.83 l -8.71,23.17 z"
+           id="path1186-5-3-2-5-00-1-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 211.11,708.62 c -0.56,0.66 -1.74,0.78 -2.2,0.75 h -5.78 v -9.21 h 4.45 c 0,0 0.09,0.01 0.17,0.01 0.67,0 2.89,-0.13 4.28,-1.76 l -2.19,-1.86 c -0.56,0.65 -1.74,0.78 -2.2,0.75 h -4.52 v -6.63 h -2.88 v 18.7 h -8.9 c 0,0 0,2.87 0,2.87 h 17.49 c 0,0 0.09,0.01 0.17,0.01 0.67,0 2.89,-0.13 4.28,-1.76 l -2.19,-1.87 z"
+         id="path1187-4-7-9-0-9-1-9"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <path
+         class="cls-15"
+         d="m 237.38,708.68 v -12.72 h -5.72 c 0.25,-0.45 0.52,-0.91 0.83,-1.66 h 2.37 c 0,0 0.09,0 0.17,0 0.66,0 2.82,-0.13 4.18,-1.72 l -1.99,-1.69 c -0.59,0.7 -1.83,0.8 -2.3,0.8 h -17.88 c 0,0 0,2.6 0,2.6 h 2.37 v 15.29 c 0,0.47 -0.17,0.56 -0.83,0.56 -0.61,0 -2.07,0.04 -2.07,0.04 0.37,0.85 0.38,1.33 0.5,2.38 q 1.52,0.07 1.88,0.07 c 2.47,0 3.15,-0.56 3.15,-2.59 v -15.75 h 7.75 c -0.19,0.46 -0.55,1.15 -0.81,1.67 h -4.22 v 12.72 h 2.9 c -1.34,1.19 -3.12,2.08 -5.2,2.54 0.76,0.76 1.2,1.37 1.64,2.22 2.42,-0.86 3.84,-1.69 5.99,-3.42 l -1.68,-1.34 h 4.94 l -1.42,1.34 c 1.91,1.56 3.35,2.42 5.62,3.35 0.49,-0.95 0.88,-1.51 1.61,-2.27 -2.2,-0.67 -3.31,-1.2 -5,-2.42 z m -10.46,-7.04 h 8.3 V 703 h -8.3 z m 8.3,-3.52 v 1.36 h -8.3 v -1.36 z m -8.3,7.04 h 8.3 v 1.36 h -8.3 z"
+         id="path1188-5-1-66-3-7-7-0"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <g
+         id="g1190-5-3-3-6-4-6-3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 250.41,700.9 h 2.41 v -1.68 h -1.03 c 0.27,-0.41 0.51,-0.68 0.93,-1 -0.91,-0.32 -1.86,-0.83 -2.42,-1.32 h 2.35 v -1.32 h -2.79 c 0.05,-0.22 0.07,-0.36 0.12,-0.78 h 2.25 v -1.36 h -4.38 c 0.15,-0.33 0.2,-0.45 0.29,-0.65 h 4.67 v -1.7 c 0,0 -2.01,0.01 -2.32,0.01 h -7.89 c 0,0 -0.01,9.8 -0.01,9.8 h 7.81 c 0,0 0,0 0,0 z m -3.33,-6.11 h 1.2 c -0.05,0.46 -0.07,0.56 -0.1,0.78 h -1.83 c 0.36,-0.32 0.49,-0.46 0.73,-0.78 z m -2.32,4.42 v -6.43 h 1.81 c -0.34,0.81 -0.83,1.44 -1.49,1.96 0.71,0.41 0.81,0.49 1.12,0.83 h -0.9 v 1.31 h 2.22 c -0.59,0.66 -1.22,1 -2.44,1.33 0.42,0.32 0.61,0.54 0.95,1 z m 4.28,-1.75 c 0.49,0.63 1.3,1.34 2.08,1.76 h -4.23 c 1,-0.51 1.59,-1 2.15,-1.76 z"
+           id="path1189-3-6-36-4-5-2-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 259.87,704.35 h -3.99 v -0.61 h 4.56 c 0,0 0.06,0 0.13,0 0.55,0 2.71,-0.1 4.01,-1.62 l -1.23,-1.05 c 0.27,-0.64 0.42,-0.89 0.87,-1.54 -1.83,-0.12 -2.86,-0.27 -4.11,-0.63 1,-0.71 2.84,-2.49 2.84,-2.49 l -1.03,-1.03 h -1.17 c -0.12,0 -0.26,0 -0.41,0 h -5.89 c 0.49,-0.2 0.85,-0.47 1.22,-0.78 0.54,-0.54 0.76,-0.95 0.86,-1.81 h 2.2 v 1.05 c 0,1 0.29,1.15 2.1,1.15 1.81,0 2.27,-0.08 2.69,-0.39 0.39,-0.32 0.61,-0.92 0.71,-2.08 -0.66,-0.12 -1.25,-0.31 -1.78,-0.61 -0.08,1.46 -0.12,1.54 -0.98,1.54 -0.66,0 -0.71,-0.02 -0.71,-0.37 v -0.9 c 0,-0.16 0,-0.3 0,-0.42 v -0.71 h -6 c 0,0 0.04,1.21 -0.51,2.01 -0.34,0.39 -0.76,0.61 -1.52,0.83 0.51,0.49 0.68,0.73 1.1,1.47 h -0.66 v 1.59 h 1.1 c 0.81,1.03 1.12,1.34 1.91,1.93 -1.03,0.34 -1.91,0.54 -3.11,0.68 0.46,0.71 0.71,1.18 0.93,1.81 1.54,-0.29 2.79,-0.71 4.11,-1.32 1.24,0.56 2.42,0.91 4.16,1.23 -0.66,0.31 -1.44,0.37 -1.78,0.37 h -17.88 c 0,0 0,2.08 0,2.08 h 7.13 c -0.01,0.26 -0.02,0.31 -0.06,0.62 h -5.82 v 9.02 h 2.52 v -0.85 h 13.08 v 0.88 h 2.61 v -9.04 h -2.18 z m -1.84,-6.28 c -0.61,-0.29 -1.05,-0.63 -1.56,-1.15 h 3.4 c -0.59,0.44 -1.12,0.78 -1.83,1.15 z m -0.49,7.79 c -0.05,0.66 -0.12,0.74 -0.83,0.74 -0.71,0 -0.83,-0.08 -0.83,-0.49 v -0.25 z m -3.94,-2.12 v 0.61 h -1.61 c 0.02,-0.17 0.02,-0.25 0.04,-0.61 z m -7.23,2.12 h 2.81 c -0.49,0.68 -1.34,1.08 -2.59,1.22 0.76,0.49 1.15,0.85 1.64,1.44 h -1.86 z m 13.08,4.91 h -13.08 v -0.71 h 13.08 z m 0,-2.24 h -10.9 c 1.71,-0.56 2.71,-1.42 3.13,-2.66 h 1.93 v 0.95 c 0,0.93 0.56,1.17 2.66,1.17 2.45,0 2.81,-0.17 3.05,-1.46 -0.71,-0.15 -1.2,-0.34 -1.76,-0.66 h 1.88 v 2.66 z"
+           id="path1190-8-7-2-4-2-8-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <g
+         id="g1193-2-3-0-8-3-9-1"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 274.65,693.84 c 0.49,0.44 0.81,0.83 1.22,1.52 1.3,-0.52 1.79,-0.76 2.76,-1.3 0.51,0.34 0.81,0.59 1.32,1.03 -0.59,0.56 -0.83,0.76 -1.34,1.1 -0.83,-0.49 -1.07,-0.61 -1.98,-1.05 l -1.27,1.17 c 0.83,0.39 1.1,0.51 1.61,0.83 -0.85,0.39 -1.29,0.54 -2.49,0.88 0.63,0.57 0.86,0.86 1.25,1.54 1.34,-0.51 1.88,-0.75 2.91,-1.34 0.64,0.44 0.9,0.66 1.69,1.32 l 1.42,-1.32 c -0.76,-0.51 -1,-0.71 -1.49,-1 0.42,-0.29 0.66,-0.49 1.42,-1.1 l -1.2,-0.93 1.17,-1.17 c -0.73,-0.54 -0.98,-0.71 -1.39,-0.98 0.51,-0.37 0.78,-0.56 1.54,-1.17 l -1.54,-1.2 c -0.69,0.71 -0.95,0.93 -1.61,1.37 -0.88,-0.54 -1.17,-0.69 -2.22,-1.17 l -1.15,1.22 c 0.88,0.44 1.17,0.59 1.69,0.9 -0.76,0.37 -1.17,0.51 -2.3,0.85 z"
+           id="path1191-5-4-8-9-1-8-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 270.1,701.69 h 16.55 v 2.42 h 2.43 v -4.52 h -1.6 l 0.47,-8.17 h -5.68 v 2.01 h 3.2 c 0,0 -0.05,0.85 -0.05,0.85 h -3.13 v 1.81 h 3.03 c 0,0 -0.05,0.85 -0.05,0.85 h -2.98 v 1.75 h 2.86 c 0,0 -0.05,0.88 -0.05,0.88 h -13.44 l -0.05,-0.88 h 2.79 v -1.76 h -0.95 c -0.13,0 -0.26,0 -0.42,0 h -1.49 l -0.05,-0.81 h 2.91 v -1.81 h -3 c 0,0 -0.02,-0.71 -0.02,-0.71 1.37,-0.27 2.03,-0.46 3.18,-0.88 0.14,-0.05 0.17,-0.05 0.27,-0.07 l -1.15,-1.98 c -1.03,0.63 -2.35,1.03 -4.77,1.37 0.07,0.54 0.12,0.98 0.14,1.59 l 0.29,5.94 c -0.06,0 -1.7,0 -1.7,0 v 4.52 h 2.46 v -2.42 z"
+           id="path1192-6-6-7-6-7-1-6"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 287.92,706.01 c -0.66,0.78 -2.01,0.9 -2.5,0.89 h -5.63 v -0.02 l 1.12,-0.4 c 0.96,-0.41 1.96,-0.95 2.73,-1.48 l 1.64,-1.03 -1.21,-1.31 c 0,0 -1.08,0 -1.91,0 h -10.63 c 0,0 0,2.08 0,2.08 h 8.97 c -0.93,0.51 -1.52,0.75 -2.52,1.07 h -0.77 c 0,0 0,1.08 0,1.08 h -9.24 c 0,0 0,2.08 0,2.08 h 9.25 c 0,0 0,1.31 0,1.31 0,0.56 -0.17,0.66 -1.22,0.66 -0.54,0 -2.18,-0.06 -2.18,-0.06 l 0.44,2.33 c 0.83,0.02 1.17,0.02 1.54,0.02 1.61,0 2.44,-0.1 3.01,-0.39 0.64,-0.32 0.95,-0.95 0.95,-1.98 v -1.81 h 0.04 v -0.07 h 5.58 c 0,0 0.06,0 0.13,0 0.55,0 2.71,-0.1 4.01,-1.63 l -1.59,-1.36 z"
+           id="path1193-8-9-9-2-3-2-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <g
+         id="g1199-5-6-04-7-0-6-0"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 303.1,701.76 c 0.55,0 2.71,-0.1 4.01,-1.63 l -1.59,-1.36 c -0.67,0.78 -2.01,0.9 -2.5,0.89 h -2.19 v -1.29 h 4.28 v -6.96 h -11.09 v 6.96 h 4.27 v 1.29 h -5.81 c 0,0 0,2.08 0,2.08 h 10.5 c 0,0 0.06,0.01 0.12,0.01 z m -6.72,-8.6 h 6.33 v 0.88 h -6.33 z m 0,3.39 v -0.88 h 6.33 v 0.88 z"
+           id="path1194-4-1-13-9-3-6-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 312.44,694.08 c 1.17,-1.05 1.78,-1.59 1.86,-1.63 l -2.27,-1.71 c -0.66,0.86 -0.93,1.15 -1.83,1.93 -1.47,1.3 -2.88,2.2 -4.84,3.05 0.71,0.81 1.07,1.37 1.59,2.32 2.39,-1.34 3.37,-2.05 5.5,-3.96 z"
+           id="path1195-9-2-87-83-7-6-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 310.85,699.12 c -1.78,1.62 -3.74,2.91 -5.67,3.74 0.61,0.74 1.07,1.42 1.51,2.37 2.86,-1.56 4.89,-3.1 7.21,-5.47 0.37,-0.37 0.66,-0.64 0.95,-0.88 l -2.17,-1.81 c -0.37,0.61 -0.83,1.15 -1.83,2.05 z"
+           id="path1196-0-2-81-6-4-8-2"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 295.08,707.53 c -0.68,1.56 -1.37,2.47 -2.73,3.64 0.78,0.61 1.25,1.03 1.81,1.69 1.49,-1.57 2.05,-2.37 3.03,-4.47 l -2.1,-0.85 z"
+           id="path1197-9-4-9-9-9-9-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 313.29,703.98 c -0.49,0.76 -1.12,1.52 -1.95,2.3 -2,1.88 -3.89,3.2 -6.06,4.2 -0.73,-1.25 -1.17,-1.9 -1.9,-2.96 l -1.88,0.83 c 0.95,1.46 1.54,2.54 2.12,4.01 l 1.59,-0.83 c 0.49,0.66 0.66,0.93 1.03,1.64 3.18,-1.62 5.16,-3.13 7.87,-5.96 q 0.49,-0.51 1.34,-1.32 l -2.15,-1.91 z"
+           id="path1198-8-6-6-6-3-0-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 304.65,702.65 h -10.38 v 4.51 h 4.08 v 3.3 c 0,0.39 -0.1,0.49 -0.51,0.49 -0.49,0 -1.51,0.03 -1.51,0.03 0.29,0.78 0.32,1.25 0.41,2.15 0.69,0.03 1,0.05 1.34,0.05 1.17,0 1.88,-0.12 2.2,-0.37 0.41,-0.29 0.61,-0.83 0.61,-1.64 v -4.01 h 3.75 v -4.51 z m -2.33,2.87 h -5.55 v -1.25 h 5.55 z"
+           id="path1199-5-0-7-6-65-3-7"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 339.15,708.29 c -0.83,-0.78 -1.42,-1.49 -2.01,-2.47 0.76,-0.42 2.05,-1.37 3.25,-2.4 l 0.32,-0.27 -2,-1.74 c -0.86,0.98 -1.39,1.44 -2.62,2.25 -0.34,-0.93 -0.44,-1.32 -0.68,-2.57 h 4.1 c 0,0 0,-5.55 0,-5.55 h -2.44 c 0,0 -2.2,0 -2.2,0 0.17,-0.19 0.22,-0.24 0.39,-0.44 0.22,-0.27 1.68,-1.96 1.85,-2.13 l -1.09,-1 h -5.28 q 0.37,-0.53 0.69,-1.05 l -2.86,-0.44 c -0.78,1.69 -1.59,2.74 -3.2,4.2 -0.83,0.76 -1.25,1.05 -2.66,2.01 q 0.76,-1.69 2.2,-5.6 l -2.83,-0.63 c -0.12,0.85 -0.37,1.76 -0.88,3.13 -0.95,2.52 -2.22,4.72 -3.74,6.47 0.46,0.96 0.68,1.57 1.08,2.93 0.66,-0.83 1.22,-1.68 1.71,-2.49 -0.07,1.81 -0.07,2.27 -0.07,3.13 l -0.04,9.6 h 2.58 v -16.37 l 1.37,1.81 c 0.46,-0.34 0.56,-0.42 0.93,-0.68 v 1.37 c 0,0.3 -0.01,1.73 -0.01,1.73 h 4.17 c -1.76,1.03 -3.57,1.66 -6.04,2.15 0.71,1.03 0.76,1.13 1.1,1.86 1.91,-0.51 3.47,-1.15 4.96,-1.93 0.32,0.31 0.47,0.46 0.81,0.88 -2.37,1.34 -4.1,2.03 -6.92,2.74 0.42,0.54 0.78,1.15 1.1,1.91 3.37,-1.27 4.5,-1.79 6.82,-3.18 0.27,0.46 0.34,0.64 0.54,1.05 -2.44,1.71 -5.13,2.96 -8.46,3.96 0.51,0.73 0.88,1.42 1.08,2.08 2.15,-0.83 2.44,-0.95 3.89,-1.71 0.41,0.93 0.59,1.44 0.73,2.32 0.83,0.02 1.34,0.02 1.64,0.02 1.47,0 2.37,-0.15 2.93,-0.49 0.73,-0.49 1.12,-1.54 1.12,-3.2 0,-2.64 -1.24,-5.33 -3.47,-7.5 0.42,-0.27 0.49,-0.34 1.29,-0.95 h 0.95 c 0.39,2.15 0.88,3.66 1.79,5.43 1.15,2.25 2.35,3.66 4.84,5.74 0.42,-0.93 0.73,-1.57 1.32,-2.52 -1.05,-0.63 -1.49,-0.95 -2.03,-1.46 z m -7.14,0.8 c 0,1.64 -0.24,1.96 -1.64,1.96 -0.71,0 -1.29,-0.05 -2.25,-0.2 1.96,-1.03 2.76,-1.52 3.86,-2.32 0.02,0.29 0.02,0.44 0.02,0.56 z m -1.19,-9.77 h -3.37 v -1.93 h 3.37 z m 1.12,-3.77 h -4.03 c 0.54,-0.54 0.88,-0.9 1.39,-1.54 h 3.89 c -0.37,0.54 -0.66,0.88 -1.25,1.54 z m 1.3,3.77 v -1.93 h 3.81 v 1.93 z"
+         id="path1200-0-2-5-8-9-0-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <g
+         id="g1204-0-4-7-0-1-6-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 367.12,704.36 -2.24,-1.34 c -0.29,0.48 -0.84,0.77 -1.33,0.95 l -0.02,-13.16 h -2.67 v 13.7 c 0,0 -6.99,1.17 -6.99,1.17 l 0.43,2.58 6.55,-1.1 v 6.19 c 0,0 2.72,0 2.72,0 v -6.64 c 0.81,-0.18 2.6,-0.73 3.56,-2.34 z"
+           id="path1201-7-6-4-4-9-5-7"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 353.33,700.22 c 1.81,1.2 2.71,1.98 4.64,4.01 l 1.54,-2.18 c -1.57,-1.52 -2.44,-2.25 -4.62,-3.79 z"
+           id="path1202-8-8-9-9-8-8-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 358.78,698.19 1.66,-2.2 c -1.35,-1.42 -2.35,-2.22 -4.72,-3.84 l -1.56,2 c 2,1.34 3.06,2.27 4.62,4.03 z"
+           id="path1203-7-1-27-0-4-8-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 350.27,699.49 h 3.03 v -2.37 h -1.9 c 0,0 -1.25,0 -1.25,0 v -3.01 c 1.22,-0.34 2.42,-0.73 3.08,-1 q 0.3,-0.15 0.39,-0.17 l -1.51,-2.25 c -1.47,0.95 -4.38,1.66 -8.33,2.08 0.51,0.91 0.68,1.34 0.93,2.35 1.44,-0.2 1.86,-0.25 2.86,-0.44 v 2.44 h -3.74 v 2.38 h 3.42 c -0.22,0.7 -0.68,1.83 -1.17,2.75 -0.85,1.66 -1.64,2.81 -2.76,3.96 0.74,0.95 0.91,1.27 1.44,2.54 1.39,-1.76 2.18,-3.25 2.96,-5.5 l -0.03,10.07 h 2.4 c 0,0 0,-10.37 -0.04,-10.97 0.61,1.34 1.1,2.05 2.3,3.35 0.39,-1.03 0.78,-1.71 1.32,-2.39 -1.66,-1.25 -2.69,-2.42 -3.37,-3.81 z"
+           id="path1204-6-0-6-3-8-3-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 385.59,707.62 c 1.64,-1.71 2.74,-3.25 3.81,-5.38 0.46,-0.93 0.56,-1.12 0.76,-1.44 l -1.2,-1.29 h -2.47 c 0,0 -1.69,0 -1.69,0 v -3.03 c 0,0 1.6,0 1.6,0 0.03,0 0.09,0 0.17,0 0.66,0 2.82,-0.13 4.18,-1.72 l -1.99,-1.7 c -0.59,0.7 -1.83,0.83 -2.3,0.8 h -1.67 v -3.1 h -2.63 v 3.1 h -7.46 c 0,0 0,-3.12 0,-3.12 h -2.61 v 3.12 h -2.7 c 0,0 0,2.61 0,2.61 h 2.7 v 5.76 c -1.76,0.52 -3.06,0.84 -3.06,0.84 l 0.54,2.6 2.52,-0.91 v 5.23 c 0,0.66 -0.15,0.76 -0.95,0.76 -0.54,0 -1.96,0 -1.96,0 0.36,0.9 0.49,1.38 0.57,2.35 0.76,0.05 1.15,0.07 1.74,0.07 2.59,0 3.22,-0.47 3.22,-2.42 v -6.94 q 0.78,-0.32 2.05,-0.81 v -2.42 c -1.03,0.39 -1.32,0.49 -2.05,0.76 v -4.87 h 7.45 v 3.04 h -4.79 v 2.44 c 0.44,-0.05 0.59,-0.05 0.98,-0.08 0.93,2.32 1.88,3.89 3.45,5.67 -2.08,1.51 -3.98,2.42 -6.62,3.15 0.59,0.78 1.05,1.64 1.37,2.52 2.54,-0.81 4.79,-2.03 7.09,-3.86 1.98,1.66 3.91,2.81 6.6,3.93 0.32,-0.93 0.73,-1.66 1.51,-2.66 -2.57,-0.81 -4.4,-1.69 -6.16,-3.01 z m -4.55,-5.76 h 5.72 c -0.88,1.74 -1.64,2.79 -3.06,4.11 -1.12,-1.15 -2.08,-2.62 -2.66,-4.11 z"
+         id="path1205-0-3-5-2-4-6-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <path
+         class="cls-15"
+         d="m 163.51,626.48 c 0.7,-2.43 1.1,-4.99 1.1,-7.64 0,-10.53 -5.95,-19.7 -14.66,-24.33 -1.12,-3.08 -2.96,-5.87 -5.43,-8.16 -4.09,-3.78 -9.38,-5.73 -14.98,-5.51 -11.49,0.46 -20.46,10.18 -20,21.66 0.01,0.35 0.06,0.68 0.09,1.03 -4.95,-7.37 -13.36,-12.24 -22.88,-12.24 -2.11,0 -4.16,0.26 -6.14,0.71 0.53,-0.7 1.11,-1.38 1.76,-2 3.11,-2.96 7.16,-4.55 11.49,-4.42 4.29,0.11 8.29,1.89 11.25,5 0.91,0.96 2.42,0.99 3.37,0.09 0.96,-0.91 0.99,-2.42 0.09,-3.37 -3.84,-4.04 -9.02,-6.34 -14.58,-6.48 -5.55,-0.15 -10.86,1.89 -14.89,5.72 -2.37,2.25 -4.12,4.97 -5.21,7.95 -8.71,4.63 -14.67,13.8 -14.67,24.33 0,11.21 6.75,20.87 16.38,25.16 -7.43,3.31 -13.12,9.81 -15.34,17.76 -2.81,-4.55 -4.2,-9.9 -3.89,-15.44 h 3.93 l -3.76,-13.11 c -4.38,4.11 -4.95,13.11 -4.95,13.11 -0.4,8.21 2.37,16.04 7.66,22.07 0,0.26 -0.04,0.51 -0.04,0.77 0,10.03 5.4,18.8 13.44,23.62 -0.02,0.38 -0.05,0.77 -0.05,1.16 0,11.5 9.35,20.85 20.85,20.85 8.02,0 14.98,-4.55 18.47,-11.2 3.49,6.65 10.45,11.2 18.46,11.2 11.5,0 20.85,-9.35 20.85,-20.85 0,-0.37 -0.04,-0.73 -0.06,-1.1 3.34,-1.99 6.28,-4.71 8.6,-8.07 3.47,-5.05 5.1,-10.97 4.79,-16.99 4.56,-5.43 7.31,-12.43 7.31,-20.06 0,-8.19 -3.17,-15.65 -8.35,-21.23 z m -0.82,-7.64 c 0,2.09 -0.28,4.11 -0.75,6.06 -0.25,-0.24 -0.51,-0.47 -0.78,-0.7 0.38,-1.73 0.6,-3.52 0.6,-5.36 0,-8.47 -4.29,-15.95 -10.8,-20.4 -0.07,-0.42 -0.15,-0.83 -0.23,-1.24 7.18,4.55 11.97,12.54 11.97,21.64 z m -16.25,-17.8 c 0.02,0.59 0,1.17 -0.04,1.76 l -3.47,0.79 4.62,11.7 c 3.42,-3.79 3.65,-12.88 3.65,-14.27 5.25,4.18 8.63,10.61 8.63,17.82 0,1.36 -0.14,2.68 -0.37,3.98 -5.25,-3.99 -11.79,-6.36 -18.87,-6.36 -2.18,0 -4.3,0.24 -6.35,0.67 v 0 c 0,0 -0.02,0 -0.02,0 -0.33,0.07 -0.66,0.14 -0.99,0.22 -2.14,0.43 -3.77,0.36 -3.77,0.36 h 0.04 c -5.64,-0.29 -10.55,-3.52 -13.18,-8.24 3.58,-7.9 11.52,-13.41 20.74,-13.41 3.17,0 6.2,0.66 8.94,1.83 0.24,1.02 0.39,2.07 0.43,3.13 z m -31.84,14.25 c 2.42,2.8 5.57,4.92 9.13,6.13 -2.83,1.82 -5.34,4.08 -7.45,6.68 -1.27,-2.83 -1.99,-5.96 -1.99,-9.26 0,-1.21 0.12,-2.39 0.3,-3.55 z m 30.64,-19.72 c -2.56,-0.9 -5.31,-1.42 -8.17,-1.42 -9.42,0 -17.62,5.3 -21.78,13.08 -0.14,-0.39 -0.26,-0.79 -0.38,-1.19 4.44,-7.65 12.7,-12.81 22.16,-12.81 2.65,0 5.22,0.41 7.63,1.16 0.2,0.39 0.38,0.78 0.54,1.19 z m -15.5,-9.96 c 4.3,-0.17 8.39,1.34 11.55,4.25 0.72,0.67 1.36,1.39 1.94,2.16 -1.98,-0.46 -4.04,-0.72 -6.16,-0.72 -9.4,0 -17.71,4.74 -22.68,11.95 -0.03,-0.31 -0.07,-0.62 -0.08,-0.93 -0.35,-8.86 6.57,-16.36 15.43,-16.71 z m -16.69,27.61 c -0.42,1.81 -0.67,3.68 -0.67,5.62 0,3.95 0.96,7.67 2.61,10.99 -0.21,0.29 -0.41,0.59 -0.6,0.89 -1.87,-3.55 -2.94,-7.59 -2.94,-11.88 0,-2.31 0.34,-4.55 0.91,-6.68 0.21,0.36 0.45,0.71 0.68,1.06 z m 19.87,33.54 c 5.98,-1.1 12.04,0.18 17.05,3.63 5.01,3.45 8.38,8.64 9.49,14.62 0.07,0.37 0.1,0.73 0.15,1.11 -4.82,4.98 -11.56,8.09 -19.01,8.09 -10.56,0 -19.67,-6.22 -23.92,-15.18 0.48,-0.95 1.01,-1.88 1.62,-2.77 3.45,-5.01 8.64,-8.38 14.62,-9.49 z m 11.09,-4.23 c 6.88,-2.02 12.5,-6.95 15.46,-13.37 0.23,0.24 0.45,0.49 0.67,0.74 -2.92,6.07 -8.14,10.8 -14.54,13.07 -0.53,-0.17 -1.06,-0.31 -1.6,-0.45 z m -6.94,-0.91 c -7.41,0 -13.99,-3.57 -18.15,-9.08 4.79,-6.83 12.72,-11.32 21.68,-11.32 6.66,0 12.74,2.49 17.4,6.57 -3.49,8.12 -11.56,13.82 -20.94,13.82 z m -6.94,0.91 c -0.53,0.14 -1.05,0.29 -1.57,0.46 -4.44,-1.57 -8.33,-4.3 -11.27,-7.86 0.16,-0.29 0.35,-0.57 0.52,-0.85 3.13,3.89 7.41,6.82 12.32,8.26 z m -4.22,1.47 c -4.46,1.97 -8.33,5.09 -11.23,9.15 -0.37,-1.76 -0.57,-3.58 -0.57,-5.44 0,-3.82 0.83,-7.44 2.29,-10.73 2.61,2.97 5.84,5.38 9.51,7.01 z m -16.31,25.08 c 0,12.56 -10.29,22.85 -22.85,22.85 -3.16,0 -6.17,-0.65 -8.91,-1.82 1.43,-5.79 6.01,-10.46 11.97,-11.84 7.04,-1.61 13.56,-5.66 18.17,-11.92 0.88,-1.19 1.65,-2.42 2.33,-3.69 -0.59,2.24 -0.71,6.36 -0.71,6.41 z m -5.18,-21.05 c -1.97,-1.65 -4.16,-2.99 -6.49,-4.02 3.46,-1.54 6.58,-3.79 9.17,-6.63 3.57,8.35 2.79,18.32 -2.96,26.15 -3.79,5.15 -9.09,8.53 -14.85,9.98 -0.01,0 -0.03,0 -0.04,0 -0.04,0 -0.07,0.02 -0.1,0.02 -7.37,1.81 -15.46,0.48 -22.04,-4.36 -1.07,-0.79 -2.05,-1.64 -2.98,-2.56 1.27,-11.36 10.93,-20.23 22.62,-20.23 5.34,0 10.53,1.88 14.61,5.3 1.01,0.84 2.51,0.71 3.36,-0.3 0.84,-1.01 0.71,-2.51 -0.3,-3.36 z m -17.67,-6.41 c -9.45,0 -17.58,-5.8 -21.02,-14.02 9.28,-7.84 22.91,-8.36 32.76,-1.11 2.48,1.82 4.52,4.01 6.16,6.42 -4.31,5.48 -10.88,8.7 -17.91,8.7 z m 18.99,-7 c 0.17,0.29 0.32,0.59 0.47,0.89 -2.95,3.44 -6.73,6.01 -10.93,7.49 -0.51,-0.17 -1.03,-0.34 -1.55,-0.47 4.67,-1.37 8.86,-4.11 12.01,-7.91 z m -26.63,44.22 c -2.54,2.42 -4.46,5.47 -5.53,8.86 -4.79,-3.41 -8.2,-8.63 -9.24,-14.65 4.5,3.29 9.59,5.18 14.77,5.79 z m 2.69,0.2 c 0.32,0 0.64,0.04 0.96,0.04 0.19,0 0.38,-0.01 0.58,-0.02 -3.53,2.41 -6.14,6.03 -7.27,10.2 -0.28,-0.15 -0.55,-0.32 -0.82,-0.48 1.1,-3.87 3.42,-7.28 6.55,-9.74 z m 32.43,-8.65 c 0.04,-1.11 0.15,-3.73 0.43,-5.25 2.43,3.6 5.58,6.66 9.25,8.99 -8.34,2.73 -14.39,10.57 -14.39,19.81 0,9.24 -7.21,16.08 -16.08,16.08 -8.87,0 -15.45,-6.62 -16.03,-14.98 2.92,1.06 6.05,1.66 9.33,1.66 14.77,0 26.83,-11.7 27.48,-26.32 z m -4.33,-38.11 c -0.21,-0.37 -0.43,-0.74 -0.66,-1.1 -2.03,-3.23 -4.67,-6.13 -7.92,-8.52 -0.54,-0.39 -1.09,-0.75 -1.65,-1.1 2.95,-0.92 5.74,-2.49 8.13,-4.76 0.5,-0.48 0.97,-0.98 1.42,-1.5 0.18,1.16 0.31,2.34 0.31,3.55 0,5.02 1.37,9.71 3.72,13.76 -0.59,1.06 -1.11,2.15 -1.57,3.28 -0.51,-1.23 -1.1,-2.44 -1.77,-3.61 z M 110.87,609 c -1.01,2.4 -2.49,4.59 -4.39,6.4 -2.57,2.44 -5.74,4.08 -9.15,4.79 -0.47,-0.25 -0.95,-0.48 -1.43,-0.7 3.72,-0.51 7.19,-2.14 9.94,-4.76 2.08,-1.97 3.63,-4.43 4.57,-7.11 0.14,0.47 0.29,0.93 0.46,1.39 z m -29.08,3.75 c -2.96,-3.11 -4.53,-7.19 -4.42,-11.49 0.03,-1.15 0.19,-2.27 0.45,-3.37 2.74,-1.17 5.76,-1.83 8.93,-1.83 9.21,0 17.15,5.51 20.73,13.4 -0.79,1.42 -1.77,2.74 -2.96,3.87 -6.43,6.11 -16.63,5.84 -22.73,-0.58 z m 4.96,-19.53 c 9.49,0 17.78,5.2 22.2,12.89 -0.06,0.11 -0.11,0.23 -0.15,0.35 -0.08,0.25 -0.19,0.49 -0.28,0.74 -4.17,-7.76 -12.36,-13.05 -21.77,-13.05 -2.87,0 -5.61,0.52 -8.17,1.42 0.17,-0.4 0.35,-0.8 0.55,-1.19 2.41,-0.75 4.97,-1.16 7.62,-1.16 z m -6.34,-5.27 c 3.54,-3.36 8.16,-5.2 13.02,-5.2 h 0.51 c 5.06,0.14 9.76,2.23 13.24,5.89 0.18,0.19 0.17,0.48 -0.02,0.66 -0.11,0.1 -0.23,0.13 -0.32,0.13 -0.09,0 -0.22,-0.03 -0.34,-0.15 -3.31,-3.49 -7.78,-5.47 -12.59,-5.6 -0.18,0 -0.38,0 -0.57,0 -4.56,0 -8.93,1.76 -12.29,4.95 -3.48,3.31 -5.47,7.78 -5.6,12.59 -0.12,4.81 1.63,9.37 4.94,12.86 0.92,0.97 1.95,1.81 3.05,2.55 -0.52,-0.01 -1.04,0 -1.57,0.01 -0.76,-0.59 -1.49,-1.21 -2.16,-1.92 -3.48,-3.66 -5.33,-8.47 -5.2,-13.52 0.13,-5.05 2.22,-9.76 5.89,-13.24 z m -2.08,28.09 c 0.27,0.28 0.56,0.53 0.84,0.8 -5.28,0.61 -10.41,2.55 -14.85,5.81 -0.21,-1.24 -0.34,-2.5 -0.34,-3.79 0,-7.22 3.38,-13.65 8.63,-17.82 0,0.04 0,0.08 0,0.12 -0.14,5.57 1.89,10.86 5.73,14.9 z m -5.25,-18.83 c -0.09,0.4 -0.15,0.82 -0.21,1.23 -6.52,4.45 -10.81,11.93 -10.81,20.41 0,1.77 0.2,3.49 0.55,5.16 -0.25,0.21 -0.51,0.4 -0.75,0.62 -0.01,0.01 -0.02,0.03 -0.04,0.04 -0.44,-1.87 -0.69,-3.81 -0.69,-5.82 0,-9.1 4.78,-17.09 11.95,-21.63 z m -9.96,31.53 c 0.33,0.05 0.67,0.03 0.99,-0.07 2.9,6.66 8.66,11.8 15.72,13.86 -0.54,0.14 -1.07,0.28 -1.59,0.45 -6.82,-2.41 -12.33,-7.61 -15.12,-14.24 z m 23.63,14.8 c 6,0 11.84,2.12 16.44,5.97 0.12,0.1 0.16,0.23 0.16,0.31 0,0.09 0,0.22 -0.11,0.34 -0.12,0.14 -0.28,0.17 -0.36,0.17 -0.08,0 -0.19,-0.02 -0.3,-0.11 -4.42,-3.71 -10.05,-5.75 -15.84,-5.75 -12.13,0 -22.23,8.8 -24.29,20.35 -0.27,-0.32 -0.52,-0.64 -0.77,-0.97 2.46,-11.58 12.76,-20.31 25.06,-20.31 z m -25.56,26.89 c 0.31,0.3 0.64,0.59 0.97,0.88 1.09,12.62 11.69,22.55 24.59,22.55 12.9,0 23.01,-9.49 24.5,-21.7 0.24,0.07 0.48,0.1 0.74,0.09 0.07,0 0.13,-0.02 0.19,-0.03 -1.52,12.69 -12.33,22.57 -25.43,22.57 -13.1,0 -24.89,-10.82 -25.56,-24.36 z m 32.26,42.44 c -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-0.04 0,-0.09 0,-0.14 0.31,0.16 0.62,0.31 0.94,0.46 0.17,9.78 8.17,17.68 17.99,17.68 7.83,0 14.49,-5.04 16.96,-12.03 0.14,0.47 0.31,0.92 0.48,1.38 -2.87,6.8 -9.61,11.58 -17.44,11.58 z m 55.86,-18.93 c 0,10.44 -8.49,18.93 -18.93,18.93 -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-9.02 6.35,-16.58 14.81,-18.46 0.46,0.24 0.94,0.47 1.42,0.69 -8.64,1.31 -15.29,8.77 -15.29,17.78 0,9.93 8.08,18 18,18 9.92,0 17.78,-7.88 17.98,-17.63 0.32,-0.14 0.63,-0.3 0.94,-0.46 0,0.03 0,0.06 0,0.09 z m -0.73,-5.13 c -0.28,0.16 -0.55,0.33 -0.84,0.48 -1.14,-4.27 -3.81,-7.93 -7.39,-10.33 0.08,0 0.16,0 0.25,0 0.43,0 0.86,-0.02 1.28,-0.03 3.19,2.46 5.58,5.9 6.7,9.87 z m -27.58,2 c 0,0 3.42,5.91 16.11,5.91 3.19,0 6.33,-0.57 9.29,-1.63 -0.6,8.33 -7.55,14.93 -16.03,14.93 -8.48,0 -16.08,-7.21 -16.08,-16.08 0,-8.87 7.21,-16.08 16.08,-16.08 7.55,0 13.89,5.24 15.61,12.27 -3.63,1.55 -7.65,2.15 -11.68,1.64 l 0.4,-3.38 z m 34.84,-8.75 c -1.55,2.25 -3.43,4.15 -5.56,5.66 -1.09,-3.49 -3.09,-6.58 -5.71,-9.01 5.6,-0.71 10.73,-2.91 15.01,-6.18 -0.5,3.38 -1.75,6.63 -3.74,9.53 z m -15.24,-5.01 c -10.78,0 -20.22,-5.85 -25.32,-14.54 0.12,-0.4 0.26,-0.79 0.4,-1.17 4.83,8.8 14.19,14.79 24.92,14.79 7.41,0 14.15,-2.88 19.22,-7.54 0,0.42 0.02,0.84 0,1.26 -5.15,4.48 -11.88,7.21 -19.23,7.21 z m 12.07,-30.59 c -1.41,-0.97 -2.9,-1.79 -4.43,-2.47 5.71,-2.54 10.39,-6.97 13.26,-12.49 3.49,4.49 5.59,10.1 5.59,16.21 0,4.9 -1.36,9.48 -3.69,13.42 -1.8,-5.95 -5.53,-11.09 -10.73,-14.67 z m 11.6,18.56 c -0.04,-0.29 -0.06,-0.58 -0.12,-0.87 -0.03,-0.15 -0.07,-0.28 -0.1,-0.43 3.12,-4.56 4.96,-10.07 4.96,-16.01 0,-15.67 -12.75,-28.41 -28.41,-28.41 -13.16,0 -24.23,9.01 -27.44,21.17 -0.14,-0.59 -0.3,-1.19 -0.48,-1.77 3.81,-11.78 14.88,-20.33 27.92,-20.33 16.18,0 29.34,13.16 29.34,29.34 0,6.47 -2.11,12.45 -5.67,17.31 z"
+         id="path1206-9-8-4-2-8-1-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g40"
+       transform="matrix(4.2587467,0,0,4.2587467,-100.89613,-339.38898)"
+       inkscape:export-filename="redesign\digit1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1462"
+         width="13.229167"
+         height="13.229167"
+         x="-115.05664"
+         y="-31.214773"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-112.28989"
+         y="-19.971014"
+         id="text1488"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1524"
+           x="-112.28989"
+           y="-19.971014"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">1</tspan></text>
+    </g>
+    <g
+       id="g41"
+       transform="matrix(4.2587467,0,0,4.2587467,-107.5157,-339.38898)"
+       inkscape:export-filename="redesign\digit2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1464"
+         width="13.229167"
+         height="13.229167"
+         x="-88.799995"
+         y="-31.214773"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-85.741783"
+         y="-19.716766"
+         id="text1492"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1527"
+           x="-85.741783"
+           y="-19.716766"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">2</tspan></text>
+    </g>
+    <g
+       id="g42"
+       transform="matrix(4.2587467,0,0,4.2587467,-113.58286,-339.38898)"
+       inkscape:export-filename="redesign\digit3.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1466"
+         width="13.229167"
+         height="13.229167"
+         x="-64.73455"
+         y="-31.214773"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-61.747654"
+         y="-19.797382"
+         id="text1496"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1530"
+           x="-61.747654"
+           y="-19.797382"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">3</tspan></text>
+    </g>
+    <g
+       id="g45"
+       transform="matrix(4.2587467,0,0,4.2587467,-100.89613,-344.2251)"
+       inkscape:export-filename="redesign\digit4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1468"
+         width="13.229167"
+         height="13.229167"
+         x="-115.05664"
+         y="-12.032246"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-111.92712"
+         y="-0.61485457"
+         id="text1500"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1533"
+           x="-111.92712"
+           y="-0.61485457"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">4</tspan></text>
+    </g>
+    <g
+       id="g44"
+       transform="matrix(4.2587467,0,0,4.2587467,-107.5157,-344.2251)"
+       inkscape:export-filename="redesign\digit5.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1470"
+         width="13.229167"
+         height="13.229167"
+         x="-88.799995"
+         y="-12.032246"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-85.952621"
+         y="-0.69546986"
+         id="text1504"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1502"
+           x="-85.952621"
+           y="-0.69546986"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">5</tspan></text>
+    </g>
+    <g
+       id="g43"
+       transform="matrix(4.2587467,0,0,4.2587467,-113.58286,-344.2251)"
+       inkscape:export-filename="redesign\digit6.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1472"
+         width="13.229167"
+         height="13.229167"
+         x="-64.73455"
+         y="-12.032246"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-61.896481"
+         y="-0.61485457"
+         id="text1508"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1506"
+           x="-61.896481"
+           y="-0.61485457"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">6</tspan></text>
+    </g>
+    <g
+       id="g46"
+       transform="matrix(4.2587467,0,0,4.2587467,-100.89613,-349.22132)"
+       inkscape:export-filename="redesign\digit7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1474"
+         width="13.229167"
+         height="13.229167"
+         x="-115.05664"
+         y="7.7853279"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-112.09145"
+         y="19.202719"
+         id="text1512"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1510"
+           x="-112.09145"
+           y="19.202719"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">7</tspan></text>
+    </g>
+    <g
+       id="g47"
+       transform="matrix(4.2587467,0,0,4.2587467,-107.5157,-349.17599)"
+       inkscape:export-filename="redesign\digit8.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1476"
+         width="13.229167"
+         height="13.229167"
+         x="-88.799995"
+         y="7.6054955"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-85.868912"
+         y="19.022886"
+         id="text1516"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1514"
+           x="-85.868912"
+           y="19.022886"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">8</tspan></text>
+    </g>
+    <g
+       id="g48"
+       transform="matrix(4.2587467,0,0,4.2587467,-113.58286,-349.17599)"
+       inkscape:export-filename="redesign\digit9.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:0.985221;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect1478"
+         width="13.229167"
+         height="13.229167"
+         x="-64.73455"
+         y="7.6054955"
+         rx="1.6250265"
+         ry="1.6250265"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+         x="-61.781757"
+         y="19.022886"
+         id="text1520"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan1518"
+           x="-61.781757"
+           y="19.022886"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.032">9</tspan></text>
+    </g>
+    <rect
+       style="fill:#f5cfb2;fill-opacity:0.996078;stroke-width:4.19579;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+       id="rect1482"
+       width="56.339672"
+       height="56.339672"
+       x="-485.69235"
+       y="-238.33527"
+       rx="6.920577"
+       ry="6.920577"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="redesign\digit0.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8842px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#322a7e;fill-opacity:0.996078;stroke-width:4.13486;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+       x="-471.97702"
+       y="-192.58998"
+       id="text1528"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1526"
+         x="-471.97702"
+         y="-192.58998"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8842px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:4.13486">0</tspan></text>
+    <g
+       id="g6"
+       transform="translate(279.46615,-113.27474)">
+      <rect
+         style="display:inline;fill:#f5cfb2;fill-opacity:0.996078;stroke:none;stroke-width:2.2124;stroke-linecap:round;stroke-opacity:1"
+         id="rect8745-3"
+         width="130.3284"
+         height="26.450001"
+         x="-967.40167"
+         y="-3.7717538"
+         inkscape:export-filename="redesign\clear.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         ry="5.4793873" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.1057px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';display:inline;fill:#332b7e;fill-opacity:1;stroke:none;stroke-width:0.602644"
+         x="-950.54303"
+         y="18.904806"
+         id="text10647-2"
+         inkscape:export-filename="startButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan10645-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#332b7e;fill-opacity:1;stroke-width:0.602644"
+           x="-950.54303"
+           y="18.904806">清除答案</tspan></text>
+    </g>
+    <g
+       id="g3"
+       transform="translate(-1276.073,-992.04544)"
+       inkscape:export-filename="continue_button.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g24"
+         transform="translate(83.829883,61.204054)">
+        <rect
+           style="display:inline;fill:#f2cdae;fill-opacity:0.996078;stroke-width:2.03841;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+           id="rect1046-9-0"
+           width="133.43445"
+           height="26.458332"
+           x="525.20667"
+           y="855.47473"
+           rx="6.5968447"
+           ry="6.6314759"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="continue_button.png" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5594px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;display:inline;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+           x="548.37885"
+           y="875.24481"
+           id="text1050-7-43"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="redesign\continue_button.png"
+           transform="scale(0.99738535,1.0026215)"><tspan
+             sodipodi:role="line"
+             id="tspan1048-7-3"
+             x="548.37885"
+             y="875.24481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317">送出答案</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3-0"
+       style="display:inline"
+       transform="translate(-1288.3863,-937.58533)"
+       inkscape:export-filename="redesign\end_experiment.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g24-9"
+         transform="translate(83.829883,61.204054)">
+        <rect
+           style="display:inline;fill:#f2cdae;fill-opacity:0.996078;stroke-width:2.03841;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+           id="rect1046-9-0-4"
+           width="133.43445"
+           height="26.458332"
+           x="525.20667"
+           y="855.47473"
+           rx="6.5968447"
+           ry="6.6314759"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="continue_button.png" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5594px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;display:inline;fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317;stroke-linecap:round;stroke-miterlimit:1.4;stroke-dashoffset:14.8219;paint-order:stroke markers fill;stop-color:#000000"
+           x="548.37885"
+           y="875.24481"
+           id="text1050-7-43-1"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="redesign\continue_button.png"
+           transform="scale(0.99738535,1.0026215)"><tspan
+             sodipodi:role="line"
+             id="tspan1048-7-3-4"
+             x="548.37885"
+             y="875.24481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#322a7e;fill-opacity:0.996078;stroke-width:1.83317">結束測驗</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g9"
+       transform="matrix(1.900021,0,0,1.900021,345.81728,-183.97283)"
+       inkscape:export-filename="startButtonImage.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-481.94"
+         y="177.09877"
+         id="text7354"
+         inkscape:export-filename="startButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan7352"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';stroke-width:0.264583"
+           x="-481.94"
+           y="177.09877">Start</tspan></text>
+      <rect
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke:#322a7e;stroke-width:1.17293;stroke-linecap:round;stroke-opacity:1"
+         id="rect8745"
+         width="57.218941"
+         height="16.933332"
+         x="-484.34952"
+         y="164.77965"
+         inkscape:export-filename="startButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         ry="3.5079126" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-476.45755"
+         y="177.09877"
+         id="text10647"
+         inkscape:export-filename="startButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan10645"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';stroke-width:0.264583"
+           x="-476.45755"
+           y="177.09877">開始測驗</tspan></text>
+    </g>
+    <g
+       id="g7"
+       transform="matrix(1.900021,0,0,1.900021,439.12877,-157.3124)"
+       inkscape:export-filename="backButtonImage.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path17006"
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke:#322a7e;stroke-width:0.705199;stroke-linecap:round;stroke-opacity:1"
+         d="m -573.64366,116.20388 h 41.08792 v 16.51975 h -41.08792 l -12.36982,-8.25987 z"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="backButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-566.07001"
+         y="128.40924"
+         id="text14641"
+         inkscape:export-filename="backButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan14639"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';stroke-width:0.264583"
+           x="-566.07001"
+           y="128.40924">上一頁</tspan></text>
+    </g>
+    <g
+       id="g8"
+       transform="matrix(1.900021,0,0,1.900021,416.05691,-224.86459)"
+       inkscape:export-filename="nextButtonImage.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path8508"
+         style="fill:#f5cfb2;fill-opacity:0.996078;stroke:#322a7e;stroke-width:0.705199;stroke-linecap:round;stroke-opacity:1"
+         d="m -430.30746,150.93044 h -41.08793 v 16.51975 h 41.08793 l 12.36982,-8.25987 z"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="nextButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-469.04111"
+         y="163.1358"
+         id="text15613"
+         inkscape:export-filename="nextButtonImage.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan15611"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei';stroke-width:0.264583"
+           x="-469.04111"
+           y="163.1358">下一頁</tspan></text>
+    </g>
+    <path
+       id="rect1172-7-1-3-7-7-1"
+       style="display:inline;overflow:visible;fill:#f2f2f2;stroke-width:11.835;stroke-linecap:round;marker:none;enable-background:accumulate"
+       d="m -2453.9659,-1065.492 h 615.2173 c 3.3866,0 6.113,6.5116 6.113,14.6004 V 35.920484 c 0,8.088834 -2.7264,14.600359 -6.113,14.600359 h -615.2173 c -3.3866,0 -6.1132,-6.511525 -6.1132,-14.600359 V -1050.8916 c 0,-8.0888 2.7266,-14.6004 6.1132,-14.6004 z"
+       inkscape:export-filename="redesign\iphone_back.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="i3.png"
+       y="-1065.0217"
+       x="-2460.8896"
+       height="112.24875"
+       width="628.29297"
+       id="rect1218-6-3-6-8-8-9"
+       style="display:inline;fill:#322a7e;fill-opacity:1;stroke-width:0.93891;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+       ry="14.142677" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:58.6014px;font-family:'Microsoft JhengHei';-inkscape-font-specification:'Microsoft JhengHei Bold';display:inline;fill:#f2cdae;fill-opacity:1;stroke:#322a7e;stroke-width:1.33583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       x="-2364.2236"
+       y="-992.91638"
+       id="text11-0-5-1-8-4-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan11-1-9-6-2-3-4-9"
+         style="font-size:58.6014px;stroke-width:1.33583"
+         x="-2364.2236"
+         y="-992.91638">Digit Span Task</tspan></text>
+    <g
+       id="g1206-3-3-8-0-8-3-1-0"
+       transform="matrix(0.62626571,0,0,0.62626571,-2483.0174,-403.05186)"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none"
+       inkscape:export-filename="redesign\largeiphone.png"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <g
+         id="g1186-9-8-4-8-9-3-9-3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 210.76,640.22 -1.75,-5.17 h -10.73 l -1.75,5.17 h -4.95 l 9.47,-26.98 h 5.37 l 9.47,26.98 h -5.14 z m -7.11,-20.97 -3.84,11.38 h 7.69 l -3.84,-11.38 z"
+           id="path1170-4-8-9-4-1-6-8-5"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 232.83,637.52 c -1.37,1.71 -3.77,3.12 -6.77,3.12 -3,0 -5.52,-1.45 -6.89,-3.12 -1.48,-1.87 -2.17,-4.34 -2.17,-7.23 0,-2.89 0.69,-5.37 2.17,-7.23 1.37,-1.67 3.88,-3.12 6.89,-3.12 3.01,0 5.4,1.41 6.77,3.12 0.91,1.18 1.45,2.74 1.52,4.3 h -4.68 c -0.04,-0.72 -0.27,-1.33 -0.57,-1.83 -0.57,-0.87 -1.6,-1.48 -3.04,-1.48 -1.29,0 -2.25,0.53 -2.89,1.22 -1.14,1.26 -1.33,3.16 -1.33,5.02 0,1.86 0.19,3.73 1.33,4.98 0.65,0.69 1.6,1.26 2.89,1.26 1.45,0 2.47,-0.61 3.04,-1.48 0.3,-0.49 0.53,-1.1 0.57,-1.83 h 4.68 c -0.08,1.56 -0.61,3.12 -1.52,4.3 z"
+           id="path1171-3-3-5-9-4-1-9-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 248.17,624.66 c -3.35,0 -5.1,2.4 -5.1,5.59 v 9.97 h -4.79 v -19.79 h 4.03 l 0.42,2.97 c 0.91,-2.28 3.27,-3.23 5.59,-3.23 0.49,0 0.99,0.04 1.48,0.11 v 4.57 c -0.53,-0.12 -1.1,-0.19 -1.64,-0.19 z"
+           id="path1172-2-4-3-8-3-4-9-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 267.12,637.63 c -1.37,1.67 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.92,-3.08 -1.48,-1.87 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.31 1.37,-1.68 3.92,-3.08 6.92,-3.08 3,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.31 0,3.35 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.68 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.25 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.98 0.65,0.69 1.71,1.25 3.01,1.25 1.3,0 2.36,-0.57 3.01,-1.25 1.14,-1.25 1.41,-3.12 1.41,-4.98 0,-1.86 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1173-3-3-9-9-9-0-3-4"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 283.56,640.22 h -5.4 l -8.94,-26.98 h 5.21 l 6.54,20.59 6.51,-20.59 h 4.95 z"
+           id="path1174-4-8-4-6-9-8-3-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 295.02,617.69 v -4.91 h 5.1 v 4.91 z m 0.15,22.53 V 620.43 H 300 v 19.79 z"
+           id="path1175-7-3-5-0-4-2-2-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 304.38,640.22 v -4.19 l 10.46,-11.68 h -10.39 v -3.92 h 15.98 v 4.3 l -10.35,11.57 h 10.43 v 3.92 z"
+           id="path1176-1-4-3-6-8-9-4-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 204.71,653.52 v 22.41 h -4.91 v -22.41 h -7.99 v -4.57 h 20.89 v 4.57 z"
+           id="path1177-8-1-3-74-2-7-6-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 228.88,667.52 h -13.24 c -0.04,1.52 0.5,2.97 1.45,3.88 0.69,0.65 1.64,1.22 2.93,1.22 1.37,0 2.21,-0.27 2.89,-0.95 0.42,-0.42 0.76,-0.95 0.95,-1.67 h 4.57 c -0.12,1.18 -0.91,2.74 -1.68,3.65 -1.67,1.98 -4.15,2.78 -6.66,2.78 -2.7,0 -4.68,-0.95 -6.24,-2.43 -1.98,-1.9 -3.04,-4.68 -3.04,-7.92 0,-3.24 0.95,-5.98 2.85,-7.92 1.48,-1.52 3.61,-2.51 6.32,-2.51 2.93,0 5.59,1.18 7.23,3.65 1.45,2.17 1.79,4.41 1.71,6.89 0,0 -0.04,0.91 -0.04,1.33 z m -5.94,-6.93 c -0.65,-0.68 -1.64,-1.14 -3.01,-1.14 -1.44,0 -2.62,0.61 -3.31,1.52 -0.68,0.88 -0.99,1.79 -1.03,3.08 h 8.56 c -0.04,-1.48 -0.46,-2.62 -1.22,-3.46 z"
+           id="path1178-3-1-4-9-9-8-9-2"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 247.52,673.23 c -1.37,1.71 -3.77,3.12 -6.77,3.12 -3,0 -5.52,-1.45 -6.89,-3.12 -1.49,-1.87 -2.17,-4.34 -2.17,-7.23 0,-2.89 0.68,-5.37 2.17,-7.23 1.37,-1.67 3.88,-3.12 6.89,-3.12 3.01,0 5.4,1.41 6.77,3.12 0.91,1.18 1.45,2.74 1.52,4.3 h -4.68 c -0.04,-0.72 -0.27,-1.33 -0.57,-1.83 -0.57,-0.88 -1.6,-1.48 -3.05,-1.48 -1.29,0 -2.25,0.53 -2.89,1.22 -1.14,1.25 -1.33,3.16 -1.33,5.02 0,1.86 0.19,3.73 1.33,4.98 0.65,0.69 1.6,1.26 2.89,1.26 1.45,0 2.47,-0.61 3.05,-1.49 0.3,-0.49 0.53,-1.1 0.57,-1.83 h 4.68 c -0.08,1.56 -0.61,3.12 -1.52,4.3 z"
+           id="path1179-7-8-58-3-6-6-4-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 264.88,675.93 v -12.22 c 0,-2.28 -0.76,-3.69 -3.27,-3.69 -2.85,0 -4.07,3.04 -4.07,5.48 v 10.43 h -4.75 v -27.47 h 4.75 v 9.78 c 1.14,-1.67 3.35,-2.59 5.4,-2.59 4.22,0 6.7,3 6.7,7.08 v 13.21 h -4.76 z"
+           id="path1180-8-4-7-6-2-6-4-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 287.06,675.93 v -12.14 c 0,-2.32 -0.76,-3.73 -3.27,-3.73 -1.67,0 -2.78,1.06 -3.43,2.51 -0.68,1.56 -0.65,3.62 -0.65,5.29 v 8.07 h -4.76 v -19.79 h 4 l 0.34,2.55 c 1.18,-2.09 3.54,-3.04 5.82,-3.04 4.22,0 6.7,2.97 6.7,7.08 v 13.21 h -4.76 z"
+           id="path1181-8-5-53-3-6-7-4-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 311.95,673.34 c -1.37,1.68 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.93,-3.08 -1.48,-1.86 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.3 1.37,-1.67 3.92,-3.08 6.93,-3.08 3.01,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.3 0,3.34 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.69 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.26 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.99 0.65,0.69 1.71,1.26 3.01,1.26 1.3,0 2.36,-0.57 3.01,-1.26 1.14,-1.25 1.41,-3.12 1.41,-4.99 0,-1.87 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1182-4-2-81-7-8-4-9-5"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 323.83,676.16 c -3.23,0 -5.4,-1.56 -5.4,-5.33 v -22.41 h 4.79 v 21.61 c 0,1.14 0.27,1.9 1.9,1.9 0.42,0 0.53,-0.04 0.8,-0.04 v 3.99 c -0.95,0.19 -1.14,0.27 -2.09,0.27 z"
+           id="path1183-4-2-6-4-54-9-2-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 344.34,673.34 c -1.37,1.68 -3.92,3.08 -6.93,3.08 -3.01,0 -5.56,-1.41 -6.92,-3.08 -1.48,-1.86 -2.32,-3.96 -2.32,-7.31 0,-3.35 0.84,-5.44 2.32,-7.3 1.37,-1.67 3.92,-3.08 6.92,-3.08 3,0 5.56,1.41 6.93,3.08 1.48,1.86 2.32,3.96 2.32,7.3 0,3.34 -0.84,5.44 -2.32,7.31 z m -3.92,-12.29 c -0.65,-0.69 -1.71,-1.26 -3.01,-1.26 -1.3,0 -2.36,0.57 -3.01,1.26 -1.14,1.26 -1.41,3.12 -1.41,4.98 0,1.86 0.27,3.73 1.41,4.99 0.65,0.69 1.71,1.26 3.01,1.26 1.3,0 2.36,-0.57 3.01,-1.26 1.14,-1.25 1.41,-3.12 1.41,-4.99 0,-1.87 -0.27,-3.73 -1.41,-4.98 z"
+           id="path1184-2-0-0-0-4-7-0-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 358.8,685.18 c -2.4,0 -4.95,-0.19 -7,-1.64 -1.52,-1.06 -2.4,-2.47 -2.4,-4.34 0,-1.71 0.84,-3.27 2.36,-4.04 -1.26,-0.68 -1.98,-2.09 -1.98,-3.39 0,-1.67 0.76,-3.01 2.36,-4 -1.22,-1.22 -1.98,-2.85 -1.98,-4.87 0,-4.72 3.65,-7.27 8.1,-7.27 1.64,0 3.2,0.46 4.49,1.22 0.84,-1.71 2.36,-2.47 4.03,-2.47 0.3,0 0.99,0 1.29,0.08 v 3.69 c -0.11,0 -0.27,-0.04 -0.38,-0.04 -1.1,0 -2.09,0.31 -2.4,1.26 0.65,1.07 1.03,2.25 1.03,3.58 0,4.53 -3.81,7.19 -8.07,7.19 -1.1,0 -2.21,-0.19 -3.2,-0.53 -0.46,0.27 -0.99,0.76 -0.99,1.41 0,1.18 1.18,1.45 2.17,1.45 h 3.27 c 1.98,0 4.57,0.04 6.43,1.33 1.71,1.18 2.4,2.85 2.4,4.76 0,5.21 -5.14,6.62 -9.55,6.62 z m 0.34,-8.94 h -3.73 c -1.03,0.3 -1.79,1.18 -1.79,2.43 0,2.51 3.12,2.74 4.98,2.74 1.86,0 5.25,-0.11 5.25,-2.74 0,-2.43 -2.93,-2.43 -4.72,-2.43 z m -0.87,-17.01 c -2.17,0 -3.5,1.56 -3.5,3.69 0,2.13 1.33,3.65 3.5,3.65 2.17,0 3.5,-1.53 3.5,-3.65 0,-2.12 -1.33,-3.69 -3.5,-3.69 z"
+           id="path1185-6-6-5-0-7-4-0-0"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 380.64,679.32 c -0.99,2.59 -2.62,4.95 -6.09,4.95 -1.56,0 -2.63,-0.23 -3.65,-0.49 v -3.96 c 1.26,0.23 1.6,0.34 2.66,0.34 0.88,0 1.79,-0.3 2.28,-1.48 l 1.14,-2.78 -7.8,-19.75 h 5.21 l 5.17,14.31 4.95,-14.31 h 4.83 l -8.71,23.17 z"
+           id="path1186-5-3-2-5-00-1-9-5"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 211.11,708.62 c -0.56,0.66 -1.74,0.78 -2.2,0.75 h -5.78 v -9.21 h 4.45 c 0,0 0.09,0.01 0.17,0.01 0.67,0 2.89,-0.13 4.28,-1.76 l -2.19,-1.86 c -0.56,0.65 -1.74,0.78 -2.2,0.75 h -4.52 v -6.63 h -2.88 v 18.7 h -8.9 c 0,0 0,2.87 0,2.87 h 17.49 c 0,0 0.09,0.01 0.17,0.01 0.67,0 2.89,-0.13 4.28,-1.76 l -2.19,-1.87 z"
+         id="path1187-4-7-9-0-9-1-9-8"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <path
+         class="cls-15"
+         d="m 237.38,708.68 v -12.72 h -5.72 c 0.25,-0.45 0.52,-0.91 0.83,-1.66 h 2.37 c 0,0 0.09,0 0.17,0 0.66,0 2.82,-0.13 4.18,-1.72 l -1.99,-1.69 c -0.59,0.7 -1.83,0.8 -2.3,0.8 h -17.88 c 0,0 0,2.6 0,2.6 h 2.37 v 15.29 c 0,0.47 -0.17,0.56 -0.83,0.56 -0.61,0 -2.07,0.04 -2.07,0.04 0.37,0.85 0.38,1.33 0.5,2.38 q 1.52,0.07 1.88,0.07 c 2.47,0 3.15,-0.56 3.15,-2.59 v -15.75 h 7.75 c -0.19,0.46 -0.55,1.15 -0.81,1.67 h -4.22 v 12.72 h 2.9 c -1.34,1.19 -3.12,2.08 -5.2,2.54 0.76,0.76 1.2,1.37 1.64,2.22 2.42,-0.86 3.84,-1.69 5.99,-3.42 l -1.68,-1.34 h 4.94 l -1.42,1.34 c 1.91,1.56 3.35,2.42 5.62,3.35 0.49,-0.95 0.88,-1.51 1.61,-2.27 -2.2,-0.67 -3.31,-1.2 -5,-2.42 z m -10.46,-7.04 h 8.3 V 703 h -8.3 z m 8.3,-3.52 v 1.36 h -8.3 v -1.36 z m -8.3,7.04 h 8.3 v 1.36 h -8.3 z"
+         id="path1188-5-1-66-3-7-7-0-4"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <g
+         id="g1190-5-3-3-6-4-6-3-9"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 250.41,700.9 h 2.41 v -1.68 h -1.03 c 0.27,-0.41 0.51,-0.68 0.93,-1 -0.91,-0.32 -1.86,-0.83 -2.42,-1.32 h 2.35 v -1.32 h -2.79 c 0.05,-0.22 0.07,-0.36 0.12,-0.78 h 2.25 v -1.36 h -4.38 c 0.15,-0.33 0.2,-0.45 0.29,-0.65 h 4.67 v -1.7 c 0,0 -2.01,0.01 -2.32,0.01 h -7.89 c 0,0 -0.01,9.8 -0.01,9.8 h 7.81 c 0,0 0,0 0,0 z m -3.33,-6.11 h 1.2 c -0.05,0.46 -0.07,0.56 -0.1,0.78 h -1.83 c 0.36,-0.32 0.49,-0.46 0.73,-0.78 z m -2.32,4.42 v -6.43 h 1.81 c -0.34,0.81 -0.83,1.44 -1.49,1.96 0.71,0.41 0.81,0.49 1.12,0.83 h -0.9 v 1.31 h 2.22 c -0.59,0.66 -1.22,1 -2.44,1.33 0.42,0.32 0.61,0.54 0.95,1 z m 4.28,-1.75 c 0.49,0.63 1.3,1.34 2.08,1.76 h -4.23 c 1,-0.51 1.59,-1 2.15,-1.76 z"
+           id="path1189-3-6-36-4-5-2-0-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 259.87,704.35 h -3.99 v -0.61 h 4.56 c 0,0 0.06,0 0.13,0 0.55,0 2.71,-0.1 4.01,-1.62 l -1.23,-1.05 c 0.27,-0.64 0.42,-0.89 0.87,-1.54 -1.83,-0.12 -2.86,-0.27 -4.11,-0.63 1,-0.71 2.84,-2.49 2.84,-2.49 l -1.03,-1.03 h -1.17 c -0.12,0 -0.26,0 -0.41,0 h -5.89 c 0.49,-0.2 0.85,-0.47 1.22,-0.78 0.54,-0.54 0.76,-0.95 0.86,-1.81 h 2.2 v 1.05 c 0,1 0.29,1.15 2.1,1.15 1.81,0 2.27,-0.08 2.69,-0.39 0.39,-0.32 0.61,-0.92 0.71,-2.08 -0.66,-0.12 -1.25,-0.31 -1.78,-0.61 -0.08,1.46 -0.12,1.54 -0.98,1.54 -0.66,0 -0.71,-0.02 -0.71,-0.37 v -0.9 c 0,-0.16 0,-0.3 0,-0.42 v -0.71 h -6 c 0,0 0.04,1.21 -0.51,2.01 -0.34,0.39 -0.76,0.61 -1.52,0.83 0.51,0.49 0.68,0.73 1.1,1.47 h -0.66 v 1.59 h 1.1 c 0.81,1.03 1.12,1.34 1.91,1.93 -1.03,0.34 -1.91,0.54 -3.11,0.68 0.46,0.71 0.71,1.18 0.93,1.81 1.54,-0.29 2.79,-0.71 4.11,-1.32 1.24,0.56 2.42,0.91 4.16,1.23 -0.66,0.31 -1.44,0.37 -1.78,0.37 h -17.88 c 0,0 0,2.08 0,2.08 h 7.13 c -0.01,0.26 -0.02,0.31 -0.06,0.62 h -5.82 v 9.02 h 2.52 v -0.85 h 13.08 v 0.88 h 2.61 v -9.04 h -2.18 z m -1.84,-6.28 c -0.61,-0.29 -1.05,-0.63 -1.56,-1.15 h 3.4 c -0.59,0.44 -1.12,0.78 -1.83,1.15 z m -0.49,7.79 c -0.05,0.66 -0.12,0.74 -0.83,0.74 -0.71,0 -0.83,-0.08 -0.83,-0.49 v -0.25 z m -3.94,-2.12 v 0.61 h -1.61 c 0.02,-0.17 0.02,-0.25 0.04,-0.61 z m -7.23,2.12 h 2.81 c -0.49,0.68 -1.34,1.08 -2.59,1.22 0.76,0.49 1.15,0.85 1.64,1.44 h -1.86 z m 13.08,4.91 h -13.08 v -0.71 h 13.08 z m 0,-2.24 h -10.9 c 1.71,-0.56 2.71,-1.42 3.13,-2.66 h 1.93 v 0.95 c 0,0.93 0.56,1.17 2.66,1.17 2.45,0 2.81,-0.17 3.05,-1.46 -0.71,-0.15 -1.2,-0.34 -1.76,-0.66 h 1.88 v 2.66 z"
+           id="path1190-8-7-2-4-2-8-0-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <g
+         id="g1193-2-3-0-8-3-9-1-5"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 274.65,693.84 c 0.49,0.44 0.81,0.83 1.22,1.52 1.3,-0.52 1.79,-0.76 2.76,-1.3 0.51,0.34 0.81,0.59 1.32,1.03 -0.59,0.56 -0.83,0.76 -1.34,1.1 -0.83,-0.49 -1.07,-0.61 -1.98,-1.05 l -1.27,1.17 c 0.83,0.39 1.1,0.51 1.61,0.83 -0.85,0.39 -1.29,0.54 -2.49,0.88 0.63,0.57 0.86,0.86 1.25,1.54 1.34,-0.51 1.88,-0.75 2.91,-1.34 0.64,0.44 0.9,0.66 1.69,1.32 l 1.42,-1.32 c -0.76,-0.51 -1,-0.71 -1.49,-1 0.42,-0.29 0.66,-0.49 1.42,-1.1 l -1.2,-0.93 1.17,-1.17 c -0.73,-0.54 -0.98,-0.71 -1.39,-0.98 0.51,-0.37 0.78,-0.56 1.54,-1.17 l -1.54,-1.2 c -0.69,0.71 -0.95,0.93 -1.61,1.37 -0.88,-0.54 -1.17,-0.69 -2.22,-1.17 l -1.15,1.22 c 0.88,0.44 1.17,0.59 1.69,0.9 -0.76,0.37 -1.17,0.51 -2.3,0.85 z"
+           id="path1191-5-4-8-9-1-8-0-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 270.1,701.69 h 16.55 v 2.42 h 2.43 v -4.52 h -1.6 l 0.47,-8.17 h -5.68 v 2.01 h 3.2 c 0,0 -0.05,0.85 -0.05,0.85 h -3.13 v 1.81 h 3.03 c 0,0 -0.05,0.85 -0.05,0.85 h -2.98 v 1.75 h 2.86 c 0,0 -0.05,0.88 -0.05,0.88 h -13.44 l -0.05,-0.88 h 2.79 v -1.76 h -0.95 c -0.13,0 -0.26,0 -0.42,0 h -1.49 l -0.05,-0.81 h 2.91 v -1.81 h -3 c 0,0 -0.02,-0.71 -0.02,-0.71 1.37,-0.27 2.03,-0.46 3.18,-0.88 0.14,-0.05 0.17,-0.05 0.27,-0.07 l -1.15,-1.98 c -1.03,0.63 -2.35,1.03 -4.77,1.37 0.07,0.54 0.12,0.98 0.14,1.59 l 0.29,5.94 c -0.06,0 -1.7,0 -1.7,0 v 4.52 h 2.46 v -2.42 z"
+           id="path1192-6-6-7-6-7-1-6-5"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 287.92,706.01 c -0.66,0.78 -2.01,0.9 -2.5,0.89 h -5.63 v -0.02 l 1.12,-0.4 c 0.96,-0.41 1.96,-0.95 2.73,-1.48 l 1.64,-1.03 -1.21,-1.31 c 0,0 -1.08,0 -1.91,0 h -10.63 c 0,0 0,2.08 0,2.08 h 8.97 c -0.93,0.51 -1.52,0.75 -2.52,1.07 h -0.77 c 0,0 0,1.08 0,1.08 h -9.24 c 0,0 0,2.08 0,2.08 h 9.25 c 0,0 0,1.31 0,1.31 0,0.56 -0.17,0.66 -1.22,0.66 -0.54,0 -2.18,-0.06 -2.18,-0.06 l 0.44,2.33 c 0.83,0.02 1.17,0.02 1.54,0.02 1.61,0 2.44,-0.1 3.01,-0.39 0.64,-0.32 0.95,-0.95 0.95,-1.98 v -1.81 h 0.04 v -0.07 h 5.58 c 0,0 0.06,0 0.13,0 0.55,0 2.71,-0.1 4.01,-1.63 l -1.59,-1.36 z"
+           id="path1193-8-9-9-2-3-2-1-5"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <g
+         id="g1199-5-6-04-7-0-6-0-8"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 303.1,701.76 c 0.55,0 2.71,-0.1 4.01,-1.63 l -1.59,-1.36 c -0.67,0.78 -2.01,0.9 -2.5,0.89 h -2.19 v -1.29 h 4.28 v -6.96 h -11.09 v 6.96 h 4.27 v 1.29 h -5.81 c 0,0 0,2.08 0,2.08 h 10.5 c 0,0 0.06,0.01 0.12,0.01 z m -6.72,-8.6 h 6.33 v 0.88 h -6.33 z m 0,3.39 v -0.88 h 6.33 v 0.88 z"
+           id="path1194-4-1-13-9-3-6-4-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 312.44,694.08 c 1.17,-1.05 1.78,-1.59 1.86,-1.63 l -2.27,-1.71 c -0.66,0.86 -0.93,1.15 -1.83,1.93 -1.47,1.3 -2.88,2.2 -4.84,3.05 0.71,0.81 1.07,1.37 1.59,2.32 2.39,-1.34 3.37,-2.05 5.5,-3.96 z"
+           id="path1195-9-2-87-83-7-6-4-3"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 310.85,699.12 c -1.78,1.62 -3.74,2.91 -5.67,3.74 0.61,0.74 1.07,1.42 1.51,2.37 2.86,-1.56 4.89,-3.1 7.21,-5.47 0.37,-0.37 0.66,-0.64 0.95,-0.88 l -2.17,-1.81 c -0.37,0.61 -0.83,1.15 -1.83,2.05 z"
+           id="path1196-0-2-81-6-4-8-2-9"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 295.08,707.53 c -0.68,1.56 -1.37,2.47 -2.73,3.64 0.78,0.61 1.25,1.03 1.81,1.69 1.49,-1.57 2.05,-2.37 3.03,-4.47 l -2.1,-0.85 z"
+           id="path1197-9-4-9-9-9-9-8-6"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 313.29,703.98 c -0.49,0.76 -1.12,1.52 -1.95,2.3 -2,1.88 -3.89,3.2 -6.06,4.2 -0.73,-1.25 -1.17,-1.9 -1.9,-2.96 l -1.88,0.83 c 0.95,1.46 1.54,2.54 2.12,4.01 l 1.59,-0.83 c 0.49,0.66 0.66,0.93 1.03,1.64 3.18,-1.62 5.16,-3.13 7.87,-5.96 q 0.49,-0.51 1.34,-1.32 l -2.15,-1.91 z"
+           id="path1198-8-6-6-6-3-0-8-1"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 304.65,702.65 h -10.38 v 4.51 h 4.08 v 3.3 c 0,0.39 -0.1,0.49 -0.51,0.49 -0.49,0 -1.51,0.03 -1.51,0.03 0.29,0.78 0.32,1.25 0.41,2.15 0.69,0.03 1,0.05 1.34,0.05 1.17,0 1.88,-0.12 2.2,-0.37 0.41,-0.29 0.61,-0.83 0.61,-1.64 v -4.01 h 3.75 v -4.51 z m -2.33,2.87 h -5.55 v -1.25 h 5.55 z"
+           id="path1199-5-0-7-6-65-3-7-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 339.15,708.29 c -0.83,-0.78 -1.42,-1.49 -2.01,-2.47 0.76,-0.42 2.05,-1.37 3.25,-2.4 l 0.32,-0.27 -2,-1.74 c -0.86,0.98 -1.39,1.44 -2.62,2.25 -0.34,-0.93 -0.44,-1.32 -0.68,-2.57 h 4.1 c 0,0 0,-5.55 0,-5.55 h -2.44 c 0,0 -2.2,0 -2.2,0 0.17,-0.19 0.22,-0.24 0.39,-0.44 0.22,-0.27 1.68,-1.96 1.85,-2.13 l -1.09,-1 h -5.28 q 0.37,-0.53 0.69,-1.05 l -2.86,-0.44 c -0.78,1.69 -1.59,2.74 -3.2,4.2 -0.83,0.76 -1.25,1.05 -2.66,2.01 q 0.76,-1.69 2.2,-5.6 l -2.83,-0.63 c -0.12,0.85 -0.37,1.76 -0.88,3.13 -0.95,2.52 -2.22,4.72 -3.74,6.47 0.46,0.96 0.68,1.57 1.08,2.93 0.66,-0.83 1.22,-1.68 1.71,-2.49 -0.07,1.81 -0.07,2.27 -0.07,3.13 l -0.04,9.6 h 2.58 v -16.37 l 1.37,1.81 c 0.46,-0.34 0.56,-0.42 0.93,-0.68 v 1.37 c 0,0.3 -0.01,1.73 -0.01,1.73 h 4.17 c -1.76,1.03 -3.57,1.66 -6.04,2.15 0.71,1.03 0.76,1.13 1.1,1.86 1.91,-0.51 3.47,-1.15 4.96,-1.93 0.32,0.31 0.47,0.46 0.81,0.88 -2.37,1.34 -4.1,2.03 -6.92,2.74 0.42,0.54 0.78,1.15 1.1,1.91 3.37,-1.27 4.5,-1.79 6.82,-3.18 0.27,0.46 0.34,0.64 0.54,1.05 -2.44,1.71 -5.13,2.96 -8.46,3.96 0.51,0.73 0.88,1.42 1.08,2.08 2.15,-0.83 2.44,-0.95 3.89,-1.71 0.41,0.93 0.59,1.44 0.73,2.32 0.83,0.02 1.34,0.02 1.64,0.02 1.47,0 2.37,-0.15 2.93,-0.49 0.73,-0.49 1.12,-1.54 1.12,-3.2 0,-2.64 -1.24,-5.33 -3.47,-7.5 0.42,-0.27 0.49,-0.34 1.29,-0.95 h 0.95 c 0.39,2.15 0.88,3.66 1.79,5.43 1.15,2.25 2.35,3.66 4.84,5.74 0.42,-0.93 0.73,-1.57 1.32,-2.52 -1.05,-0.63 -1.49,-0.95 -2.03,-1.46 z m -7.14,0.8 c 0,1.64 -0.24,1.96 -1.64,1.96 -0.71,0 -1.29,-0.05 -2.25,-0.2 1.96,-1.03 2.76,-1.52 3.86,-2.32 0.02,0.29 0.02,0.44 0.02,0.56 z m -1.19,-9.77 h -3.37 v -1.93 h 3.37 z m 1.12,-3.77 h -4.03 c 0.54,-0.54 0.88,-0.9 1.39,-1.54 h 3.89 c -0.37,0.54 -0.66,0.88 -1.25,1.54 z m 1.3,3.77 v -1.93 h 3.81 v 1.93 z"
+         id="path1200-0-2-5-8-9-0-7-8"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <g
+         id="g1204-0-4-7-0-1-6-6-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none">
+        <path
+           class="cls-15"
+           d="m 367.12,704.36 -2.24,-1.34 c -0.29,0.48 -0.84,0.77 -1.33,0.95 l -0.02,-13.16 h -2.67 v 13.7 c 0,0 -6.99,1.17 -6.99,1.17 l 0.43,2.58 6.55,-1.1 v 6.19 c 0,0 2.72,0 2.72,0 v -6.64 c 0.81,-0.18 2.6,-0.73 3.56,-2.34 z"
+           id="path1201-7-6-4-4-9-5-7-7"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 353.33,700.22 c 1.81,1.2 2.71,1.98 4.64,4.01 l 1.54,-2.18 c -1.57,-1.52 -2.44,-2.25 -4.62,-3.79 z"
+           id="path1202-8-8-9-9-8-8-3-8"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 358.78,698.19 1.66,-2.2 c -1.35,-1.42 -2.35,-2.22 -4.72,-3.84 l -1.56,2 c 2,1.34 3.06,2.27 4.62,4.03 z"
+           id="path1203-7-1-27-0-4-8-4-6"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+        <path
+           class="cls-15"
+           d="m 350.27,699.49 h 3.03 v -2.37 h -1.9 c 0,0 -1.25,0 -1.25,0 v -3.01 c 1.22,-0.34 2.42,-0.73 3.08,-1 q 0.3,-0.15 0.39,-0.17 l -1.51,-2.25 c -1.47,0.95 -4.38,1.66 -8.33,2.08 0.51,0.91 0.68,1.34 0.93,2.35 1.44,-0.2 1.86,-0.25 2.86,-0.44 v 2.44 h -3.74 v 2.38 h 3.42 c -0.22,0.7 -0.68,1.83 -1.17,2.75 -0.85,1.66 -1.64,2.81 -2.76,3.96 0.74,0.95 0.91,1.27 1.44,2.54 1.39,-1.76 2.18,-3.25 2.96,-5.5 l -0.03,10.07 h 2.4 c 0,0 0,-10.37 -0.04,-10.97 0.61,1.34 1.1,2.05 2.3,3.35 0.39,-1.03 0.78,-1.71 1.32,-2.39 -1.66,-1.25 -2.69,-2.42 -3.37,-3.81 z"
+           id="path1204-6-0-6-3-8-3-4-2"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      </g>
+      <path
+         class="cls-15"
+         d="m 385.59,707.62 c 1.64,-1.71 2.74,-3.25 3.81,-5.38 0.46,-0.93 0.56,-1.12 0.76,-1.44 l -1.2,-1.29 h -2.47 c 0,0 -1.69,0 -1.69,0 v -3.03 c 0,0 1.6,0 1.6,0 0.03,0 0.09,0 0.17,0 0.66,0 2.82,-0.13 4.18,-1.72 l -1.99,-1.7 c -0.59,0.7 -1.83,0.83 -2.3,0.8 h -1.67 v -3.1 h -2.63 v 3.1 h -7.46 c 0,0 0,-3.12 0,-3.12 h -2.61 v 3.12 h -2.7 c 0,0 0,2.61 0,2.61 h 2.7 v 5.76 c -1.76,0.52 -3.06,0.84 -3.06,0.84 l 0.54,2.6 2.52,-0.91 v 5.23 c 0,0.66 -0.15,0.76 -0.95,0.76 -0.54,0 -1.96,0 -1.96,0 0.36,0.9 0.49,1.38 0.57,2.35 0.76,0.05 1.15,0.07 1.74,0.07 2.59,0 3.22,-0.47 3.22,-2.42 v -6.94 q 0.78,-0.32 2.05,-0.81 v -2.42 c -1.03,0.39 -1.32,0.49 -2.05,0.76 v -4.87 h 7.45 v 3.04 h -4.79 v 2.44 c 0.44,-0.05 0.59,-0.05 0.98,-0.08 0.93,2.32 1.88,3.89 3.45,5.67 -2.08,1.51 -3.98,2.42 -6.62,3.15 0.59,0.78 1.05,1.64 1.37,2.52 2.54,-0.81 4.79,-2.03 7.09,-3.86 1.98,1.66 3.91,2.81 6.6,3.93 0.32,-0.93 0.73,-1.66 1.51,-2.66 -2.57,-0.81 -4.4,-1.69 -6.16,-3.01 z m -4.55,-5.76 h 5.72 c -0.88,1.74 -1.64,2.79 -3.06,4.11 -1.12,-1.15 -2.08,-2.62 -2.66,-4.11 z"
+         id="path1205-0-3-5-2-4-6-6-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
+      <path
+         class="cls-15"
+         d="m 163.51,626.48 c 0.7,-2.43 1.1,-4.99 1.1,-7.64 0,-10.53 -5.95,-19.7 -14.66,-24.33 -1.12,-3.08 -2.96,-5.87 -5.43,-8.16 -4.09,-3.78 -9.38,-5.73 -14.98,-5.51 -11.49,0.46 -20.46,10.18 -20,21.66 0.01,0.35 0.06,0.68 0.09,1.03 -4.95,-7.37 -13.36,-12.24 -22.88,-12.24 -2.11,0 -4.16,0.26 -6.14,0.71 0.53,-0.7 1.11,-1.38 1.76,-2 3.11,-2.96 7.16,-4.55 11.49,-4.42 4.29,0.11 8.29,1.89 11.25,5 0.91,0.96 2.42,0.99 3.37,0.09 0.96,-0.91 0.99,-2.42 0.09,-3.37 -3.84,-4.04 -9.02,-6.34 -14.58,-6.48 -5.55,-0.15 -10.86,1.89 -14.89,5.72 -2.37,2.25 -4.12,4.97 -5.21,7.95 -8.71,4.63 -14.67,13.8 -14.67,24.33 0,11.21 6.75,20.87 16.38,25.16 -7.43,3.31 -13.12,9.81 -15.34,17.76 -2.81,-4.55 -4.2,-9.9 -3.89,-15.44 h 3.93 l -3.76,-13.11 c -4.38,4.11 -4.95,13.11 -4.95,13.11 -0.4,8.21 2.37,16.04 7.66,22.07 0,0.26 -0.04,0.51 -0.04,0.77 0,10.03 5.4,18.8 13.44,23.62 -0.02,0.38 -0.05,0.77 -0.05,1.16 0,11.5 9.35,20.85 20.85,20.85 8.02,0 14.98,-4.55 18.47,-11.2 3.49,6.65 10.45,11.2 18.46,11.2 11.5,0 20.85,-9.35 20.85,-20.85 0,-0.37 -0.04,-0.73 -0.06,-1.1 3.34,-1.99 6.28,-4.71 8.6,-8.07 3.47,-5.05 5.1,-10.97 4.79,-16.99 4.56,-5.43 7.31,-12.43 7.31,-20.06 0,-8.19 -3.17,-15.65 -8.35,-21.23 z m -0.82,-7.64 c 0,2.09 -0.28,4.11 -0.75,6.06 -0.25,-0.24 -0.51,-0.47 -0.78,-0.7 0.38,-1.73 0.6,-3.52 0.6,-5.36 0,-8.47 -4.29,-15.95 -10.8,-20.4 -0.07,-0.42 -0.15,-0.83 -0.23,-1.24 7.18,4.55 11.97,12.54 11.97,21.64 z m -16.25,-17.8 c 0.02,0.59 0,1.17 -0.04,1.76 l -3.47,0.79 4.62,11.7 c 3.42,-3.79 3.65,-12.88 3.65,-14.27 5.25,4.18 8.63,10.61 8.63,17.82 0,1.36 -0.14,2.68 -0.37,3.98 -5.25,-3.99 -11.79,-6.36 -18.87,-6.36 -2.18,0 -4.3,0.24 -6.35,0.67 v 0 c 0,0 -0.02,0 -0.02,0 -0.33,0.07 -0.66,0.14 -0.99,0.22 -2.14,0.43 -3.77,0.36 -3.77,0.36 h 0.04 c -5.64,-0.29 -10.55,-3.52 -13.18,-8.24 3.58,-7.9 11.52,-13.41 20.74,-13.41 3.17,0 6.2,0.66 8.94,1.83 0.24,1.02 0.39,2.07 0.43,3.13 z m -31.84,14.25 c 2.42,2.8 5.57,4.92 9.13,6.13 -2.83,1.82 -5.34,4.08 -7.45,6.68 -1.27,-2.83 -1.99,-5.96 -1.99,-9.26 0,-1.21 0.12,-2.39 0.3,-3.55 z m 30.64,-19.72 c -2.56,-0.9 -5.31,-1.42 -8.17,-1.42 -9.42,0 -17.62,5.3 -21.78,13.08 -0.14,-0.39 -0.26,-0.79 -0.38,-1.19 4.44,-7.65 12.7,-12.81 22.16,-12.81 2.65,0 5.22,0.41 7.63,1.16 0.2,0.39 0.38,0.78 0.54,1.19 z m -15.5,-9.96 c 4.3,-0.17 8.39,1.34 11.55,4.25 0.72,0.67 1.36,1.39 1.94,2.16 -1.98,-0.46 -4.04,-0.72 -6.16,-0.72 -9.4,0 -17.71,4.74 -22.68,11.95 -0.03,-0.31 -0.07,-0.62 -0.08,-0.93 -0.35,-8.86 6.57,-16.36 15.43,-16.71 z m -16.69,27.61 c -0.42,1.81 -0.67,3.68 -0.67,5.62 0,3.95 0.96,7.67 2.61,10.99 -0.21,0.29 -0.41,0.59 -0.6,0.89 -1.87,-3.55 -2.94,-7.59 -2.94,-11.88 0,-2.31 0.34,-4.55 0.91,-6.68 0.21,0.36 0.45,0.71 0.68,1.06 z m 19.87,33.54 c 5.98,-1.1 12.04,0.18 17.05,3.63 5.01,3.45 8.38,8.64 9.49,14.62 0.07,0.37 0.1,0.73 0.15,1.11 -4.82,4.98 -11.56,8.09 -19.01,8.09 -10.56,0 -19.67,-6.22 -23.92,-15.18 0.48,-0.95 1.01,-1.88 1.62,-2.77 3.45,-5.01 8.64,-8.38 14.62,-9.49 z m 11.09,-4.23 c 6.88,-2.02 12.5,-6.95 15.46,-13.37 0.23,0.24 0.45,0.49 0.67,0.74 -2.92,6.07 -8.14,10.8 -14.54,13.07 -0.53,-0.17 -1.06,-0.31 -1.6,-0.45 z m -6.94,-0.91 c -7.41,0 -13.99,-3.57 -18.15,-9.08 4.79,-6.83 12.72,-11.32 21.68,-11.32 6.66,0 12.74,2.49 17.4,6.57 -3.49,8.12 -11.56,13.82 -20.94,13.82 z m -6.94,0.91 c -0.53,0.14 -1.05,0.29 -1.57,0.46 -4.44,-1.57 -8.33,-4.3 -11.27,-7.86 0.16,-0.29 0.35,-0.57 0.52,-0.85 3.13,3.89 7.41,6.82 12.32,8.26 z m -4.22,1.47 c -4.46,1.97 -8.33,5.09 -11.23,9.15 -0.37,-1.76 -0.57,-3.58 -0.57,-5.44 0,-3.82 0.83,-7.44 2.29,-10.73 2.61,2.97 5.84,5.38 9.51,7.01 z m -16.31,25.08 c 0,12.56 -10.29,22.85 -22.85,22.85 -3.16,0 -6.17,-0.65 -8.91,-1.82 1.43,-5.79 6.01,-10.46 11.97,-11.84 7.04,-1.61 13.56,-5.66 18.17,-11.92 0.88,-1.19 1.65,-2.42 2.33,-3.69 -0.59,2.24 -0.71,6.36 -0.71,6.41 z m -5.18,-21.05 c -1.97,-1.65 -4.16,-2.99 -6.49,-4.02 3.46,-1.54 6.58,-3.79 9.17,-6.63 3.57,8.35 2.79,18.32 -2.96,26.15 -3.79,5.15 -9.09,8.53 -14.85,9.98 -0.01,0 -0.03,0 -0.04,0 -0.04,0 -0.07,0.02 -0.1,0.02 -7.37,1.81 -15.46,0.48 -22.04,-4.36 -1.07,-0.79 -2.05,-1.64 -2.98,-2.56 1.27,-11.36 10.93,-20.23 22.62,-20.23 5.34,0 10.53,1.88 14.61,5.3 1.01,0.84 2.51,0.71 3.36,-0.3 0.84,-1.01 0.71,-2.51 -0.3,-3.36 z m -17.67,-6.41 c -9.45,0 -17.58,-5.8 -21.02,-14.02 9.28,-7.84 22.91,-8.36 32.76,-1.11 2.48,1.82 4.52,4.01 6.16,6.42 -4.31,5.48 -10.88,8.7 -17.91,8.7 z m 18.99,-7 c 0.17,0.29 0.32,0.59 0.47,0.89 -2.95,3.44 -6.73,6.01 -10.93,7.49 -0.51,-0.17 -1.03,-0.34 -1.55,-0.47 4.67,-1.37 8.86,-4.11 12.01,-7.91 z m -26.63,44.22 c -2.54,2.42 -4.46,5.47 -5.53,8.86 -4.79,-3.41 -8.2,-8.63 -9.24,-14.65 4.5,3.29 9.59,5.18 14.77,5.79 z m 2.69,0.2 c 0.32,0 0.64,0.04 0.96,0.04 0.19,0 0.38,-0.01 0.58,-0.02 -3.53,2.41 -6.14,6.03 -7.27,10.2 -0.28,-0.15 -0.55,-0.32 -0.82,-0.48 1.1,-3.87 3.42,-7.28 6.55,-9.74 z m 32.43,-8.65 c 0.04,-1.11 0.15,-3.73 0.43,-5.25 2.43,3.6 5.58,6.66 9.25,8.99 -8.34,2.73 -14.39,10.57 -14.39,19.81 0,9.24 -7.21,16.08 -16.08,16.08 -8.87,0 -15.45,-6.62 -16.03,-14.98 2.92,1.06 6.05,1.66 9.33,1.66 14.77,0 26.83,-11.7 27.48,-26.32 z m -4.33,-38.11 c -0.21,-0.37 -0.43,-0.74 -0.66,-1.1 -2.03,-3.23 -4.67,-6.13 -7.92,-8.52 -0.54,-0.39 -1.09,-0.75 -1.65,-1.1 2.95,-0.92 5.74,-2.49 8.13,-4.76 0.5,-0.48 0.97,-0.98 1.42,-1.5 0.18,1.16 0.31,2.34 0.31,3.55 0,5.02 1.37,9.71 3.72,13.76 -0.59,1.06 -1.11,2.15 -1.57,3.28 -0.51,-1.23 -1.1,-2.44 -1.77,-3.61 z M 110.87,609 c -1.01,2.4 -2.49,4.59 -4.39,6.4 -2.57,2.44 -5.74,4.08 -9.15,4.79 -0.47,-0.25 -0.95,-0.48 -1.43,-0.7 3.72,-0.51 7.19,-2.14 9.94,-4.76 2.08,-1.97 3.63,-4.43 4.57,-7.11 0.14,0.47 0.29,0.93 0.46,1.39 z m -29.08,3.75 c -2.96,-3.11 -4.53,-7.19 -4.42,-11.49 0.03,-1.15 0.19,-2.27 0.45,-3.37 2.74,-1.17 5.76,-1.83 8.93,-1.83 9.21,0 17.15,5.51 20.73,13.4 -0.79,1.42 -1.77,2.74 -2.96,3.87 -6.43,6.11 -16.63,5.84 -22.73,-0.58 z m 4.96,-19.53 c 9.49,0 17.78,5.2 22.2,12.89 -0.06,0.11 -0.11,0.23 -0.15,0.35 -0.08,0.25 -0.19,0.49 -0.28,0.74 -4.17,-7.76 -12.36,-13.05 -21.77,-13.05 -2.87,0 -5.61,0.52 -8.17,1.42 0.17,-0.4 0.35,-0.8 0.55,-1.19 2.41,-0.75 4.97,-1.16 7.62,-1.16 z m -6.34,-5.27 c 3.54,-3.36 8.16,-5.2 13.02,-5.2 h 0.51 c 5.06,0.14 9.76,2.23 13.24,5.89 0.18,0.19 0.17,0.48 -0.02,0.66 -0.11,0.1 -0.23,0.13 -0.32,0.13 -0.09,0 -0.22,-0.03 -0.34,-0.15 -3.31,-3.49 -7.78,-5.47 -12.59,-5.6 -0.18,0 -0.38,0 -0.57,0 -4.56,0 -8.93,1.76 -12.29,4.95 -3.48,3.31 -5.47,7.78 -5.6,12.59 -0.12,4.81 1.63,9.37 4.94,12.86 0.92,0.97 1.95,1.81 3.05,2.55 -0.52,-0.01 -1.04,0 -1.57,0.01 -0.76,-0.59 -1.49,-1.21 -2.16,-1.92 -3.48,-3.66 -5.33,-8.47 -5.2,-13.52 0.13,-5.05 2.22,-9.76 5.89,-13.24 z m -2.08,28.09 c 0.27,0.28 0.56,0.53 0.84,0.8 -5.28,0.61 -10.41,2.55 -14.85,5.81 -0.21,-1.24 -0.34,-2.5 -0.34,-3.79 0,-7.22 3.38,-13.65 8.63,-17.82 0,0.04 0,0.08 0,0.12 -0.14,5.57 1.89,10.86 5.73,14.9 z m -5.25,-18.83 c -0.09,0.4 -0.15,0.82 -0.21,1.23 -6.52,4.45 -10.81,11.93 -10.81,20.41 0,1.77 0.2,3.49 0.55,5.16 -0.25,0.21 -0.51,0.4 -0.75,0.62 -0.01,0.01 -0.02,0.03 -0.04,0.04 -0.44,-1.87 -0.69,-3.81 -0.69,-5.82 0,-9.1 4.78,-17.09 11.95,-21.63 z m -9.96,31.53 c 0.33,0.05 0.67,0.03 0.99,-0.07 2.9,6.66 8.66,11.8 15.72,13.86 -0.54,0.14 -1.07,0.28 -1.59,0.45 -6.82,-2.41 -12.33,-7.61 -15.12,-14.24 z m 23.63,14.8 c 6,0 11.84,2.12 16.44,5.97 0.12,0.1 0.16,0.23 0.16,0.31 0,0.09 0,0.22 -0.11,0.34 -0.12,0.14 -0.28,0.17 -0.36,0.17 -0.08,0 -0.19,-0.02 -0.3,-0.11 -4.42,-3.71 -10.05,-5.75 -15.84,-5.75 -12.13,0 -22.23,8.8 -24.29,20.35 -0.27,-0.32 -0.52,-0.64 -0.77,-0.97 2.46,-11.58 12.76,-20.31 25.06,-20.31 z m -25.56,26.89 c 0.31,0.3 0.64,0.59 0.97,0.88 1.09,12.62 11.69,22.55 24.59,22.55 12.9,0 23.01,-9.49 24.5,-21.7 0.24,0.07 0.48,0.1 0.74,0.09 0.07,0 0.13,-0.02 0.19,-0.03 -1.52,12.69 -12.33,22.57 -25.43,22.57 -13.1,0 -24.89,-10.82 -25.56,-24.36 z m 32.26,42.44 c -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-0.04 0,-0.09 0,-0.14 0.31,0.16 0.62,0.31 0.94,0.46 0.17,9.78 8.17,17.68 17.99,17.68 7.83,0 14.49,-5.04 16.96,-12.03 0.14,0.47 0.31,0.92 0.48,1.38 -2.87,6.8 -9.61,11.58 -17.44,11.58 z m 55.86,-18.93 c 0,10.44 -8.49,18.93 -18.93,18.93 -10.44,0 -18.93,-8.49 -18.93,-18.93 0,-9.02 6.35,-16.58 14.81,-18.46 0.46,0.24 0.94,0.47 1.42,0.69 -8.64,1.31 -15.29,8.77 -15.29,17.78 0,9.93 8.08,18 18,18 9.92,0 17.78,-7.88 17.98,-17.63 0.32,-0.14 0.63,-0.3 0.94,-0.46 0,0.03 0,0.06 0,0.09 z m -0.73,-5.13 c -0.28,0.16 -0.55,0.33 -0.84,0.48 -1.14,-4.27 -3.81,-7.93 -7.39,-10.33 0.08,0 0.16,0 0.25,0 0.43,0 0.86,-0.02 1.28,-0.03 3.19,2.46 5.58,5.9 6.7,9.87 z m -27.58,2 c 0,0 3.42,5.91 16.11,5.91 3.19,0 6.33,-0.57 9.29,-1.63 -0.6,8.33 -7.55,14.93 -16.03,14.93 -8.48,0 -16.08,-7.21 -16.08,-16.08 0,-8.87 7.21,-16.08 16.08,-16.08 7.55,0 13.89,5.24 15.61,12.27 -3.63,1.55 -7.65,2.15 -11.68,1.64 l 0.4,-3.38 z m 34.84,-8.75 c -1.55,2.25 -3.43,4.15 -5.56,5.66 -1.09,-3.49 -3.09,-6.58 -5.71,-9.01 5.6,-0.71 10.73,-2.91 15.01,-6.18 -0.5,3.38 -1.75,6.63 -3.74,9.53 z m -15.24,-5.01 c -10.78,0 -20.22,-5.85 -25.32,-14.54 0.12,-0.4 0.26,-0.79 0.4,-1.17 4.83,8.8 14.19,14.79 24.92,14.79 7.41,0 14.15,-2.88 19.22,-7.54 0,0.42 0.02,0.84 0,1.26 -5.15,4.48 -11.88,7.21 -19.23,7.21 z m 12.07,-30.59 c -1.41,-0.97 -2.9,-1.79 -4.43,-2.47 5.71,-2.54 10.39,-6.97 13.26,-12.49 3.49,4.49 5.59,10.1 5.59,16.21 0,4.9 -1.36,9.48 -3.69,13.42 -1.8,-5.95 -5.53,-11.09 -10.73,-14.67 z m 11.6,18.56 c -0.04,-0.29 -0.06,-0.58 -0.12,-0.87 -0.03,-0.15 -0.07,-0.28 -0.1,-0.43 3.12,-4.56 4.96,-10.07 4.96,-16.01 0,-15.67 -12.75,-28.41 -28.41,-28.41 -13.16,0 -24.23,9.01 -27.44,21.17 -0.14,-0.59 -0.3,-1.19 -0.48,-1.77 3.81,-11.78 14.88,-20.33 27.92,-20.33 16.18,0 29.34,13.16 29.34,29.34 0,6.47 -2.11,12.45 -5.67,17.31 z"
+         id="path1206-9-8-4-2-8-1-7-1"
          style="fill:#000000;fill-opacity:1;stroke-width:0.997791;stroke-dasharray:none" />
     </g>
   </g>

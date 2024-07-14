@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on July 12, 2024, at 15:02
+    on July 14, 2024, at 14:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -187,7 +187,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=1,
             winType='pyglet', allowStencil=True,
-            monitor='ExperimentMonitor', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
+            monitor='iphone', color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='fill',
             blendMode='avg', useFBO=True,
             units='height', 
@@ -362,16 +362,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "Instruction2" ---
     # Run 'Begin Experiment' code from code_5
     slideN = 1
-    instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
+    instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字\n\n所有數字都在0到9之間\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
     
     maxSlideN = 2
     minSlideN = 1
-    backimgSize=[1.775,2]
+    backimgSize=[0.98,1.68]
+    imgpth='stimuli/redesign/iphone_back.png'
     
+    buttonsize = (0.25,0.085)
+    backpos= [-0.3,-0.5]
+    nextpos= [0.3, -0.5]
+    startpos=[0, -0.6]
     backimg_2 = visual.ImageStim(
         win=win,
         name='backimg_2', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
+        image=imgpth, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -379,14 +384,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     i2_txt = visual.TextStim(win=win, name='i2_txt',
         text='',
         font='Microsoft JhengHei',
-        pos=(0, 0.055), height=0.045, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.055), height=0.067, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     pgnum = visual.TextStim(win=win, name='pgnum',
         text='',
         font='Arial',
-        pos=(0, -0.3), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, -0.5), height=0.075, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
@@ -395,7 +400,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='backButton_2', 
         image='stimuli/backButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.25, -0.3), size=(0.185,0.06),
+        ori=0.0, pos=backpos, size=buttonsize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-5.0)
@@ -403,7 +408,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='nextButton_2', 
         image='stimuli/nextButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.25, -0.3), size=(0.185,0.06),
+        ori=0.0, pos=nextpos, size=buttonsize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-6.0)
@@ -411,7 +416,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='start_2', 
         image='stimuli/startButtonImage.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, -0.375), size=(0.185,0.06),
+        ori=0.0, pos=startpos, size=buttonsize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-7.0)
@@ -425,7 +430,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_3 = visual.ImageStim(
         win=win,
         name='backimg_3', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
+        image=imgpth, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -434,21 +439,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image', 
         image='stimuli/redesign/plain.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.1, 0.1),
+        ori=0.0, pos=(0, 0), size=(0.2, 0.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
     Fixation = visual.TextStim(win=win, name='Fixation',
         text='+',
         font='Arial',
-        pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), height=0.15, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
     pres_text = visual.TextStim(win=win, name='pres_text',
         text='',
         font='Arial',
-        pos=(0, 0.005), height=0.1, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.005), height=0.2, wrapWidth=None, ori=0.0, 
         color=[-0.6078, -0.6706, -0.0118], colorSpace='rgb', opacity=1.0, 
         languageStyle='LTR',
         depth=-3.0);
@@ -457,17 +462,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Recall_touch" ---
     # Run 'Begin Experiment' code from code
-    size = [0.1,0.1]
-    top=0.225
-    middle=0.1
-    bottom=-0.025
-    bottomzero=-0.15
+    size = [0.15,0.15]
+    top=0.35
+    middle=0.15
+    bottom=-0.05
+    bottomzero=-0.25
+    left= -0.2
+    mid=0
+    right= 0.2
+    
     digit_buttons = ['digit0', 'digit1', 'digit2', 'digit3', 'digit4', 'digit5', 'digit6', 'digit7', 'digit8', 'digit9']
     waittime=0.20
     backimg = visual.ImageStim(
         win=win,
         name='backimg', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
+        image=imgpth, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -478,7 +487,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     recall_txt_2 = visual.TextStim(win=win, name='recall_txt_2',
         text='請試著回想剛剛出現的數字',
         font='Arial',
-        pos=(0, 0.35), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.6), height=0.075, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
@@ -494,7 +503,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit1', 
         image='stimuli/redesign/digit1.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.15, top), size=size,
+        ori=0.0, pos=(left, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-5.0)
@@ -502,7 +511,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit2', 
         image='stimuli/redesign/digit2.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, top), size=size,
+        ori=0.0, pos=(mid, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-6.0)
@@ -510,7 +519,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit3', 
         image='stimuli/redesign/digit3.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.15, top), size=size,
+        ori=0.0, pos=(right, top), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-7.0)
@@ -518,7 +527,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit4', 
         image='stimuli/redesign/digit4.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.15, middle), size=size,
+        ori=0.0, pos=(left, middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-8.0)
@@ -526,7 +535,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit5', 
         image='stimuli/redesign/digit5.png', mask=None, anchor='center',
-        ori=0.0, pos=(0,middle), size=size,
+        ori=0.0, pos=(mid,middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-9.0)
@@ -534,7 +543,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit6', 
         image='stimuli/redesign/digit6.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.15, middle), size=size,
+        ori=0.0, pos=(right, middle), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-10.0)
@@ -542,7 +551,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit7', 
         image='stimuli/redesign/digit7.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.15, bottom), size=size,
+        ori=0.0, pos=(left, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-11.0)
@@ -550,7 +559,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit8', 
         image='stimuli/redesign/digit8.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, bottom), size=size,
+        ori=0.0, pos=(mid, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-12.0)
@@ -558,21 +567,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='digit9', 
         image='stimuli/redesign/digit9.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.15, bottom), size=size,
+        ori=0.0, pos=(right, bottom), size=size,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-13.0)
     Response_Textbox = visual.TextBox2(
          win, text=None, placeholder='Type here...', font='Arial',
-         pos=(0, -0.3),     letterHeight=0.1,
-         size=(1,0.15), borderWidth=2.0,
+         pos=(0, -0.42),     letterHeight=0.1,
+         size=(0.85,0.15), borderWidth=2.0,
          color=[-0.6078, -0.6706, -0.0118], colorSpace='rgb',
          opacity=None,
          bold=False, italic=False,
          lineSpacing=1.0, speechPoint=None,
          padding=0.0, alignment='center',
          anchor='center', overflow='visible',
-         fillColor=None, borderColor=[-1.0000, -1.0000, -1.0000],
+         fillColor=None, borderColor=[0.0000, 0.0000, 0.0000],
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=False,
          name='Response_Textbox',
@@ -582,7 +591,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='continue_button_2', 
         image='stimuli/redesign/continue_button.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.2, -0.4), size=(0.276,0.074),
+        ori=0.0, pos=(0.2, -0.6), size=(0.35,0.1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-15.0)
@@ -590,7 +599,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='clear_button', 
         image='stimuli/redesign/clear.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.2, -0.4), size=(0.276,0.074),
+        ori=0.0, pos=(-0.2, -0.6), size=(0.35,0.1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-16.0)
@@ -599,7 +608,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_5 = visual.ImageStim(
         win=win,
         name='backimg_5', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
+        image=imgpth, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -607,7 +616,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     feedback_txt = visual.TextStim(win=win, name='feedback_txt',
         text='',
         font='Arial',
-        pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
         color=[-0.6157, -0.6706, -0.0196], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
@@ -616,7 +625,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     backimg_6 = visual.ImageStim(
         win=win,
         name='backimg_6', 
-        image='stimuli/redesign/digitspan_background.png', mask=None, anchor='center',
+        image=imgpth, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=backimgSize,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -624,7 +633,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     Thank_you = visual.TextStim(win=win, name='Thank_you',
         text='',
         font='Arial',
-        pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), height=0.075, wrapWidth=None, ori=0.0, 
         color=[-0.6078, -0.6706, -0.0118], colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
@@ -966,7 +975,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             slideN = maxSlideN
         
         if slideN == 1:
-            instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
+            instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字\n\n所有數字都在0到9之間\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'
         elif slideN == 2:
             instruct_txt = '一旦你記住這些數字後， \n\n 你需要重述它們。\n\n在方塊中輸入剛剛顯示過的數字 \n\n 完成後請按 送出答案'
         # check responses

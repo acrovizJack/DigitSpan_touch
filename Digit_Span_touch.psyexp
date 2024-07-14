@@ -13,8 +13,8 @@
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
-    <Param val="ExperimentMonitor" valType="str" updates="None" name="Monitor"/>
-    <Param val="['stimuli/redesign/iphone_back.png', 'stimuli/redesign/digitspan_background.png', 'stimuli/redesign/i1.png', 'stimuli/redesign/i2.png', 'stimuli/redesign/i3.png', 'stimuli/redesign/plain.png', 'spreadsheets/choose_digitSpan.xlsx', 'spreadsheets/conditions.xlsx', 'spreadsheets/eight.xlsx', 'spreadsheets/eleven.xlsx', 'spreadsheets/five.xlsx', 'spreadsheets/four.xlsx', 'spreadsheets/nine.xlsx', 'spreadsheets/seven.xlsx', 'spreadsheets/six.xlsx', 'spreadsheets/ten.xlsx', 'spreadsheets/three.xlsx', 'spreadsheets/twelve.xlsx', 'stimuli/backButtonImage.png', 'stimuli/continue_button.png', 'stimuli/nextButtonImage.png', 'stimuli/startButtonImage.png']" valType="list" updates="None" name="Resources"/>
+    <Param val="iphone" valType="str" updates="None" name="Monitor"/>
+    <Param val="['stimuli/AcroViz_Black.png', 'stimuli/redesign/largeiphone.png', 'stimuli/redesign/iphone_back.png', 'stimuli/redesign/digitspan_background.png', 'stimuli/redesign/i1.png', 'stimuli/redesign/i2.png', 'stimuli/redesign/i3.png', 'stimuli/redesign/plain.png', 'spreadsheets/choose_digitSpan.xlsx', 'spreadsheets/conditions.xlsx', 'spreadsheets/eight.xlsx', 'spreadsheets/eleven.xlsx', 'spreadsheets/five.xlsx', 'spreadsheets/four.xlsx', 'spreadsheets/nine.xlsx', 'spreadsheets/seven.xlsx', 'spreadsheets/six.xlsx', 'spreadsheets/ten.xlsx', 'spreadsheets/three.xlsx', 'spreadsheets/twelve.xlsx', 'stimuli/backButtonImage.png', 'stimuli/continue_button.png', 'stimuli/nextButtonImage.png', 'stimuli/startButtonImage.png']" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
     <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
@@ -97,8 +97,8 @@
       <CodeComponent name="code_5" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="slideN = 1&amp;#10;instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'&amp;#10;&amp;#10;maxSlideN = 2&amp;#10;minSlideN = 1&amp;#10;backimgSize=[1,1.667]&amp;#10;imgpth='stimuli/redesign/iphone_back.png'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="slideN = 1;&amp;#10;instruct_txt = &quot;\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57&quot;;&amp;#10;maxSlideN = 2;&amp;#10;minSlideN = 1;&amp;#10;backimgSize = [1, 1.667];&amp;#10;imgpth = &quot;stimuli/redesign/iphone_back.png&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="slideN = 1&amp;#10;instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字\n\n所有數字都在0到9之間\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'&amp;#10;&amp;#10;maxSlideN = 2&amp;#10;minSlideN = 1&amp;#10;backimgSize=[0.98,1.68]&amp;#10;imgpth='stimuli/redesign/iphone_back.png'&amp;#10;&amp;#10;buttonsize = (0.25,0.085)&amp;#10;backpos= [-0.3,-0.5]&amp;#10;nextpos= [0.3, -0.5]&amp;#10;startpos=[0, -0.6]" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="slideN = 1;&amp;#10;instruct_txt = &quot;\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57&quot;;&amp;#10;maxSlideN = 2;&amp;#10;minSlideN = 1;&amp;#10;backimgSize = [0.98, 1.68];&amp;#10;imgpth = &quot;stimuli/redesign/iphone_back.png&quot;;&amp;#10;buttonsize = [0.25, 0.085];&amp;#10;backpos = [(- 0.3), (- 0.5)];&amp;#10;nextpos = [0.3, (- 0.5)];&amp;#10;startpos = [0, (- 0.6)];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -106,8 +106,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if (_pj.in_es6(&quot;backButton_2&quot;, mouse_3.clicked_name)) {&amp;#10;    slideN -= 1;&amp;#10;} else {&amp;#10;    if (_pj.in_es6(&quot;nextButton_2&quot;, mouse_3.clicked_name)) {&amp;#10;        slideN += 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;start_2&quot;, mouse_3.clicked_name)) {&amp;#10;            Instruct_Loop.finished = true;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if ((slideN &lt; minSlideN)) {&amp;#10;    slideN = minSlideN;&amp;#10;} else {&amp;#10;    if ((slideN &gt; maxSlideN)) {&amp;#10;        slideN = maxSlideN;&amp;#10;    }&amp;#10;}&amp;#10;if ((slideN === 1)) {&amp;#10;    instruct_txt = &quot;\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57&quot;;&amp;#10;} else {&amp;#10;    if ((slideN === 2)) {&amp;#10;        instruct_txt = &quot;\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c \n\n \u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="if 'backButton_2' in mouse_3.clicked_name:&amp;#10;    slideN -= 1&amp;#10;elif 'nextButton_2' in mouse_3.clicked_name:&amp;#10;    slideN += 1&amp;#10;elif 'start_2' in mouse_3.clicked_name:&amp;#10;    Instruct_Loop.finished = True&amp;#10;&amp;#10;# Constrain slideN within the valid range&amp;#10;if slideN &lt; minSlideN:&amp;#10;    slideN = minSlideN&amp;#10;elif slideN &gt; maxSlideN:&amp;#10;    slideN = maxSlideN&amp;#10;&amp;#10;if slideN == 1:&amp;#10;    instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字。\n\n所有數字都在0到9之間。\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'&amp;#10;elif slideN == 2:&amp;#10;    instruct_txt = '一旦你記住這些數字後， \n\n 你需要重述它們。\n\n在方塊中輸入剛剛顯示過的數字 \n\n 完成後請按 送出答案'" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if (_pj.in_es6(&quot;backButton_2&quot;, mouse_3.clicked_name)) {&amp;#10;    slideN -= 1;&amp;#10;} else {&amp;#10;    if (_pj.in_es6(&quot;nextButton_2&quot;, mouse_3.clicked_name)) {&amp;#10;        slideN += 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;start_2&quot;, mouse_3.clicked_name)) {&amp;#10;            Instruct_Loop.finished = true;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;if ((slideN &lt; minSlideN)) {&amp;#10;    slideN = minSlideN;&amp;#10;} else {&amp;#10;    if ((slideN &gt; maxSlideN)) {&amp;#10;        slideN = maxSlideN;&amp;#10;    }&amp;#10;}&amp;#10;if ((slideN === 1)) {&amp;#10;    instruct_txt = &quot;\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57&quot;;&amp;#10;} else {&amp;#10;    if ((slideN === 2)) {&amp;#10;        instruct_txt = &quot;\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c \n\n \u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if 'backButton_2' in mouse_3.clicked_name:&amp;#10;    slideN -= 1&amp;#10;elif 'nextButton_2' in mouse_3.clicked_name:&amp;#10;    slideN += 1&amp;#10;elif 'start_2' in mouse_3.clicked_name:&amp;#10;    Instruct_Loop.finished = True&amp;#10;&amp;#10;# Constrain slideN within the valid range&amp;#10;if slideN &lt; minSlideN:&amp;#10;    slideN = minSlideN&amp;#10;elif slideN &gt; maxSlideN:&amp;#10;    slideN = maxSlideN&amp;#10;&amp;#10;if slideN == 1:&amp;#10;    instruct_txt = '在這個實驗中，\n\n你需要嘗試記住螢幕上顯示的數字\n\n所有數字都在0到9之間\n\n你會看到一串數字，依序顯示\n\n請記住整串數字'&amp;#10;elif slideN == 2:&amp;#10;    instruct_txt = '一旦你記住這些數字後， \n\n 你需要重述它們。\n\n在方塊中輸入剛剛顯示過的數字 \n\n 完成後請按 送出答案'" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_5" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -121,7 +121,7 @@
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
         <Param val="$imgpth" valType="file" updates="constant" name="image"/>
-        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="backimg_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
@@ -135,7 +135,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="512" valType="num" updates="constant" name="texture resolution"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
@@ -148,7 +148,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Microsoft JhengHei" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.067" valType="num" updates="constant" name="letterHeight"/>
         <Param val="i2_txt" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -174,11 +174,11 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.075" valType="num" updates="constant" name="letterHeight"/>
         <Param val="pgnum" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, -0.5)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -226,9 +226,9 @@
         <Param val="backButton_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-0.25, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="backpos" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.185,0.06)" valType="list" updates="constant" name="size"/>
+        <Param val="buttonsize" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -254,9 +254,9 @@
         <Param val="nextButton_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.25, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="nextpos" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.185,0.06)" valType="list" updates="constant" name="size"/>
+        <Param val="buttonsize" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -282,9 +282,9 @@
         <Param val="start_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, -0.375)" valType="list" updates="constant" name="pos"/>
+        <Param val="startpos" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.185,0.06)" valType="list" updates="constant" name="size"/>
+        <Param val="buttonsize" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1232,8 +1232,8 @@
       <CodeComponent name="code" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="size = [0.1,0.1]&amp;#10;top=0.225&amp;#10;middle=0.1&amp;#10;bottom=-0.025&amp;#10;bottomzero=-0.15&amp;#10;digit_buttons = ['digit0', 'digit1', 'digit2', 'digit3', 'digit4', 'digit5', 'digit6', 'digit7', 'digit8', 'digit9']&amp;#10;waittime=0.20" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="size = [0.1, 0.1];&amp;#10;top = 0.225;&amp;#10;middle = 0.1;&amp;#10;bottom = (- 0.025);&amp;#10;bottomzero = (- 0.15);&amp;#10;digit_buttons = [&quot;digit0&quot;, &quot;digit1&quot;, &quot;digit2&quot;, &quot;digit3&quot;, &quot;digit4&quot;, &quot;digit5&quot;, &quot;digit6&quot;, &quot;digit7&quot;, &quot;digit8&quot;, &quot;digit9&quot;];&amp;#10;waittime = 0.2;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="size = [0.15,0.15]&amp;#10;top=0.35&amp;#10;middle=0.15&amp;#10;bottom=-0.05&amp;#10;bottomzero=-0.25&amp;#10;left= -0.2&amp;#10;mid=0&amp;#10;right= 0.2&amp;#10;&amp;#10;digit_buttons = ['digit0', 'digit1', 'digit2', 'digit3', 'digit4', 'digit5', 'digit6', 'digit7', 'digit8', 'digit9']&amp;#10;waittime=0.20" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="size = [0.15, 0.15];&amp;#10;top = 0.35;&amp;#10;middle = 0.15;&amp;#10;bottom = (- 0.05);&amp;#10;bottomzero = (- 0.25);&amp;#10;left = (- 0.2);&amp;#10;mid = 0;&amp;#10;right = 0.2;&amp;#10;digit_buttons = [&quot;digit0&quot;, &quot;digit1&quot;, &quot;digit2&quot;, &quot;digit3&quot;, &quot;digit4&quot;, &quot;digit5&quot;, &quot;digit6&quot;, &quot;digit7&quot;, &quot;digit8&quot;, &quot;digit9&quot;];&amp;#10;waittime = 0.2;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -1303,11 +1303,11 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.075" valType="num" updates="constant" name="letterHeight"/>
         <Param val="recall_txt_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.6)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -1363,7 +1363,7 @@
         <Param val="digit1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-0.15, top)" valType="list" updates="constant" name="pos"/>
+        <Param val="(left, top)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1391,7 +1391,7 @@
         <Param val="digit2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, top)" valType="list" updates="constant" name="pos"/>
+        <Param val="(mid, top)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1419,7 +1419,7 @@
         <Param val="digit3" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.15, top)" valType="list" updates="constant" name="pos"/>
+        <Param val="(right, top)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1447,7 +1447,7 @@
         <Param val="digit4" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-0.15, middle)" valType="list" updates="constant" name="pos"/>
+        <Param val="(left, middle)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1475,7 +1475,7 @@
         <Param val="digit5" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0,middle)" valType="list" updates="constant" name="pos"/>
+        <Param val="(mid,middle)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1503,7 +1503,7 @@
         <Param val="digit6" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.15, middle)" valType="list" updates="constant" name="pos"/>
+        <Param val="(right, middle)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1531,7 +1531,7 @@
         <Param val="digit7" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-0.15, bottom)" valType="list" updates="constant" name="pos"/>
+        <Param val="(left, bottom)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1559,7 +1559,7 @@
         <Param val="digit8" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, bottom)" valType="list" updates="constant" name="pos"/>
+        <Param val="(mid, bottom)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1587,7 +1587,7 @@
         <Param val="digit9" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.15, bottom)" valType="list" updates="constant" name="pos"/>
+        <Param val="(right, bottom)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="size" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1627,7 +1627,7 @@
         <Param val="visible" valType="str" updates="constant" name="overflow"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
         <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
-        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, -0.42)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(0.85,0.15)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="list" updates="constant" name="speechPoint"/>
@@ -1656,9 +1656,9 @@
         <Param val="continue_button_2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0.2, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.2, -0.6)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.276,0.074)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.35,0.1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1684,9 +1684,9 @@
         <Param val="clear_button" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-0.2, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="(-0.2, -0.6)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.276,0.074)" valType="list" updates="constant" name="size"/>
+        <Param val="(0.35,0.1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1765,6 +1765,51 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_7" valType="code" updates="None" name="name"/>
       </CodeComponent>
+    </Routine>
+    <Routine name="testlogo">
+      <RoutineSettingsComponent name="testlogo" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="testlogo" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="logo" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimuli/AcroViz_Black.png" valType="file" updates="constant" name="image"/>
+        <Param val="nearest" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="logo" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.35, -0.5)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15,0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="512" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
     </Routine>
   </Routines>
   <Flow>

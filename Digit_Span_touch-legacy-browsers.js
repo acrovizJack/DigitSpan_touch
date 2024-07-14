@@ -91,6 +91,8 @@ psychoJS.start({
     {'name': 'stimuli/redesign/continue_button.png', 'path': 'stimuli/redesign/continue_button.png'},
     {'name': 'stimuli/redesign/clear.png', 'path': 'stimuli/redesign/clear.png'},
     {'name': 'stimuli/redesign/end_experiment.png', 'path': 'stimuli/redesign/end_experiment.png'},
+    {'name': 'stimuli/AcroViz_Black.png', 'path': 'stimuli/AcroViz_Black.png'},
+    {'name': 'stimuli/redesign/largeiphone.png', 'path': 'stimuli/redesign/largeiphone.png'},
     {'name': 'stimuli/redesign/iphone_back.png', 'path': 'stimuli/redesign/iphone_back.png'},
     {'name': 'stimuli/redesign/digitspan_background.png', 'path': 'stimuli/redesign/digitspan_background.png'},
     {'name': 'stimuli/redesign/i1.png', 'path': 'stimuli/redesign/i1.png'},
@@ -156,6 +158,10 @@ var maxSlideN;
 var minSlideN;
 var backimgSize;
 var imgpth;
+var buttonsize;
+var backpos;
+var nextpos;
+var startpos;
 var backimg_2;
 var i2_txt;
 var pgnum;
@@ -177,6 +183,9 @@ var top;
 var middle;
 var bottom;
 var bottomzero;
+var left;
+var mid;
+var right;
 var digit_buttons;
 var waittime;
 var backimg;
@@ -211,11 +220,15 @@ async function experimentInit() {
   Instruction2Clock = new util.Clock();
   // Run 'Begin Experiment' code from code_5
   slideN = 1;
-  instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
+  instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
   maxSlideN = 2;
   minSlideN = 1;
-  backimgSize = [1, 1.667];
+  backimgSize = [0.98, 1.68];
   imgpth = "stimuli/redesign/iphone_back.png";
+  buttonsize = [0.25, 0.085];
+  backpos = [(- 0.3), (- 0.5)];
+  nextpos = [0.3, (- 0.5)];
+  startpos = [0, (- 0.6)];
   
   backimg_2 = new visual.ImageStim({
     win : psychoJS.window,
@@ -225,7 +238,7 @@ async function experimentInit() {
     ori : 0.0, pos : [0, 0], size : backimgSize,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -1.0 
+    texRes : 512.0, interpolate : false, depth : -1.0 
   });
   i2_txt = new visual.TextStim({
     win: psychoJS.window,
@@ -233,7 +246,7 @@ async function experimentInit() {
     text: '',
     font: 'Microsoft JhengHei',
     units: undefined, 
-    pos: [0, 0.055], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0.055], height: 0.067,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
     depth: -2.0 
@@ -245,7 +258,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, (- 0.3)], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, (- 0.5)], height: 0.075,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
     depth: -3.0 
@@ -258,7 +271,7 @@ async function experimentInit() {
     name : 'backButton_2', units : undefined, 
     image : 'stimuli/backButtonImage.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [(- 0.25), (- 0.3)], size : [0.185, 0.06],
+    ori : 0.0, pos : backpos, size : buttonsize,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -5.0 
@@ -268,7 +281,7 @@ async function experimentInit() {
     name : 'nextButton_2', units : undefined, 
     image : 'stimuli/nextButtonImage.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0.25, (- 0.3)], size : [0.185, 0.06],
+    ori : 0.0, pos : nextpos, size : buttonsize,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -6.0 
@@ -278,7 +291,7 @@ async function experimentInit() {
     name : 'start_2', units : undefined, 
     image : 'stimuli/startButtonImage.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, (- 0.375)], size : [0.185, 0.06],
+    ori : 0.0, pos : startpos, size : buttonsize,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -7.0 
@@ -340,11 +353,14 @@ async function experimentInit() {
   // Initialize components for Routine "Recall_touch"
   Recall_touchClock = new util.Clock();
   // Run 'Begin Experiment' code from code
-  size = [0.1, 0.1];
-  top = 0.225;
-  middle = 0.1;
-  bottom = (- 0.025);
-  bottomzero = (- 0.15);
+  size = [0.15, 0.15];
+  top = 0.35;
+  middle = 0.15;
+  bottom = (- 0.05);
+  bottomzero = (- 0.25);
+  left = (- 0.2);
+  mid = 0;
+  right = 0.2;
   digit_buttons = ["digit0", "digit1", "digit2", "digit3", "digit4", "digit5", "digit6", "digit7", "digit8", "digit9"];
   waittime = 0.2;
   
@@ -368,7 +384,7 @@ async function experimentInit() {
     text: '請試著回想剛剛出現的數字',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0.35], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0.6], height: 0.075,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 0.6157), (- 0.6706), (- 0.0196)]),  opacity: undefined,
     depth: -3.0 
@@ -389,7 +405,7 @@ async function experimentInit() {
     name : 'digit1', units : undefined, 
     image : 'stimuli/redesign/digit1.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [(- 0.15), top], size : size,
+    ori : 0.0, pos : [left, top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -5.0 
@@ -399,7 +415,7 @@ async function experimentInit() {
     name : 'digit2', units : undefined, 
     image : 'stimuli/redesign/digit2.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, top], size : size,
+    ori : 0.0, pos : [mid, top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -6.0 
@@ -409,7 +425,7 @@ async function experimentInit() {
     name : 'digit3', units : undefined, 
     image : 'stimuli/redesign/digit3.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0.15, top], size : size,
+    ori : 0.0, pos : [right, top], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -7.0 
@@ -419,7 +435,7 @@ async function experimentInit() {
     name : 'digit4', units : undefined, 
     image : 'stimuli/redesign/digit4.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [(- 0.15), middle], size : size,
+    ori : 0.0, pos : [left, middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -8.0 
@@ -429,7 +445,7 @@ async function experimentInit() {
     name : 'digit5', units : undefined, 
     image : 'stimuli/redesign/digit5.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, middle], size : size,
+    ori : 0.0, pos : [mid, middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -9.0 
@@ -439,7 +455,7 @@ async function experimentInit() {
     name : 'digit6', units : undefined, 
     image : 'stimuli/redesign/digit6.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0.15, middle], size : size,
+    ori : 0.0, pos : [right, middle], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -10.0 
@@ -449,7 +465,7 @@ async function experimentInit() {
     name : 'digit7', units : undefined, 
     image : 'stimuli/redesign/digit7.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [(- 0.15), bottom], size : size,
+    ori : 0.0, pos : [left, bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -11.0 
@@ -459,7 +475,7 @@ async function experimentInit() {
     name : 'digit8', units : undefined, 
     image : 'stimuli/redesign/digit8.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0, bottom], size : size,
+    ori : 0.0, pos : [mid, bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -12.0 
@@ -469,7 +485,7 @@ async function experimentInit() {
     name : 'digit9', units : undefined, 
     image : 'stimuli/redesign/digit9.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0.15, bottom], size : size,
+    ori : 0.0, pos : [right, bottom], size : size,
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -13.0 
@@ -480,7 +496,7 @@ async function experimentInit() {
     text: '',
     placeholder: 'Type here...',
     font: 'Arial',
-    pos: [0, (- 0.3)], 
+    pos: [0, (- 0.42)], 
     letterHeight: 0.1,
     lineSpacing: 1.0,
     size: [0.85, 0.15],  units: undefined, 
@@ -503,7 +519,7 @@ async function experimentInit() {
     name : 'continue_button_2', units : undefined, 
     image : 'stimuli/redesign/continue_button.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [0.2, (- 0.4)], size : [0.276, 0.074],
+    ori : 0.0, pos : [0.2, (- 0.6)], size : [0.35, 0.1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -15.0 
@@ -513,7 +529,7 @@ async function experimentInit() {
     name : 'clear_button', units : undefined, 
     image : 'stimuli/redesign/clear.png', mask : undefined,
     anchor : 'center',
-    ori : 0.0, pos : [(- 0.2), (- 0.4)], size : [0.276, 0.074],
+    ori : 0.0, pos : [(- 0.2), (- 0.6)], size : [0.35, 0.1],
     color : new util.Color([1,1,1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : -16.0 
@@ -1175,7 +1191,7 @@ function Instruction2RoutineEnd(snapshot) {
         }
     }
     if ((slideN === 1)) {
-        instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\u3002\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\u3002\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
+        instruct_txt = "\u5728\u9019\u500b\u5be6\u9a57\u4e2d\uff0c\n\n\u4f60\u9700\u8981\u5617\u8a66\u8a18\u4f4f\u87a2\u5e55\u4e0a\u986f\u793a\u7684\u6578\u5b57\n\n\u6240\u6709\u6578\u5b57\u90fd\u57280\u52309\u4e4b\u9593\n\n\u4f60\u6703\u770b\u5230\u4e00\u4e32\u6578\u5b57\uff0c\u4f9d\u5e8f\u986f\u793a\n\n\u8acb\u8a18\u4f4f\u6574\u4e32\u6578\u5b57";
     } else {
         if ((slideN === 2)) {
             instruct_txt = "\u4e00\u65e6\u4f60\u8a18\u4f4f\u9019\u4e9b\u6578\u5b57\u5f8c\uff0c \n\n \u4f60\u9700\u8981\u91cd\u8ff0\u5b83\u5011\u3002\n\n\u5728\u65b9\u584a\u4e2d\u8f38\u5165\u525b\u525b\u986f\u793a\u904e\u7684\u6578\u5b57 \n\n \u5b8c\u6210\u5f8c\u8acb\u6309 \u9001\u51fa\u7b54\u6848";
